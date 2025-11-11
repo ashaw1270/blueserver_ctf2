@@ -6,3 +6,4 @@
 /mnt/
 /media/
 /var/log/
+*.ssh*
