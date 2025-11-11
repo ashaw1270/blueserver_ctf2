@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+SCRIPT="ispell-autobuildhash"
+
+if [ "$1" = "configure" ] ; then
+  ! which "$SCRIPT" > /dev/null 2>&1 || "$SCRIPT"
+fi
+
+
+
+exit 0

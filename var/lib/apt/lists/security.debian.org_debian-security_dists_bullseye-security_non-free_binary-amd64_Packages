@@ -1,0 +1,82 @@
+Package: amd64-microcode
+Version: 3.20250311.1~deb11u1
+Installed-Size: 702
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: amd64
+Breaks: intel-microcode (<< 2)
+Description: Platform firmware and microcode for AMD CPUs and SoCs
+Description-md5: c5296e9fb6c0cbc6d0e238cd0cf80dc3
+Recommends: initramfs-tools (>= 0.113~) | dracut (>= 044) | tiny-initramfs
+Section: non-free/admin
+Priority: optional
+Filename: pool/updates/non-free/a/amd64-microcode/amd64-microcode_3.20250311.1~deb11u1_amd64.deb
+Size: 282596
+SHA256: 8501389ba6c3a941f4803957faf8312ffc247017fc7f5163958e992981bc854f
+
+Package: intel-microcode
+Version: 3.20250812.1~deb11u1
+Installed-Size: 19311
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: amd64
+Depends: iucode-tool (>= 1.0)
+Conflicts: microcode.ctl (<< 0.18~0)
+Description: Processor microcode firmware for Intel CPUs
+Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+Description-md5: 3edb9824276886579313f0e847f6bb14
+Recommends: initramfs-tools (>= 0.113~)
+Section: non-free/admin
+Priority: optional
+Filename: pool/updates/non-free/i/intel-microcode/intel-microcode_3.20250812.1~deb11u1_amd64.deb
+Size: 11565788
+SHA256: a6fb3a31e02132c8d3c8b2a91e46a12df3c81d5072d5d0e01497b03341e5d314
+
+Package: clamav-testfiles-rar
+Source: libclamunrar
+Version: 1.0.3-1~deb11u1
+Installed-Size: 58
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: clamav-testfiles (<< 1.0.0)
+Depends: clamav-testfiles
+Breaks: clamav-testfiles (<< 1.0.0)
+Description: anti-virus utility for Unix - test files
+Homepage: https://www.clamav.net/
+Description-md5: b543a48c75c4b07d1924eccf1275d8a5
+Multi-Arch: foreign
+Section: non-free/libs
+Priority: optional
+Filename: pool/updates/non-free/libc/libclamunrar/clamav-testfiles-rar_1.0.3-1~deb11u1_all.deb
+Size: 14008
+SHA256: 94605a93d74067dd6fb606882c85b6aaf948dd847c97c78dc524a5c0373b4821
+
+Package: libclamunrar
+Version: 1.0.3-1~deb11u1
+Installed-Size: 55
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: libclamunrar11
+Description: anti-virus utility for Unix - unrar support
+Homepage: https://www.clamav.net/
+Description-md5: cf0a518e1367a7cff81c7549b758d9d4
+Section: non-free/libs
+Priority: optional
+Filename: pool/updates/non-free/libc/libclamunrar/libclamunrar_1.0.3-1~deb11u1_all.deb
+Size: 13160
+SHA256: 982c69a472978f2a2bf209a0b524f05d5bdc3b8cba4618d23732c36764b4ab08
+
+Package: libclamunrar11
+Source: libclamunrar
+Version: 1.0.3-1~deb11u1
+Installed-Size: 345
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libclamav11, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Description: anti-virus utility for Unix - unrar support
+Homepage: https://www.clamav.net/
+Description-md5: 917a2a3c171f190c6df62b894d3d9153
+Section: non-free/libs
+Priority: optional
+Filename: pool/updates/non-free/libc/libclamunrar/libclamunrar11_1.0.3-1~deb11u1_amd64.deb
+Size: 134488
+SHA256: 68b4e357aa582f446d595559a80fc1bad8d198e05edea6e9463edc96042c91f5
+

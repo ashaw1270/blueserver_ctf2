@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/ruby
+/usr/lib/ruby/vendor_ruby
+/usr/lib/ruby/vendor_ruby/rubygems
+/usr/lib/ruby/vendor_ruby/rubygems/defaults
+/usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb
+/usr/share
+/usr/share/doc
+/usr/share/doc/rubygems-integration
+/usr/share/doc/rubygems-integration/README.markdown
+/usr/share/doc/rubygems-integration/changelog.gz
+/usr/share/doc/rubygems-integration/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/rubygems-integration

@@ -1,0 +1,9 @@
+1f6ea4065d3ecb59920be29838890ae7  usr/bin/report-hw
+7626bb7f78474319861777caa62bd97a  usr/share/bug/installation-report/control
+83d83e6ed8572ed80f9d07192e75c0f8  usr/share/bug/installation-report/script
+1f6ca3ef98a1afefb72b09433aa09078  usr/share/bug/installation-reports/script
+7115a8a24122fa680388413118668479  usr/share/doc/installation-report/README.Debian
+1561fa731637c213aebb2697d6df9720  usr/share/doc/installation-report/changelog.gz
+0563aa22a6d19c80320e42d0602804e8  usr/share/doc/installation-report/copyright
+fa32be4c4bd3d268348dc67e5d4678c0  usr/share/installation-report/install-report.template
+6eac5a43ccab3e0e74913e264bdca771  usr/share/man/man1/report-hw.1.gz

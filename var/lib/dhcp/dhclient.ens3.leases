@@ -1,0 +1,14 @@
+default-duid "\000\001\000\001/@EORT\000\0224V";
+lease {
+  interface "ens3";
+  fixed-address 10.0.2.15;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 86400;
+  option routers 10.0.2.2;
+  option dhcp-message-type 5;
+  option domain-name-servers 10.0.2.3;
+  option dhcp-server-identifier 10.0.2.2;
+  renew 4 2025/02/13 15:50:01;
+  rebind 5 2025/02/14 02:53:19;
+  expire 5 2025/02/14 05:53:19;
+}

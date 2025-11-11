@@ -1,0 +1,115 @@
+
+Start-Date: 2025-02-13  05:50:30
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install locales
+Install: locales:amd64 (2.31-13+deb11u5), libc-l10n:amd64 (2.31-13+deb11u5, automatic)
+End-Date: 2025-02-13  05:50:32
+
+Start-Date: 2025-02-13  05:50:33
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install busybox
+Install: busybox:amd64 (1:1.30.1-6+b3)
+End-Date: 2025-02-13  05:50:33
+
+Start-Date: 2025-02-13  05:50:34
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install initramfs-tools
+Install: initramfs-tools-core:amd64 (0.140, automatic), klibc-utils:amd64 (2.0.8-6.1, automatic), linux-base:amd64 (4.6, automatic), libklibc:amd64 (2.0.8-6.1, automatic), initramfs-tools:amd64 (0.140)
+End-Date: 2025-02-13  05:50:34
+
+Start-Date: 2025-02-13  05:50:35
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=true install linux-image-amd64
+Install: linux-image-5.10.0-20-amd64:amd64 (5.10.158-2, automatic), apparmor:amd64 (2.13.6-10, automatic), firmware-linux-free:amd64 (20200122-1, automatic), linux-image-amd64:amd64 (5.10.158-2)
+End-Date: 2025-02-13  05:50:56
+
+Start-Date: 2025-02-13  05:50:56
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install pciutils
+Install: pciutils:amd64 (1:3.7.0-5), pci.ids:amd64 (0.0~2021.02.08-1, automatic), libpci3:amd64 (1:3.7.0-5, automatic)
+End-Date: 2025-02-13  05:50:57
+
+Start-Date: 2025-02-13  05:50:57
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install eject
+Install: eject:amd64 (2.36.1-8+deb11u1)
+End-Date: 2025-02-13  05:50:57
+
+Start-Date: 2025-02-13  05:50:58
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install keyboard-configuration
+Install: keyboard-configuration:amd64 (1.205)
+End-Date: 2025-02-13  05:50:58
+
+Start-Date: 2025-02-13  05:50:59
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install console-setup
+Install: console-setup:amd64 (1.205), xkb-data:amd64 (2.29-2, automatic), kbd:amd64 (2.3.0-3, automatic), console-setup-linux:amd64 (1.205, automatic)
+End-Date: 2025-02-13  05:51:00
+
+Start-Date: 2025-02-13  05:51:14
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q --no-install-recommends -y -o DPkg::options=--force-confnew upgrade --with-new-pkgs
+Install: linux-image-5.10.0-33-amd64:amd64 (5.10.226-1, automatic)
+Upgrade: dpkg:amd64 (1.20.12, 1.20.13), libsmartcols1:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), udev:amd64 (247.3-7+deb11u1, 247.3-7+deb11u6), libext2fs2:amd64 (1.46.2-2, 1.46.2-2+deb11u1), libgssapi-krb5-2:amd64 (1.18.3-6+deb11u3, 1.18.3-6+deb11u5), libnftables1:amd64 (0.9.8-3.1+deb11u1, 0.9.8-3.1+deb11u2), libtinfo6:amd64 (6.2+20201114-2, 6.2+20201114-2+deb11u2), tzdata:amd64 (2021a-1+deb11u8, 2024b-0+deb11u1), busybox:amd64 (1:1.30.1-6+b3, 1:1.30.1-6+deb11u1), tar:amd64 (1.34+dfsg-1, 1.34+dfsg-1+deb11u1), libsystemd0:amd64 (247.3-7+deb11u1, 247.3-7+deb11u6), libmount1:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), logrotate:amd64 (3.18.0-2+deb11u1, 3.18.0-2+deb11u2), libkrb5support0:amd64 (1.18.3-6+deb11u3, 1.18.3-6+deb11u5), libsepol1:amd64 (3.1-1, 3.1-1+deb11u1), util-linux:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), libbsd0:amd64 (0.11.3-1, 0.11.3-1+deb11u1), less:amd64 (551-2, 551-2+deb11u2), systemd:amd64 (247.3-7+deb11u1, 247.3-7+deb11u6), libudev1:amd64 (247.3-7+deb11u1, 247.3-7+deb11u6), isc-dhcp-common:amd64 (4.4.1-2.3+deb11u1, 4.4.1-2.3+deb11u2), fdisk:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), debian-archive-keyring:amd64 (2021.1.1, 2021.1.1+deb11u1), libcom-err2:amd64 (1.46.2-2, 1.46.2-2+deb11u1), libfdisk1:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), eject:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), libc6:amd64 (2.31-13+deb11u5, 2.31-13+deb11u11), locales:amd64 (2.31-13+deb11u5, 2.31-13+deb11u11), libkrb5-3:amd64 (1.18.3-6+deb11u3, 1.18.3-6+deb11u5), linux-image-amd64:amd64 (5.10.158-2, 5.10.226-1), libuuid1:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), isc-dhcp-client:amd64 (4.4.1-2.3+deb11u1, 4.4.1-2.3+deb11u2), grep:amd64 (3.6-1, 3.6-1+deb11u1), base-files:amd64 (11.1+deb11u6, 11.1+deb11u11), libk5crypto3:amd64 (1.18.3-6+deb11u3, 1.18.3-6+deb11u5), ncurses-base:amd64 (6.2+20201114-2, 6.2+20201114-2+deb11u2), libjson-c5:amd64 (0.15-2, 0.15-2+deb11u1), adduser:amd64 (3.118, 3.118+deb11u1), mount:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), libssl1.1:amd64 (1.1.1n-0+deb11u3, 1.1.1w-0+deb11u2), perl-base:amd64 (5.32.1-4+deb11u2, 5.32.1-4+deb11u4), nano:amd64 (5.4-2+deb11u2, 5.4-2+deb11u3), libc-l10n:amd64 (2.31-13+deb11u5, 2.31-13+deb11u11), libc-bin:amd64 (2.31-13+deb11u5, 2.31-13+deb11u11), cpio:amd64 (2.13+dfsg-4, 2.13+dfsg-7.1~deb11u1), systemd-sysv:amd64 (247.3-7+deb11u1, 247.3-7+deb11u6), libblkid1:amd64 (2.36.1-8+deb11u1, 2.36.1-8+deb11u2), libgnutls30:amd64 (3.7.1-5+deb11u2, 3.7.1-5+deb11u6), logsave:amd64 (1.46.2-2, 1.46.2-2+deb11u1), libncursesw6:amd64 (6.2+20201114-2, 6.2+20201114-2+deb11u2), ncurses-bin:amd64 (6.2+20201114-2, 6.2+20201114-2+deb11u2), bsdutils:amd64 (1:2.36.1-8+deb11u1, 1:2.36.1-8+deb11u2), libss2:amd64 (1.46.2-2, 1.46.2-2+deb11u1), libncurses6:amd64 (6.2+20201114-2, 6.2+20201114-2+deb11u2), e2fsprogs:amd64 (1.46.2-2, 1.46.2-2+deb11u1), nftables:amd64 (0.9.8-3.1+deb11u1, 0.9.8-3.1+deb11u2)
+End-Date: 2025-02-13  05:51:44
+
+Start-Date: 2025-02-13  05:51:45
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install laptop-detect
+Install: laptop-detect:amd64 (0.16)
+End-Date: 2025-02-13  05:51:45
+
+Start-Date: 2025-02-13  05:51:46
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install discover
+Install: discover-data:amd64 (2.2013.01.11+nmu1, automatic), libexpat1:amd64 (2.2.10-2+deb11u6, automatic), discover:amd64 (2.1.2-8), libusb-0.1-4:amd64 (2:0.1.12-32, automatic), libdiscover2:amd64 (2.1.2-8, automatic)
+End-Date: 2025-02-13  05:51:46
+
+Start-Date: 2025-02-13  05:51:47
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install installation-report
+Install: installation-report:amd64 (2.78)
+End-Date: 2025-02-13  05:51:47
+
+Start-Date: 2025-02-13  05:51:48
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install popularity-contest
+Install: popularity-contest:amd64 (1.71)
+End-Date: 2025-02-13  05:51:49
+
+Start-Date: 2025-02-13  05:51:53
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y -o APT::Install-Recommends=true -o APT::Get::AutomaticRemove=true -o Acquire::Retries=3 install mime-support libpam-systemd man-db file python3-reportbug bash-completion ca-certificates traceroute openssh-client ucf telnet liblockfile-bin apt-listchanges perl debian-faq wget krb5-locales bzip2 media-types gettext-base netcat-traditional reportbug groff-base libnss-systemd xz-utils wamerican doc-debian lsof bind9-dnsutils ncurses-term systemd-timesyncd dbus manpages bind9-host task-english
+Install: telnet:amd64 (0.17-42), reportbug:amd64 (7.10.3+deb11u2), lsb-release:amd64 (11.1.0, automatic), libssh2-1:amd64 (1.9.0-2+deb11u1, automatic), libperl5.32:amd64 (5.32.1-4+deb11u4, automatic), libgdbm-compat4:amd64 (1.19-2, automatic), krb5-locales:amd64 (1.18.3-6+deb11u5), bind9-host:amd64 (1:9.16.50-1~deb11u3), libnghttp2-14:amd64 (1.43.0-1+deb11u2, automatic), libcurl3-gnutls:amd64 (7.74.0-1.3+deb11u14, automatic), openssh-client:amd64 (1:8.4p1-5+deb11u3), util-linux-locales:amd64 (2.36.1-8+deb11u2, automatic), systemd-timesyncd:amd64 (247.3-7+deb11u6), perl:amd64 (5.32.1-4+deb11u4), libmagic-mgc:amd64 (1:5.39-3+deb11u1, automatic), libldap-common:amd64 (2.4.57+dfsg-3+deb11u1, automatic), python3-minimal:amd64 (3.9.2-3, automatic), libpam-systemd:amd64 (247.3-7+deb11u6), libmpdec3:amd64 (2.5.1-1, automatic), ucf:amd64 (3.0043+deb11u2), libsasl2-modules:amd64 (2.1.27+dfsg-2.1+deb11u1, automatic), libsasl2-2:amd64 (2.1.27+dfsg-2.1+deb11u1, automatic), libxmuu1:amd64 (2:1.1.2-2+b3, automatic), python3-reportbug:amd64 (7.10.3+deb11u2), python3-debianbts:amd64 (3.1.0, automatic), libfido2-1:amd64 (1.6.0-2, automatic), libmagic1:amd64 (1:5.39-3+deb11u1, automatic), librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2, automatic), ibritish:amd64 (3.4.02-2, automatic), libxau6:amd64 (1:1.0.9-1, automatic), emacsen-common:amd64 (3.0.4, automatic), file:amd64 (1:5.39-3+deb11u1), bzip2:amd64 (1.0.8-4), python3-requests:amd64 (2.25.1+dfsg-2, automatic), libpipeline1:amd64 (1.5.3-1, automatic), libnss-systemd:amd64 (247.3-7+deb11u6), libxcb1:amd64 (1.14-3, automatic), liblockfile-bin:amd64 (1.17-1+b1), iamerican:amd64 (3.4.02-2, automatic), python3-httplib2:amd64 (0.18.1-3, automatic), python3:amd64 (3.9.2-3, automatic), libdbus-1-3:amd64 (1.12.28-0+deb11u1, automatic), python3-urllib3:amd64 (1.26.5-1~exp1+deb11u1, automatic), libsasl2-modules-db:amd64 (2.1.27+dfsg-2.1+deb11u1, automatic), task-english:amd64 (3.68+deb11u1), netcat-traditional:amd64 (1.10-46), libxml2:amd64 (2.9.10+dfsg-6.7+deb11u5, automatic), xz-utils:amd64 (5.2.5-2.1~deb11u1), python-apt-common:amd64 (2.2.1, automatic), libldap-2.4-2:amd64 (2.4.57+dfsg-3+deb11u1, automatic), wamerican:amd64 (2019.10.06-1), wget:amd64 (1.21-1+deb11u1), python3-pycurl:amd64 (7.43.0.6-5, automatic), gettext-base:amd64 (0.21-4), libmaxminddb0:amd64 (1.5.2-1, automatic), libpython3.9-stdlib:amd64 (3.9.2-1+deb11u2, automatic), publicsuffix:amd64 (20220811.1734-0+deb11u1, automatic), python3-pkg-resources:amd64 (52.0.0-4+deb11u1, automatic), libx11-data:amd64 (2:1.7.2-1+deb11u2, automatic), lsof:amd64 (4.93.2+dfsg-1.1), libuchardet0:amd64 (0.0.7-1, automatic), libprotobuf-c1:amd64 (1.3.3-1+b2, automatic), xauth:amd64 (1:1.1-1, automatic), libcbor0:amd64 (0.5.0+dfsg-2, automatic), manpages:amd64 (5.10-1), man-db:amd64 (2.9.4-2), dictionaries-common:amd64 (1.28.4, automatic), traceroute:amd64 (1:2.1.0-2+deb11u1), mailcap:amd64 (3.69, automatic), media-types:amd64 (4.0.0), bind9-dnsutils:amd64 (1:9.16.50-1~deb11u3), ienglish-common:amd64 (3.4.02-2, automatic), debian-faq:amd64 (10.1), ispell:amd64 (3.4.02-2, automatic), python3-apt:amd64 (2.2.1, automatic), python3-certifi:amd64 (2020.6.20-1, automatic), libsqlite3-0:amd64 (3.34.1-3+deb11u1, automatic), distro-info-data:amd64 (0.51+deb11u7, automatic), ca-certificates:amd64 (20210119), python3-pysimplesoap:amd64 (1.16.2-3, automatic), python3-six:amd64 (1.16.0-2, automatic), libpython3-stdlib:amd64 (3.9.2-3, automatic), bash-completion:amd64 (1:2.11-2), libbrotli1:amd64 (1.0.9-2+b2, automatic), bind9-libs:amd64 (1:9.16.50-1~deb11u3, automatic), mime-support:amd64 (3.66), apt-listchanges:amd64 (3.24), liblmdb0:amd64 (0.9.24-1, automatic), libxext6:amd64 (2:1.3.3-1.1, automatic), doc-debian:amd64 (6.5), python3-idna:amd64 (2.10-1+deb11u1, automatic), python3-chardet:amd64 (4.0.0-1, automatic), python3-debconf:amd64 (1.5.77, automatic), perl-modules-5.32:amd64 (5.32.1-4+deb11u4, automatic), libpython3.9-minimal:amd64 (3.9.2-1+deb11u2, automatic), libx11-6:amd64 (2:1.7.2-1+deb11u2, automatic), python3.9:amd64 (3.9.2-1+deb11u2, automatic), groff-base:amd64 (1.22.4-6), ncurses-term:amd64 (6.2+20201114-2+deb11u2), dbus:amd64 (1.12.28-0+deb11u1), libicu67:amd64 (67.1-7, automatic), libfstrm0:amd64 (0.6.0-1+b1, automatic), libgdbm6:amd64 (1.19-2, automatic), libuv1:amd64 (1.40.0-2+deb11u1, automatic), libpsl5:amd64 (0.21.0-1.2, automatic), bsdextrautils:amd64 (2.36.1-8+deb11u2, automatic), libxdmcp6:amd64 (1:1.1.2-3, automatic), iso-codes:amd64 (4.6.0-1, automatic), openssl:amd64 (1.1.1w-0+deb11u2, automatic), python3.9-minimal:amd64 (3.9.2-1+deb11u2, automatic), python3-debian:amd64 (0.1.39, automatic)
+End-Date: 2025-02-13  05:52:21
+
+Start-Date: 2025-02-13  05:52:22
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y install -- curl openssh-server sudo
+Install: libwrap0:amd64 (7.6.q-31, automatic), libcurl4:amd64 (7.74.0-1.3+deb11u14, automatic), openssh-server:amd64 (1:8.4p1-5+deb11u3), runit-helper:amd64 (2.10.3, automatic), openssh-sftp-server:amd64 (1:8.4p1-5+deb11u3, automatic), sudo:amd64 (1.9.5p2-3+deb11u1), curl:amd64 (7.74.0-1.3+deb11u14)
+End-Date: 2025-02-13  05:52:25
+
+Start-Date: 2025-02-13  05:52:29
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-common
+Install: libfuse2:amd64 (2.9.9-5, automatic), libefivar1:amd64 (37-6, automatic), os-prober:amd64 (1.79, automatic), libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1, automatic), libpng16-16:amd64 (1.6.37-3, automatic), libefiboot1:amd64 (37-6, automatic), grub-common:amd64 (2.06-3~deb11u6)
+End-Date: 2025-02-13  05:52:30
+
+Start-Date: 2025-02-13  05:52:32
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-efi-amd64
+Install: mokutil:amd64 (0.6.0-2~deb11u1, automatic), grub-efi-amd64:amd64 (2.06-3~deb11u6), shim-helpers-amd64-signed:amd64 (1+15.8+1~deb11u1, automatic), grub-efi-amd64-signed:amd64 (1+2.06+3~deb11u6, automatic), grub-efi-amd64-bin:amd64 (2.06-3~deb11u6, automatic), grub2-common:amd64 (2.06-3~deb11u6, automatic), efibootmgr:amd64 (17-1, automatic), shim-signed:amd64 (1.44~1+deb11u1+15.8-1~deb11u1, automatic), shim-signed-common:amd64 (1.44~1+deb11u1+15.8-1~deb11u1, automatic), shim-unsigned:amd64 (15.8-1~deb11u1, automatic)
+End-Date: 2025-02-13  05:52:34
+
+Start-Date: 2025-02-13  05:52:40
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=true install qemu-guest-agent
+Install: qemu-guest-agent:amd64 (1:5.2+dfsg-11+deb11u3), libglib2.0-data:amd64 (2.66.8-1+deb11u5, automatic), shared-mime-info:amd64 (2.0-1, automatic), xdg-user-dirs:amd64 (0.17-2, automatic), liburing1:amd64 (0.7-3, automatic), libglib2.0-0:amd64 (2.66.8-1+deb11u5, automatic)
+End-Date: 2025-02-13  05:52:42
+
+Start-Date: 2025-02-13  05:53:27
+Commandline: apt install -y curl gnupg2 ssh vim-nox tmux tcpdump ethtool grub-efi efibootmgr
+Requested-By: test (1000)
+Install: tcpdump:amd64 (4.99.0-2+deb11u1), ruby-minitest:amd64 (5.13.0-1, automatic), gpg:amd64 (2.2.27-2+deb11u2, automatic), ssh:amd64 (1:8.4p1-5+deb11u3), zip:amd64 (3.0-12, automatic), fonts-lato:amd64 (2.0-2.1, automatic), liblua5.2-0:amd64 (5.2.4-1.1+b3, automatic), libgpm2:amd64 (1.20.7-8, automatic), libtcl8.6:amd64 (8.6.11+dfsg-1, automatic), gnupg2:amd64 (2.2.27-2+deb11u2), gnupg:amd64 (2.2.27-2+deb11u2, automatic), gpg-wks-server:amd64 (2.2.27-2+deb11u2, automatic), ruby-net-telnet:amd64 (0.1.1-2, automatic), gpg-agent:amd64 (2.2.27-2+deb11u2, automatic), rubygems-integration:amd64 (1.18, automatic), libruby2.7:amd64 (2.7.4-1+deb11u4, automatic), libyaml-0-2:amd64 (0.2.2-1, automatic), ruby-power-assert:amd64 (1.1.7-2, automatic), libassuan0:amd64 (2.5.3-7.1, automatic), libnpth0:amd64 (1.6-3, automatic), rake:amd64 (13.0.3-1, automatic), vim-nox:amd64 (2:8.2.2434-3+deb11u1), libpcap0.8:amd64 (1.10.0-2, automatic), libpython3.9:amd64 (3.9.2-1+deb11u2, automatic), ruby:amd64 (1:2.7+2, automatic), libevent-2.1-7:amd64 (2.1.12-stable-1, automatic), pinentry-curses:amd64 (1.1.0-4, automatic), gpgsm:amd64 (2.2.27-2+deb11u2, automatic), vim-runtime:amd64 (2:8.2.2434-3+deb11u1, automatic), ruby2.7:amd64 (2.7.4-1+deb11u4, automatic), dirmngr:amd64 (2.2.27-2+deb11u2, automatic), libksba8:amd64 (1.5.0-3+deb11u2, automatic), libjs-jquery:amd64 (3.5.1+dfsg+~3.5.5-7, automatic), unzip:amd64 (6.0-26+deb11u1, automatic), gnupg-utils:amd64 (2.2.27-2+deb11u2, automatic), ruby-rubygems:amd64 (3.2.5-2, automatic), gnupg-l10n:amd64 (2.2.27-2+deb11u2, automatic), gpg-wks-client:amd64 (2.2.27-2+deb11u2, automatic), ethtool:amd64 (1:5.9-1), javascript-common:amd64 (11+nmu1, automatic), tmux:amd64 (3.1c-1+deb11u1), ruby-test-unit:amd64 (3.3.9-1, automatic), gpgconf:amd64 (2.2.27-2+deb11u2, automatic), grub-efi:amd64 (2.06-3~deb11u6), ruby-xmlrpc:amd64 (0.3.0-2, automatic), libutempter0:amd64 (1.2.1-2, automatic)
+End-Date: 2025-02-13  05:53:34
+
+Start-Date: 2025-02-13  05:53:38
+Commandline: apt install -y git jq
+Requested-By: test (1000)
+Install: libonig5:amd64 (6.9.6-1.1, automatic), git:amd64 (1:2.30.2-1+deb11u4), patch:amd64 (2.7.6-7, automatic), liberror-perl:amd64 (0.17029-1, automatic), jq:amd64 (1.6-2.1), libjq1:amd64 (1.6-2.1, automatic), git-man:amd64 (1:2.30.2-1+deb11u4, automatic)
+End-Date: 2025-02-13  05:53:41
+
+Start-Date: 2025-02-13  05:53:43
+Commandline: apt install -y python3-pip
+Requested-By: test (1000)
+Install: libalgorithm-merge-perl:amd64 (0.08-3, automatic), libgomp1:amd64 (10.2.1-6, automatic), manpages-dev:amd64 (5.10-1, automatic), g++-10:amd64 (10.2.1-6, automatic), gcc-10:amd64 (10.2.1-6, automatic), build-essential:amd64 (12.9, automatic), libctf-nobfd0:amd64 (2.35.2-2, automatic), libtsan0:amd64 (10.2.1-6, automatic), cpp:amd64 (4:10.2.1-1, automatic), libpython3-dev:amd64 (3.9.2-3, automatic), g++:amd64 (4:10.2.1-1, automatic), gcc:amd64 (4:10.2.1-1, automatic), python3-lib2to3:amd64 (3.9.2-1, automatic), libalgorithm-diff-perl:amd64 (1.201-1, automatic), libbinutils:amd64 (2.35.2-2, automatic), libfakeroot:amd64 (1.25.3-1.1, automatic), libdeflate0:amd64 (1.7-1, automatic), python-pip-whl:amd64 (20.3.4-4+deb11u1, automatic), libtiff5:amd64 (4.2.0-1+deb11u6, automatic), binutils-x86-64-linux-gnu:amd64 (2.35.2-2, automatic), libmpfr6:amd64 (4.1.0-3, automatic), libcc1-0:amd64 (10.2.1-6, automatic), zlib1g-dev:amd64 (1:1.2.11.dfsg-2+deb11u2, automatic), libmpc3:amd64 (1.2.0-1, automatic), libxpm4:amd64 (1:3.5.12-1.1+deb11u1, automatic), libfontconfig1:amd64 (2.13.1-4.2, automatic), python3-wheel:amd64 (0.34.2-1, automatic), fontconfig-config:amd64 (2.13.1-4.2, automatic), libfile-fcntllock-perl:amd64 (0.22-3+b7, automatic), dpkg-dev:amd64 (1.20.13, automatic), libasan6:amd64 (10.2.1-6, automatic), libnsl-dev:amd64 (1.3.0-2, automatic), libjpeg62-turbo:amd64 (1:2.0.6-4, automatic), make:amd64 (4.3-4.1, automatic), libctf0:amd64 (2.35.2-2, automatic), python3-dev:amd64 (3.9.2-3, automatic), libwebp6:amd64 (0.6.1-2.1+deb11u2, automatic), libcrypt-dev:amd64 (1:4.4.18-4, automatic), cpp-10:amd64 (10.2.1-6, automatic), binutils-common:amd64 (2.35.2-2, automatic), libitm1:amd64 (10.2.1-6, automatic), python3-pip:amd64 (20.3.4-4+deb11u1), libdpkg-perl:amd64 (1.20.13, automatic), libjbig0:amd64 (2.1-3.1+b2, automatic), python3.9-dev:amd64 (3.9.2-1+deb11u2, automatic), libc-dev-bin:amd64 (2.31-13+deb11u11, automatic), libpython3.9-dev:amd64 (3.9.2-1+deb11u2, automatic), libc-devtools:amd64 (2.31-13+deb11u11, automatic), python3-distutils:amd64 (3.9.2-1, automatic), libisl23:amd64 (0.23-1, automatic), libc6-dev:amd64 (2.31-13+deb11u11, automatic), libquadmath0:amd64 (10.2.1-6, automatic), fonts-dejavu-core:amd64 (2.37-2, automatic), libexpat1-dev:amd64 (2.2.10-2+deb11u6, automatic), libubsan1:amd64 (10.2.1-6, automatic), liblsan0:amd64 (10.2.1-6, automatic), libalgorithm-diff-xs-perl:amd64 (0.04-6+b1, automatic), python3-setuptools:amd64 (52.0.0-4+deb11u1, automatic), libgd3:amd64 (2.3.0-2, automatic), libjs-sphinxdoc:amd64 (3.4.3-2, automatic), libgcc-10-dev:amd64 (10.2.1-6, automatic), libstdc++-10-dev:amd64 (10.2.1-6, automatic), libjs-underscore:amd64 (1.9.1~dfsg-3, automatic), libtirpc-dev:amd64 (1.3.1-1+deb11u1, automatic), binutils:amd64 (2.35.2-2, automatic), fakeroot:amd64 (1.25.3-1.1, automatic), libatomic1:amd64 (10.2.1-6, automatic), linux-libc-dev:amd64 (5.10.226-1, automatic)
+End-Date: 2025-02-13  05:54:04
+
+Start-Date: 2025-11-10  19:37:52
+Commandline: apt install apache2 libapache2-mod-php mariadb-server php-mysqlnd -y
+Requested-By: sunshine (1038)
+Install: libtimedate-perl:amd64 (2.3300-2, automatic), libhtml-tagset-perl:amd64 (3.20-4, automatic), mariadb-server:amd64 (1:10.5.29-0+deb11u1), libdbi-perl:amd64 (1.643-3+b1, automatic), php7.4-readline:amd64 (7.4.33-1+deb11u9, automatic), ssl-cert:amd64 (1.1.0+nmu1, automatic), libfcgi-perl:amd64 (0.79+ds-2, automatic), libaio1:amd64 (0.3.112-9, automatic), libdbd-mariadb-perl:amd64 (1.21-3, automatic), libaprutil1-dbd-sqlite3:amd64 (1.6.1-5+deb11u1, automatic), libapr1:amd64 (1.7.0-6+deb11u2, automatic), galera-4:amd64 (26.4.20-0+deb11u1, automatic), php7.4-opcache:amd64 (7.4.33-1+deb11u9, automatic), mysql-common:amd64 (5.8+1.0.7, automatic), libapache2-mod-php:amd64 (2:7.4+76), php-common:amd64 (2:76, automatic), liblua5.3-0:amd64 (5.3.3-1.1+deb11u1, automatic), libencode-locale-perl:amd64 (1.05-1.1, automatic), libapache2-mod-php7.4:amd64 (7.4.33-1+deb11u9, automatic), libsigsegv2:amd64 (2.13-1, automatic), liblwp-mediatypes-perl:amd64 (6.04-1, automatic), php7.4-cli:amd64 (7.4.33-1+deb11u9, automatic), php7.4-mysql:amd64 (7.4.33-1+deb11u9), php7.4-json:amd64 (7.4.33-1+deb11u9, automatic), psmisc:amd64 (23.4-2, automatic), mariadb-server-core-10.5:amd64 (1:10.5.29-0+deb11u1, automatic), apache2-data:amd64 (2.4.65-1~deb11u1, automatic), libhtml-template-perl:amd64 (2.97-1.1, automatic), apache2-bin:amd64 (2.4.65-1~deb11u1, automatic), gawk:amd64 (1:5.1.0-1, automatic), liburi-perl:amd64 (5.08-1, automatic), libfcgi0ldbl:amd64 (2.4.2-2+deb11u1, automatic), libsodium23:amd64 (1.0.18-1, automatic), libio-html-perl:amd64 (1.004-2, automatic), libsnappy1v5:amd64 (1.1.8-1, automatic), libterm-readkey-perl:amd64 (2.38-1+b2, automatic), libaprutil1:amd64 (1.6.1-5+deb11u1, automatic), libhttp-date-perl:amd64 (6.05-1, automatic), rsync:amd64 (3.2.3-4+deb11u3, automatic), mariadb-client-10.5:amd64 (1:10.5.29-0+deb11u1, automatic), libhtml-parser-perl:amd64 (3.75-1+b1, automatic), libcgi-fast-perl:amd64 (1:2.15-1, automatic), libconfig-inifiles-perl:amd64 (3.000003-1, automatic), mariadb-common:amd64 (1:10.5.29-0+deb11u1, automatic), php7.4-common:amd64 (7.4.33-1+deb11u9, automatic), apache2-utils:amd64 (2.4.65-1~deb11u1, automatic), libmariadb3:amd64 (1:10.5.29-0+deb11u1, automatic), apache2:amd64 (2.4.65-1~deb11u1), libclone-perl:amd64 (0.45-1+b1, automatic), socat:amd64 (1.7.4.1-3, automatic), mariadb-server-10.5:amd64 (1:10.5.29-0+deb11u1, automatic), libhttp-message-perl:amd64 (6.28-1, automatic), libfcgi-bin:amd64 (2.4.2-2+deb11u1, automatic), libcgi-pm-perl:amd64 (4.51-1, automatic), libaprutil1-ldap:amd64 (1.6.1-5+deb11u1, automatic), mariadb-client-core-10.5:amd64 (1:10.5.29-0+deb11u1, automatic)
+End-Date: 2025-11-10  19:38:12

@@ -1,0 +1,15 @@
+[Match]
+Name=eth1
+
+[Network]
+Address=4.4.4.4/8
+
+[Route]
+Destination=1.1.0.0/16
+Gateway=4.4.4.1
+GatewayOnlink=yes
+
+[Route]
+Destination=1.2.0.0/16
+Gateway=4.4.4.1
+GatewayOnlink=yes

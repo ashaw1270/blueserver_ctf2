@@ -1,0 +1,421 @@
+uname -a: Linux debian 5.10.0-20-amd64 #1 SMP Debian 5.10.158-2 (2022-12-13) x86_64 GNU/Linux
+lspci -knn: 00:00.0 Host bridge [0600]: Intel Corporation 440FX - 82441FX PMC [Natoma] [8086:1237] (rev 02)
+lspci -knn: 	Subsystem: Red Hat, Inc. Qemu virtual machine [1af4:1100]
+lspci -knn: 00:01.0 ISA bridge [0601]: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]
+lspci -knn: 	Subsystem: Red Hat, Inc. Qemu virtual machine [1af4:1100]
+lspci -knn: 00:01.1 IDE interface [0101]: Intel Corporation 82371SB PIIX3 IDE [Natoma/Triton II] [8086:7010]
+lspci -knn: 	Subsystem: Red Hat, Inc. Qemu virtual machine [1af4:1100]
+lspci -knn: 	Kernel driver in use: ata_piix
+lspci -knn: 	Kernel modules: ata_piix, ata_generic
+lspci -knn: 00:01.3 Bridge [0680]: Intel Corporation 82371AB/EB/MB PIIX4 ACPI [8086:7113] (rev 03)
+lspci -knn: 	Subsystem: Red Hat, Inc. Qemu virtual machine [1af4:1100]
+lspci -knn: 00:02.0 VGA compatible controller [0300]: Device [1234:1111] (rev 02)
+lspci -knn: 	Subsystem: Red Hat, Inc. Device [1af4:1100]
+lspci -knn: 00:03.0 Ethernet controller [0200]: Red Hat, Inc. Virtio network device [1af4:1000]
+lspci -knn: 	Subsystem: Red Hat, Inc. Device [1af4:0001]
+lspci -knn: 	Kernel driver in use: virtio-pci
+lspci -knn: 	Kernel modules: virtio_pci
+lsmod: Module                  Size  Used by
+lsmod: ufs                    94208  0
+lsmod: qnx4                   16384  0
+lsmod: hfsplus               126976  0
+lsmod: hfs                    73728  0
+lsmod: minix                  45056  0
+lsmod: msdos                  20480  0
+lsmod: fuse                  167936  0
+lsmod: battery                24576  0
+lsmod: nls_ascii              16384  1
+lsmod: nls_cp437              20480  1
+lsmod: efivarfs               16384  1
+lsmod: dm_mod                163840  0
+lsmod: md_mod                188416  0
+lsmod: xfs                  1802240  0
+lsmod: jfs                   212992  0
+lsmod: btrfs                1589248  0
+lsmod: xor                    24576  1 btrfs
+lsmod: raid6_pq              122880  1 btrfs
+lsmod: libcrc32c              16384  2 btrfs,xfs
+lsmod: vfat                   20480  1
+lsmod: fat                    86016  2 msdos,vfat
+lsmod: ext4                  942080  1
+lsmod: crc16                  16384  1 ext4
+lsmod: mbcache                16384  1 ext4
+lsmod: jbd2                  151552  1 ext4
+lsmod: crc32c_generic         16384  3
+lsmod: virtio_net             61440  0
+lsmod: net_failover           24576  1 virtio_net
+lsmod: failover               16384  1 net_failover
+lsmod: isofs                  53248  0
+lsmod: vgastate               20480  0
+lsmod: sd_mod                 61440  3
+lsmod: t10_pi                 16384  1 sd_mod
+lsmod: sr_mod                 28672  0
+lsmod: cdrom                  73728  4 hfsplus,hfs,isofs,sr_mod
+lsmod: crc_t10dif             20480  1 t10_pi
+lsmod: crct10dif_common       16384  1 crc_t10dif
+lsmod: ata_generic            16384  0
+lsmod: ata_piix               36864  2
+lsmod: libata                299008  2 ata_piix,ata_generic
+lsmod: scsi_mod              270336  3 sd_mod,libata,sr_mod
+lsmod: virtio_pci             28672  0
+lsmod: virtio_ring            36864  2 virtio_pci,virtio_net
+lsmod: virtio                 16384  2 virtio_pci,virtio_net
+df: Filesystem           1K-blocks      Used Available Use% Mounted on
+df: tmpfs                   202568        44    202524   0% /run
+df: devtmpfs               1000424         0   1000424   0% /dev
+df: /dev/sda2              3530496   1423200   1907516  43% /target
+df: /dev/sda1               523244      5944    517300   1% /target/boot/efi
+df: /dev/sda2              3530496   1423200   1907516  43% /dev/.static/dev
+df: devtmpfs               1000424         0   1000424   0% /target/dev
+free:               total        used        free      shared  buff/cache   available
+free: Mem:        2025660      215576      437908      181876     1372176     1560524
+free: Swap:             0           0           0
+/proc/cmdline: BOOT_IMAGE=/install.amd/vmlinuz auto=true priority=critical vga=788 --- quiet
+/proc/cpuinfo: processor	: 0
+/proc/cpuinfo: vendor_id	: AuthenticAMD
+/proc/cpuinfo: cpu family	: 15
+/proc/cpuinfo: model		: 107
+/proc/cpuinfo: model name	: QEMU Virtual CPU version 2.5+
+/proc/cpuinfo: stepping	: 1
+/proc/cpuinfo: microcode	: 0x1000065
+/proc/cpuinfo: cpu MHz		: 3099.998
+/proc/cpuinfo: cache size	: 512 KB
+/proc/cpuinfo: physical id	: 0
+/proc/cpuinfo: siblings	: 2
+/proc/cpuinfo: core id		: 0
+/proc/cpuinfo: cpu cores	: 2
+/proc/cpuinfo: apicid		: 0
+/proc/cpuinfo: initial apicid	: 0
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 13
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx lm rep_good nopl cpuid extd_apicid tsc_known_freq pni cx16 x2apic hypervisor lahf_lm cmp_legacy 3dnowprefetch vmmcall
+/proc/cpuinfo: bugs		: fxsave_leak sysret_ss_attrs null_seg swapgs_fence amd_e400 spectre_v1 spectre_v2
+/proc/cpuinfo: bogomips	: 6199.99
+/proc/cpuinfo: TLB size	: 1024 4K pages
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 40 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/cpuinfo: processor	: 1
+/proc/cpuinfo: vendor_id	: AuthenticAMD
+/proc/cpuinfo: cpu family	: 15
+/proc/cpuinfo: model		: 107
+/proc/cpuinfo: model name	: QEMU Virtual CPU version 2.5+
+/proc/cpuinfo: stepping	: 1
+/proc/cpuinfo: microcode	: 0x1000065
+/proc/cpuinfo: cpu MHz		: 3099.998
+/proc/cpuinfo: cache size	: 512 KB
+/proc/cpuinfo: physical id	: 0
+/proc/cpuinfo: siblings	: 2
+/proc/cpuinfo: core id		: 1
+/proc/cpuinfo: cpu cores	: 2
+/proc/cpuinfo: apicid		: 1
+/proc/cpuinfo: initial apicid	: 1
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 13
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx lm rep_good nopl cpuid extd_apicid tsc_known_freq pni cx16 x2apic hypervisor lahf_lm cmp_legacy 3dnowprefetch vmmcall
+/proc/cpuinfo: bugs		: fxsave_leak sysret_ss_attrs null_seg swapgs_fence amd_e400 spectre_v1 spectre_v2
+/proc/cpuinfo: bogomips	: 6199.99
+/proc/cpuinfo: TLB size	: 1024 4K pages
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 40 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/ioports: 0000-0cf7 : PCI Bus 0000:00
+/proc/ioports:   0000-001f : dma1
+/proc/ioports:   0020-0021 : pic1
+/proc/ioports:   0040-0043 : timer0
+/proc/ioports:   0050-0053 : timer1
+/proc/ioports:   0060-0060 : keyboard
+/proc/ioports:   0064-0064 : keyboard
+/proc/ioports:   0070-0077 : rtc0
+/proc/ioports:   0080-008f : dma page reg
+/proc/ioports:   00a0-00a1 : pic2
+/proc/ioports:   00c0-00df : dma2
+/proc/ioports:   00f0-00ff : fpu
+/proc/ioports:   0170-0177 : 0000:00:01.1
+/proc/ioports:     0170-0177 : ata_piix
+/proc/ioports:   01f0-01f7 : 0000:00:01.1
+/proc/ioports:     01f0-01f7 : ata_piix
+/proc/ioports:   0376-0376 : 0000:00:01.1
+/proc/ioports:     0376-0376 : ata_piix
+/proc/ioports:   03f6-03f6 : 0000:00:01.1
+/proc/ioports:     03f6-03f6 : ata_piix
+/proc/ioports:   03f8-03ff : serial
+/proc/ioports:   0510-051b : QEMU0002:00
+/proc/ioports: 0cf8-0cff : PCI conf1
+/proc/ioports: 0d00-ffff : PCI Bus 0000:00
+/proc/ioports:   afe0-afe3 : ACPI GPE0_BLK
+/proc/ioports:   b000-b03f : 0000:00:01.3
+/proc/ioports:     b000-b003 : ACPI PM1a_EVT_BLK
+/proc/ioports:     b004-b005 : ACPI PM1a_CNT_BLK
+/proc/ioports:     b008-b00b : ACPI PM_TMR
+/proc/ioports:   b100-b10f : 0000:00:01.3
+/proc/ioports:   c000-c01f : 0000:00:03.0
+/proc/ioports:   c020-c02f : 0000:00:01.1
+/proc/ioports:     c020-c02f : ata_piix
+/proc/iomem: 00000000-00000fff : Reserved
+/proc/iomem: 00001000-0009ffff : System RAM
+/proc/iomem: 000a0000-000bffff : PCI Bus 0000:00
+/proc/iomem: 000f0000-000fffff : System ROM
+/proc/iomem: 00100000-007fffff : System RAM
+/proc/iomem: 00800000-00807fff : ACPI Non-volatile Storage
+/proc/iomem: 00808000-0080afff : System RAM
+/proc/iomem: 0080b000-0080bfff : ACPI Non-volatile Storage
+/proc/iomem: 0080c000-00810fff : System RAM
+/proc/iomem: 00811000-008fffff : ACPI Non-volatile Storage
+/proc/iomem: 00900000-7e4e8fff : System RAM
+/proc/iomem:   0c800000-0d401e47 : Kernel code
+/proc/iomem:   0d600000-0dd60fff : Kernel rodata
+/proc/iomem:   0de00000-0e07a2bf : Kernel data
+/proc/iomem:   0e6a9000-0ebfffff : Kernel bss
+/proc/iomem: 7e4e9000-7e4ebfff : Reserved
+/proc/iomem: 7e4ec000-7e4effff : System RAM
+/proc/iomem: 7e4f0000-7e4f8fff : Reserved
+/proc/iomem: 7e4f9000-7f4ecfff : System RAM
+/proc/iomem: 7f4ed000-7f5ecfff : Reserved
+/proc/iomem: 7f5ed000-7f6ecfff : Unknown E820 type
+/proc/iomem: 7f6ed000-7f76cfff : Reserved
+/proc/iomem: 7f76d000-7f77efff : ACPI Tables
+/proc/iomem: 7f77f000-7f7fefff : ACPI Non-volatile Storage
+/proc/iomem: 7f7ff000-7ff02fff : System RAM
+/proc/iomem: 7ff03000-7ff06fff : Reserved
+/proc/iomem: 7ff07000-7ff08fff : ACPI Non-volatile Storage
+/proc/iomem: 7ff09000-7ff4ffff : System RAM
+/proc/iomem: 7ff50000-7ff6ffff : Reserved
+/proc/iomem: 7ff70000-7fffffff : ACPI Non-volatile Storage
+/proc/iomem: 80000000-febfffff : PCI Bus 0000:00
+/proc/iomem:   80000000-80ffffff : 0000:00:02.0
+/proc/iomem:     80000000-8015ffff : efifb
+/proc/iomem:   81000000-8103ffff : 0000:00:03.0
+/proc/iomem:   81040000-81040fff : 0000:00:03.0
+/proc/iomem:   81041000-81041fff : 0000:00:02.0
+/proc/iomem: fec00000-fec003ff : IOAPIC 0
+/proc/iomem: fed00000-fed003ff : HPET 0
+/proc/iomem:   fed00000-fed003ff : PNP0103:00
+/proc/iomem: fee00000-fee00fff : Local APIC
+/proc/iomem: feffc000-feffffff : Reserved
+/proc/iomem: c000000000-c07fffffff : PCI Bus 0000:00
+/proc/iomem:   c000000000-c000003fff : 0000:00:03.0
+/proc/iomem:     c000000000-c000003fff : virtio-pci-modern
+/proc/iomem: fd00000000-ffffffffff : Reserved
+/proc/interrupts:            CPU0       CPU1       
+/proc/interrupts:   0:         31          0   IO-APIC   2-edge      timer
+/proc/interrupts:   1:          0        113   IO-APIC   1-edge      i8042
+/proc/interrupts:   8:          1          0   IO-APIC   8-edge      rtc0
+/proc/interrupts:   9:          0          0   IO-APIC   9-fasteoi   acpi
+/proc/interrupts:  12:          3          0   IO-APIC  12-edge      i8042
+/proc/interrupts:  14:          0     109895   IO-APIC  14-edge      ata_piix
+/proc/interrupts:  15:        641          0   IO-APIC  15-edge      ata_piix
+/proc/interrupts:  24:          0          0   PCI-MSI 49152-edge      virtio0-config
+/proc/interrupts:  25:      28007          0   PCI-MSI 49153-edge      virtio0-input.0
+/proc/interrupts:  26:          0       8502   PCI-MSI 49154-edge      virtio0-output.0
+/proc/interrupts: NMI:          0          0   Non-maskable interrupts
+/proc/interrupts: LOC:      38438      39476   Local timer interrupts
+/proc/interrupts: SPU:          0          0   Spurious interrupts
+/proc/interrupts: PMI:          0          0   Performance monitoring interrupts
+/proc/interrupts: IWI:          0          0   IRQ work interrupts
+/proc/interrupts: RTR:          0          0   APIC ICR read retries
+/proc/interrupts: RES:     315663     239438   Rescheduling interrupts
+/proc/interrupts: CAL:      14171      17475   Function call interrupts
+/proc/interrupts: TLB:       1808        661   TLB shootdowns
+/proc/interrupts: TRM:          0          0   Thermal event interrupts
+/proc/interrupts: THR:          0          0   Threshold APIC interrupts
+/proc/interrupts: DFR:          0          0   Deferred Error APIC interrupts
+/proc/interrupts: MCE:          0          0   Machine check exceptions
+/proc/interrupts: MCP:          1          1   Machine check polls
+/proc/interrupts: ERR:          0
+/proc/interrupts: MIS:          0
+/proc/interrupts: PIN:          0          0   Posted-interrupt notification event
+/proc/interrupts: NPI:          0          0   Nested posted-interrupt event
+/proc/interrupts: PIW:          0          0   Posted-interrupt wakeup event
+/proc/meminfo: MemTotal:        2025660 kB
+/proc/meminfo: MemFree:          438096 kB
+/proc/meminfo: MemAvailable:    1560712 kB
+/proc/meminfo: Buffers:           14864 kB
+/proc/meminfo: Cached:          1357312 kB
+/proc/meminfo: SwapCached:            0 kB
+/proc/meminfo: Active:           501576 kB
+/proc/meminfo: Inactive:         898272 kB
+/proc/meminfo: Active(anon):     117952 kB
+/proc/meminfo: Inactive(anon):    91512 kB
+/proc/meminfo: Active(file):     383624 kB
+/proc/meminfo: Inactive(file):   806760 kB
+/proc/meminfo: Unevictable:           0 kB
+/proc/meminfo: Mlocked:               0 kB
+/proc/meminfo: SwapTotal:             0 kB
+/proc/meminfo: SwapFree:              0 kB
+/proc/meminfo: Dirty:              2328 kB
+/proc/meminfo: Writeback:             0 kB
+/proc/meminfo: AnonPages:         27616 kB
+/proc/meminfo: Mapped:             5152 kB
+/proc/meminfo: Shmem:            181876 kB
+/proc/meminfo: KReclaimable:     120092 kB
+/proc/meminfo: Slab:             138940 kB
+/proc/meminfo: SReclaimable:     120092 kB
+/proc/meminfo: SUnreclaim:        18848 kB
+/proc/meminfo: KernelStack:        1360 kB
+/proc/meminfo: PageTables:          796 kB
+/proc/meminfo: NFS_Unstable:          0 kB
+/proc/meminfo: Bounce:                0 kB
+/proc/meminfo: WritebackTmp:          0 kB
+/proc/meminfo: CommitLimit:     1012828 kB
+/proc/meminfo: Committed_AS:     218684 kB
+/proc/meminfo: VmallocTotal:   34359738367 kB
+/proc/meminfo: VmallocUsed:       16556 kB
+/proc/meminfo: VmallocChunk:          0 kB
+/proc/meminfo: Percpu:              584 kB
+/proc/meminfo: HardwareCorrupted:     0 kB
+/proc/meminfo: AnonHugePages:     18432 kB
+/proc/meminfo: ShmemHugePages:        0 kB
+/proc/meminfo: ShmemPmdMapped:        0 kB
+/proc/meminfo: FileHugePages:         0 kB
+/proc/meminfo: FilePmdMapped:         0 kB
+/proc/meminfo: HugePages_Total:       0
+/proc/meminfo: HugePages_Free:        0
+/proc/meminfo: HugePages_Rsvd:        0
+/proc/meminfo: HugePages_Surp:        0
+/proc/meminfo: Hugepagesize:       2048 kB
+/proc/meminfo: Hugetlb:               0 kB
+/proc/meminfo: DirectMap4k:       60672 kB
+/proc/meminfo: DirectMap2M:     2031616 kB
+/proc/bus/input/devices: I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+/proc/bus/input/devices: N: Name="AT Translated Set 2 keyboard"
+/proc/bus/input/devices: P: Phys=isa0060/serio0/input0
+/proc/bus/input/devices: S: Sysfs=/devices/platform/i8042/serio0/input/input0
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=sysrq kbd leds 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=120013
+/proc/bus/input/devices: B: KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: B: LED=7
+/proc/bus/input/devices: 
+dmidecode: # dmidecode 3.3
+dmidecode: Getting SMBIOS data from sysfs.
+dmidecode: SMBIOS 3.0.0 present.
+dmidecode: Table at 0x7F4F6000.
+dmidecode: 
+dmidecode: Handle 0x0100, DMI type 1, 27 bytes
+dmidecode: System Information
+dmidecode: 	Manufacturer: QEMU
+dmidecode: 	Product Name: Standard PC (i440FX + PIIX, 1996)
+dmidecode: 	Version: pc-i440fx-8.2
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	UUID: Not Settable
+dmidecode: 	Wake-up Type: Power Switch
+dmidecode: 	SKU Number: Not Specified
+dmidecode: 	Family: Not Specified
+dmidecode: 
+dmidecode: Handle 0x0300, DMI type 3, 22 bytes
+dmidecode: Chassis Information
+dmidecode: 	Manufacturer: QEMU
+dmidecode: 	Type: Other
+dmidecode: 	Lock: Not Present
+dmidecode: 	Version: pc-i440fx-8.2
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Boot-up State: Safe
+dmidecode: 	Power Supply State: Safe
+dmidecode: 	Thermal State: Safe
+dmidecode: 	Security Status: Unknown
+dmidecode: 	OEM Information: 0x00000000
+dmidecode: 	Height: Unspecified
+dmidecode: 	Number Of Power Cords: Unspecified
+dmidecode: 	Contained Elements: 0
+dmidecode: 	SKU Number: Not Specified
+dmidecode: 
+dmidecode: Handle 0x0400, DMI type 4, 48 bytes
+dmidecode: Processor Information
+dmidecode: 	Socket Designation: CPU 0
+dmidecode: 	Type: Central Processor
+dmidecode: 	Family: Other
+dmidecode: 	Manufacturer: QEMU
+dmidecode: 	ID: B1 0F 06 00 FD FB 8B 07
+dmidecode: 	Version: pc-i440fx-8.2
+dmidecode: 	Voltage: Unknown
+dmidecode: 	External Clock: Unknown
+dmidecode: 	Max Speed: 2000 MHz
+dmidecode: 	Current Speed: 2000 MHz
+dmidecode: 	Status: Populated, Enabled
+dmidecode: 	Upgrade: Other
+dmidecode: 	L1 Cache Handle: Not Provided
+dmidecode: 	L2 Cache Handle: Not Provided
+dmidecode: 	L3 Cache Handle: Not Provided
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Core Count: 2
+dmidecode: 	Core Enabled: 2
+dmidecode: 	Thread Count: 2
+dmidecode: 	Characteristics: None
+dmidecode: 
+dmidecode: Handle 0x1000, DMI type 16, 23 bytes
+dmidecode: Physical Memory Array
+dmidecode: 	Location: Other
+dmidecode: 	Use: System Memory
+dmidecode: 	Error Correction Type: Multi-bit ECC
+dmidecode: 	Maximum Capacity: 2 GB
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Number Of Devices: 1
+dmidecode: 
+dmidecode: Handle 0x1100, DMI type 17, 40 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x1000
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: Unknown
+dmidecode: 	Data Width: Unknown
+dmidecode: 	Size: 2 GB
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM 0
+dmidecode: 	Bank Locator: Not Specified
+dmidecode: 	Type: RAM
+dmidecode: 	Type Detail: Other
+dmidecode: 	Speed: Unknown
+dmidecode: 	Manufacturer: QEMU
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 	Configured Memory Speed: Unknown
+dmidecode: 	Minimum Voltage: Unknown
+dmidecode: 	Maximum Voltage: Unknown
+dmidecode: 	Configured Voltage: Unknown
+dmidecode: 
+dmidecode: Handle 0x1300, DMI type 19, 31 bytes
+dmidecode: Memory Array Mapped Address
+dmidecode: 	Starting Address: 0x00000000000
+dmidecode: 	Ending Address: 0x0007FFFFFFF
+dmidecode: 	Range Size: 2 GB
+dmidecode: 	Physical Array Handle: 0x1000
+dmidecode: 	Partition Width: 1
+dmidecode: 
+dmidecode: Handle 0x2000, DMI type 32, 11 bytes
+dmidecode: System Boot Information
+dmidecode: 	Status: No errors detected
+dmidecode: 
+dmidecode: Handle 0x0000, DMI type 0, 26 bytes
+dmidecode: BIOS Information
+dmidecode: 	Vendor: EDK II
+dmidecode: 	Version: edk2-20241117-5.fc40
+dmidecode: 	Release Date: 11/17/2024
+dmidecode: 	Address: 0xE8000
+dmidecode: 	Runtime Size: 96 kB
+dmidecode: 	ROM Size: 64 kB
+dmidecode: 	Characteristics:
+dmidecode: 		BIOS characteristics not supported
+dmidecode: 		Targeted content distribution is supported
+dmidecode: 		UEFI is supported
+dmidecode: 		System is a virtual machine
+dmidecode: 	BIOS Revision: 0.0
+dmidecode: 
+dmidecode: Handle 0xFEFF, DMI type 127, 4 bytes
+dmidecode: End Of Table
+dmidecode: 

@@ -1,0 +1,10 @@
+/etc/apparmor.d/usr.sbin.mariadbd
+/etc/init.d/mariadb
+/etc/logcheck/ignore.d.paranoid/mariadb-server-10_5
+/etc/logcheck/ignore.d.server/mariadb-server-10_5
+/etc/logcheck/ignore.d.workstation/mariadb-server-10_5
+/etc/logrotate.d/mariadb
+/etc/mysql/debian-start
+/etc/mysql/mariadb.conf.d/50-mysqld_safe.cnf
+/etc/mysql/mariadb.conf.d/50-server.cnf
+/etc/security/user_map.conf

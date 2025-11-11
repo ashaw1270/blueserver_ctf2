@@ -1,0 +1,470 @@
+Package: ca-certificates-java
+Binary: ca-certificates-java
+Version: 20190909+deb11u1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Matthias Klose <doko@ubuntu.com>, James Page <james.page@ubuntu.com>
+Build-Depends: debhelper (>= 11), default-jdk, javahelper, junit4
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Vcs-Browser: https://salsa.debian.org/java-team/ca-certificates-java
+Vcs-Git: https://salsa.debian.org/java-team/ca-certificates-java.git
+Checksums-Sha256:
+ 1d66b863b1befee56a128dfc365811d3328d84580de4bd7c91dddb395c22e521 1822 ca-certificates-java_20190909+deb11u1.dsc
+ ff6703c0243412094574b9e4f011fe75883fa5f90098e5dc1841e267ab1bad76 16812 ca-certificates-java_20190909+deb11u1.tar.xz
+Package-List: 
+ ca-certificates-java deb java optional arch=all
+Directory: pool/main/c/ca-certificates-java
+Priority: source
+Section: java
+
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.103.10+dfsg-0+deb11u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
+Build-Depends: automake, check, debhelper-compat (= 12), dh-apparmor, dh-strip-nondeterminism, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/clamav-team/clamav
+Vcs-Git: https://salsa.debian.org/clamav-team/clamav.git
+Checksums-Sha256:
+ 69557167db0c02aee688de47062bceab525a74af83ec37ee209a88eb3dcffa5f 2816 clamav_0.103.10+dfsg-0+deb11u1.dsc
+ 5f1b04358d6ad7c37f96ae798a7421ca97391c045d9b89a75b33b8f9c9a5e7fd 7132708 clamav_0.103.10+dfsg.orig.tar.xz
+ 8a05581b4e93557996103bf0b90a784bf4fea2eed1fafaaf8ad453e7658b6de5 221048 clamav_0.103.10+dfsg-0+deb11u1.debian.tar.xz
+Homepage: https://www.clamav.net/
+Package-List: 
+ clamav deb utils optional arch=any
+ clamav-base deb utils optional arch=all
+ clamav-daemon deb utils optional arch=any
+ clamav-docs deb doc optional arch=all
+ clamav-freshclam deb utils optional arch=any
+ clamav-milter deb utils optional arch=any
+ clamav-testfiles deb utils optional arch=all
+ clamdscan deb utils optional arch=any
+ libclamav-dev deb libdevel optional arch=any
+ libclamav9 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils
+
+Package: crun
+Binary: crun
+Version: 0.17+dfsg-1+deb11u2
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Uploaders: Faidon Liambotis <paravoid@debian.org>, Reinhard Tartler <siretart@tauware.de>,
+Build-Depends: debhelper-compat (= 12), automake, golang-github-opencontainers-image-spec-dev, golang-github-opencontainers-specs-dev (>= 1.0.1+git20190408~), go-md2man, libcap-dev, libseccomp-dev, libsystemd-dev, libyajl-dev, pkgconf | pkg-config, python3
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/debian/crun
+Vcs-Git: https://salsa.debian.org/debian/crun.git
+Checksums-Sha256:
+ b6919513f8aa3ed373de3b69b3490bf8dc6bdc22ff2b06a8ed3ad483ef420a6a 2153 crun_0.17+dfsg-1+deb11u2.dsc
+ e3b2a1e8f9bbc19da3ddc4947ed60488393aa8819460e5a6470cf436aacf42f7 433884 crun_0.17+dfsg.orig.tar.xz
+ 58b0ddcc5e6709915a9eed3f39890bd0f4db59a45510b4e0fea9d3eedc683082 16236 crun_0.17+dfsg-1+deb11u2.debian.tar.xz
+Homepage: https://github.com/containers/crun
+Package-List: 
+ crun deb admin optional arch=any
+Directory: pool/main/c/crun
+Priority: extra
+Section: misc
+
+Package: debian-security-support
+Binary: debian-security-support
+Version: 1:11+2023.05.04
+Maintainer: Holger Levsen <holger@debian.org>
+Uploaders: Debian Security Team <team@security.debian.org>
+Build-Depends: debhelper-compat (= 13), asciidoc, gettext, gawk, libfile-slurp-perl, libtemplate-perl, libtest-command-perl, libtest-differences-perl, mawk, original-awk, po-debconf, xmlto
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Vcs-Browser: https://salsa.debian.org/debian/debian-security-support
+Vcs-Git: https://salsa.debian.org/debian/debian-security-support.git
+Checksums-Sha256:
+ bce8a24daa605cb457d68349abc7de7dfcc796c6142b4f5588afb158e97e12a8 1871 debian-security-support_11+2023.05.04.dsc
+ 384b47f971165720b688e72bd7c2332d227a6e533bb5f6e30fd44106f49af7b5 30800 debian-security-support_11+2023.05.04.tar.xz
+Package-List: 
+ debian-security-support deb admin optional arch=all
+Directory: pool/main/d/debian-security-support
+Priority: optional
+Section: misc
+
+Package: glibc
+Binary: libc-bin, libc-dev-bin, libc-devtools, libc-l10n, glibc-doc, glibc-source, locales, locales-all, nscd, libc6, libc6-dev, libc6-dbg, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc, libc6-dev-sparc, libc6-sparc64, libc6-dev-sparc64, libc6-s390, libc6-dev-s390, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mips32, libc6-dev-mips32, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-x32, libc6-dev-x32, libc6-xen, libc0.3-xen, libc6.1-alphaev67
+Version: 2.31-13+deb11u5
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>, Samuel Thibault <sthibault@debian.org>
+Build-Depends: gettext, dpkg (>= 1.18.7), dpkg-dev (>= 1.17.14), xz-utils, file, quilt, autoconf, gawk, debhelper (>= 10), rdfind, symlinks, netbase, gperf, bison, linux-libc-dev (>= 3.9) [linux-any], libaudit-dev [linux-any], libcap-dev [linux-any], libselinux-dev [linux-any] <!stage2>, mig-for-host (>= 1.5-3) [hurd-i386], gnumach-dev (>= 2:1.8+git20200710-2~) [hurd-i386], hurd-dev (>= 1:0.9.git20201127-4~) [hurd-i386] | hurd-headers-dev [hurd-i386], kfreebsd-kernel-headers [kfreebsd-any], binutils (>= 2.29), g++-10, g++-10-multilib [amd64 i386 kfreebsd-amd64 mips mipsel mipsn32 mipsn32el mips64 mips64el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el powerpc ppc64 s390x sparc sparc64 x32] <!nobiarch>, gcc-10 (>= 10-20200431) [arm64], gcc-10 (>= 10.1.0-3) [hurd-i386], python3:native, libidn2-0 (>= 2.0.5~) <!nocheck>, libc-bin (>= 2.31) <cross>, libgd-dev <!stage1> <!stage2>
+Build-Depends-Indep: perl, po-debconf (>= 1.0)
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+Checksums-Sha256:
+ 77e3760f65a2f850bf492c8248690aed6eaec2eb988a261e0439cdcada110487 8347 glibc_2.31-13+deb11u5.dsc
+ 3dc7704b6166839c37d7047626fd199f3d4c09aca0d90e48c51c31c967dce34e 17254692 glibc_2.31.orig.tar.xz
+ bb679f8e65d5b692f4479848848ec60e6eaa40e40b7eba7f5c2cf7bc79e3a415 954032 glibc_2.31-13+deb11u5.debian.tar.xz
+Homepage: https://www.gnu.org/software/libc/libc.html
+Package-List: 
+ glibc-doc deb doc optional arch=all profile=!stage1
+ glibc-source deb devel optional arch=all profile=!stage1
+ libc-bin deb libs required arch=any profile=!stage1 essential=yes
+ libc-dev-bin deb libdevel optional arch=any profile=!stage1
+ libc-devtools deb devel optional arch=any profile=!stage1+!stage2
+ libc-l10n deb localization standard arch=all profile=!stage1
+ libc0.1 deb libs optional arch=kfreebsd-amd64,kfreebsd-i386 profile=!stage1
+ libc0.1-dbg deb debug optional arch=kfreebsd-amd64,kfreebsd-i386 profile=!stage1
+ libc0.1-dev deb libdevel optional arch=kfreebsd-amd64,kfreebsd-i386
+ libc0.1-dev-i386 deb libdevel optional arch=kfreebsd-amd64 profile=!nobiarch
+ libc0.1-i386 deb libs optional arch=kfreebsd-amd64 profile=!stage1,!nobiarch
+ libc0.1-udeb udeb debian-installer optional arch=kfreebsd-amd64,kfreebsd-i386 profile=!stage1
+ libc0.3 deb libs optional arch=hurd-i386 profile=!stage1
+ libc0.3-dbg deb debug optional arch=hurd-i386 profile=!stage1
+ libc0.3-dev deb libdevel optional arch=hurd-i386
+ libc0.3-udeb udeb debian-installer optional arch=hurd-i386 profile=!stage1
+ libc0.3-xen deb libs optional arch=hurd-i386 profile=!stage1
+ libc6 deb libs optional arch=amd64,arm64,armel,armhf,hppa,i386,m68k,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,nios2,powerpc,ppc64,ppc64el,riscv64,sparc,sparc64,s390x,sh3,sh4,x32 profile=!stage1
+ libc6-amd64 deb libs optional arch=i386,x32 profile=!stage1,!nobiarch
+ libc6-dbg deb debug optional arch=amd64,arm64,armel,armhf,hppa,i386,m68k,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,nios2,powerpc,ppc64,ppc64el,riscv64,sparc,sparc64,s390x,sh3,sh4,x32 profile=!stage1
+ libc6-dev deb libdevel optional arch=amd64,arm64,armel,armhf,hppa,i386,m68k,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,nios2,powerpc,ppc64,ppc64el,riscv64,sparc,sparc64,s390x,sh3,sh4,x32
+ libc6-dev-amd64 deb libdevel optional arch=i386,x32 profile=!nobiarch
+ libc6-dev-i386 deb libdevel optional arch=amd64,x32 profile=!nobiarch
+ libc6-dev-mips32 deb libdevel optional arch=mipsn32,mipsn32el,mips64,mips64el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el profile=!nobiarch
+ libc6-dev-mips64 deb libdevel optional arch=mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el profile=!nobiarch
+ libc6-dev-mipsn32 deb libdevel optional arch=mips,mipsel,mips64,mips64el,mipsr6,mipsr6el,mips64r6,mips64r6el profile=!nobiarch
+ libc6-dev-powerpc deb libdevel optional arch=ppc64 profile=!nobiarch
+ libc6-dev-ppc64 deb libdevel optional arch=powerpc profile=!nobiarch
+ libc6-dev-s390 deb libdevel optional arch=s390x profile=!nobiarch
+ libc6-dev-sparc deb libdevel optional arch=sparc64 profile=!nobiarch
+ libc6-dev-sparc64 deb libdevel optional arch=sparc profile=!nobiarch
+ libc6-dev-x32 deb libdevel optional arch=amd64,i386 profile=!nobiarch
+ libc6-i386 deb libs optional arch=amd64,x32 profile=!stage1,!nobiarch
+ libc6-mips32 deb libs optional arch=mipsn32,mipsn32el,mips64,mips64el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el profile=!stage1,!nobiarch
+ libc6-mips64 deb libs optional arch=mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el profile=!stage1,!nobiarch
+ libc6-mipsn32 deb libs optional arch=mips,mipsel,mips64,mips64el,mipsr6,mipsr6el,mips64r6,mips64r6el profile=!stage1,!nobiarch
+ libc6-powerpc deb libs optional arch=ppc64 profile=!stage1,!nobiarch
+ libc6-ppc64 deb libs optional arch=powerpc profile=!stage1,!nobiarch
+ libc6-s390 deb libs optional arch=s390x profile=!stage1,!nobiarch
+ libc6-sparc deb libs optional arch=sparc64 profile=!stage1,!nobiarch
+ libc6-sparc64 deb libs optional arch=sparc profile=!stage1,!nobiarch
+ libc6-udeb udeb debian-installer optional arch=amd64,arm64,armel,armhf,hppa,i386,m68k,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,nios2,powerpc,ppc64,ppc64el,riscv64,sparc,sparc64,s390x,sh3,sh4,x32 profile=!stage1
+ libc6-x32 deb libs optional arch=amd64,i386 profile=!stage1,!nobiarch
+ libc6-xen deb libs optional arch=i386 profile=!stage1
+ libc6.1 deb libs optional arch=alpha,ia64 profile=!stage1
+ libc6.1-alphaev67 deb libs optional arch=alpha profile=!stage1
+ libc6.1-dbg deb debug optional arch=alpha,ia64 profile=!stage1
+ libc6.1-dev deb libdevel optional arch=alpha,ia64
+ libc6.1-udeb udeb debian-installer optional arch=alpha,ia64 profile=!stage1
+ locales deb localization standard arch=all profile=!stage1
+ locales-all deb localization optional arch=any profile=!stage1
+ nscd deb admin optional arch=any profile=!stage1
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, binutils, fakeroot, gcc-10, linux-libc-dev
+Directory: pool/main/g/glibc
+Priority: optional
+Section: misc
+
+Package: golang-github-opencontainers-image-spec
+Binary: golang-github-opencontainers-image-spec-dev
+Version: 1.0.1-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Michael Stapelberg <stapelberg@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-opencontainers-go-digest-dev, golang-github-pkg-errors-dev, golang-github-russross-blackfriday-dev, golang-github-xeipuuv-gojsonschema-dev (>= 1.2.0~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-image-spec
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-image-spec.git
+Checksums-Sha256:
+ 78de80ca7e47f357ed153a46d88160fdb97a1b2a9ebf507ba94287014ceecd45 2012 golang-github-opencontainers-image-spec_1.0.1-5.dsc
+ c7ca467de2cca65e7ea74414a3f51e91450156213af485830dcdfff0571e10d2 138674 golang-github-opencontainers-image-spec_1.0.1.orig.tar.gz
+ 0a35ccd3a3524a0e1e478f624ebc5dd26d495a0b2acbedaa948ceafbbdfda7ce 14668 golang-github-opencontainers-image-spec_1.0.1-5.debian.tar.xz
+Homepage: https://github.com/opencontainers/image-spec
+Go-Import-Path: github.com/opencontainers/image-spec
+Package-List: 
+ golang-github-opencontainers-image-spec-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Extra-Source-Only: yes
+Directory: pool/main/g/golang-github-opencontainers-image-spec
+Priority: extra
+Section: golang
+
+Package: golang-github-opencontainers-specs
+Binary: golang-github-opencontainers-specs-dev
+Version: 1.0.2.41.g7413a7f-1+deb11u1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-specs
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-specs.git
+Checksums-Sha256:
+ dea2bba86d4c4729e54f2c8700220e60ca34b5717023fe43fd2f310bccfbf308 2658 golang-github-opencontainers-specs_1.0.2.41.g7413a7f-1+deb11u1.dsc
+ ced9af999bf32900d7beaffd3f66b001aebe3d021a48636045ec2bdefbab8b01 59896 golang-github-opencontainers-specs_1.0.2.41.g7413a7f.orig.tar.xz
+ dc5a591c942771aa90ed84a2bc3785d8ce6f90882d94334501055498522a770b 5024 golang-github-opencontainers-specs_1.0.2.41.g7413a7f-1+deb11u1.debian.tar.xz
+Homepage: https://github.com/opencontainers/runtime-spec
+Dgit: 6f96bd0e20e7b434eb093a3d484b0dcab864f559 debian archive/debian/1.0.2.41.g7413a7f-1+deb11u1 https://git.dgit.debian.org/golang-github-opencontainers-specs
+Go-Import-Path: github.com/opencontainers/runtime-spec
+Package-List: 
+ golang-github-opencontainers-specs-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Extra-Source-Only: yes
+Directory: pool/main/g/golang-github-opencontainers-specs
+Priority: extra
+Section: golang
+
+Package: grub-efi-amd64-signed
+Binary: grub-efi-amd64-signed
+Version: 1+2.06+3~deb11u2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Uploaders: Felix Zielcke <fzielcke@z-51.de>, Jordi Mallach <jordi@debian.org>, Colin Watson <cjwatson@debian.org>, Ian Campbell <ijc@debian.org>
+Build-Depends: debhelper (>= 10.1~), sbsigntool [amd64 arm64 i386], grub-efi-amd64-bin (= 2.06-3~deb11u2)
+Architecture: amd64
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Checksums-Sha256:
+ 214113240daaf4f81859f130bc5b39f7394d209b6fd5dc8f6aca57082004d522 1759 grub-efi-amd64-signed_1+2.06+3~deb11u2.dsc
+ 37a20040eec8a1cc6dbbd26969612d55918b3f701955a86d8819296350dc1ea9 4752 grub-efi-amd64-signed_1+2.06+3~deb11u2.tar.xz
+Package-List: 
+ grub-efi-amd64-signed deb admin optional arch=amd64
+Directory: pool/main/g/grub-efi-amd64-signed
+Priority: extra
+Section: misc
+
+Package: grub-efi-arm64-signed
+Binary: grub-efi-arm64-signed
+Version: 1+2.06+3~deb11u2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Uploaders: Felix Zielcke <fzielcke@z-51.de>, Jordi Mallach <jordi@debian.org>, Colin Watson <cjwatson@debian.org>, Ian Campbell <ijc@debian.org>
+Build-Depends: debhelper (>= 10.1~), sbsigntool [amd64 arm64 i386], grub-efi-arm64-bin (= 2.06-3~deb11u2)
+Architecture: arm64
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Checksums-Sha256:
+ d5d112e32e6bf0a52486f86bba9b12d56feb937d2f94b83448540672bbce1797 1759 grub-efi-arm64-signed_1+2.06+3~deb11u2.dsc
+ 34ba67368b90efc63f7dba319250d058416480adcff95433e8d200aca6bcffe0 4752 grub-efi-arm64-signed_1+2.06+3~deb11u2.tar.xz
+Package-List: 
+ grub-efi-arm64-signed deb admin optional arch=arm64
+Directory: pool/main/g/grub-efi-arm64-signed
+Priority: extra
+Section: misc
+
+Package: grub-efi-ia32-signed
+Binary: grub-efi-ia32-signed
+Version: 1+2.06+3~deb11u2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Uploaders: Felix Zielcke <fzielcke@z-51.de>, Jordi Mallach <jordi@debian.org>, Colin Watson <cjwatson@debian.org>, Ian Campbell <ijc@debian.org>
+Build-Depends: debhelper (>= 10.1~), sbsigntool [amd64 arm64 i386], grub-efi-ia32-bin (= 2.06-3~deb11u2)
+Architecture: i386
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Checksums-Sha256:
+ 7348bc96e854f1a075b2bd508fe614f121d4d5fdfbc1d5cfdc7157d791f614de 1750 grub-efi-ia32-signed_1+2.06+3~deb11u2.dsc
+ 7211d3c940cef1e1b56b8e5f426d47be0a8ca95b4dc98c94fbfc65c76d282b76 4756 grub-efi-ia32-signed_1+2.06+3~deb11u2.tar.xz
+Package-List: 
+ grub-efi-ia32-signed deb admin optional arch=i386
+Directory: pool/main/g/grub-efi-ia32-signed
+Priority: extra
+Section: misc
+
+Package: grub2
+Binary: grub2, grub-linuxbios, grub-efi, grub-common, grub2-common, grub-emu, grub-emu-dbg, grub-pc-bin, grub-pc-dbg, grub-pc, grub-rescue-pc, grub-coreboot-bin, grub-coreboot-dbg, grub-coreboot, grub-efi-ia32-bin, grub-efi-ia32-dbg, grub-efi-ia32, grub-efi-ia32-signed-template, grub-efi-amd64-bin, grub-efi-amd64-dbg, grub-efi-amd64, grub-efi-amd64-signed-template, grub-efi-ia64-bin, grub-efi-ia64-dbg, grub-efi-ia64, grub-efi-arm-bin, grub-efi-arm-dbg, grub-efi-arm, grub-efi-arm64-bin, grub-efi-arm64-dbg, grub-efi-arm64, grub-efi-arm64-signed-template, grub-ieee1275-bin, grub-ieee1275-dbg, grub-ieee1275, grub-firmware-qemu, grub-uboot-bin, grub-uboot-dbg, grub-uboot, grub-xen-bin, grub-xen-dbg, grub-xen, grub-xen-host, grub-yeeloong-bin, grub-yeeloong-dbg, grub-yeeloong, grub-theme-starfield, grub-mount-udeb
+Version: 2.06-3~deb11u2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Uploaders: Felix Zielcke <fzielcke@z-51.de>, Jordi Mallach <jordi@debian.org>, Colin Watson <cjwatson@debian.org>, Steve McIntyre <93sam@debian.org>, Julian Andres Klode <jak@debian.org>
+Build-Depends: debhelper-compat (= 13), patchutils, python3, flex, bison, po-debconf, help2man, texinfo, gcc-10, gcc-10-multilib [i386 kopensolaris-i386 any-amd64 any-ppc64 any-sparc], xfonts-unifont, libfreetype6-dev, gettext, libdevmapper-dev [linux-any], libgeom-dev (>= 8.2+ds1-1~) [kfreebsd-any] | libgeom-dev (<< 8.2) [kfreebsd-any], libsdl1.2-dev [!hurd-any], xorriso, qemu-system [i386 kfreebsd-i386 kopensolaris-i386 any-amd64], cpio [i386 kopensolaris-i386 amd64 x32], parted [!hurd-any], libfuse-dev (>= 2.8.4-1.4) [linux-any kfreebsd-any], fonts-dejavu-core, liblzma-dev, dosfstools [any-i386 any-amd64 any-arm64], mtools [any-i386 any-amd64 any-arm64], wamerican, libparted-dev [any-powerpc any-ppc64 any-ppc64el], pkg-config, bash-completion, libefiboot-dev [i386 amd64 ia64 x32 armel armhf arm64], libefivar-dev [i386 amd64 ia64 x32 armel armhf arm64]
+Build-Conflicts: autoconf2.13, libnvpair-dev, libzfs-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/grub-team/grub
+Vcs-Git: https://salsa.debian.org/grub-team/grub.git
+Checksums-Sha256:
+ 6fbd4f585a29a638a7c77888d3e0824c19e823d8c8e12a751f455154aa440819 7125 grub2_2.06-3~deb11u2.dsc
+ b79ea44af91b93d17cd3fe80bdae6ed43770678a9a5ae192ccea803ebb657ee1 6581924 grub2_2.06.orig.tar.xz
+ b4a3a62a308e97537c21b88ba51174e792bfd77492675eef0cfd75a481e62b22 833 grub2_2.06.orig.tar.xz.asc
+ 41fd3ddc8f0b27a6e0dfa6e5110154c14dc814f0683449149ec4d9785ff84b6d 1084520 grub2_2.06-3~deb11u2.debian.tar.xz
+Homepage: https://www.gnu.org/software/grub/
+Package-List: 
+ grub-common deb admin optional arch=any
+ grub-coreboot deb admin optional arch=any-i386,any-amd64
+ grub-coreboot-bin deb admin optional arch=any-i386,any-amd64
+ grub-coreboot-dbg deb debug optional arch=any-i386,any-amd64
+ grub-efi deb admin optional arch=any-i386,any-amd64,any-arm64,any-ia64,any-arm
+ grub-efi-amd64 deb admin optional arch=i386,kopensolaris-i386,any-amd64
+ grub-efi-amd64-bin deb admin optional arch=i386,kopensolaris-i386,any-amd64
+ grub-efi-amd64-dbg deb debug optional arch=i386,kopensolaris-i386,any-amd64
+ grub-efi-amd64-signed-template deb admin optional arch=amd64
+ grub-efi-arm deb admin optional arch=any-arm
+ grub-efi-arm-bin deb admin optional arch=any-arm
+ grub-efi-arm-dbg deb debug optional arch=any-arm
+ grub-efi-arm64 deb admin optional arch=any-arm64
+ grub-efi-arm64-bin deb admin optional arch=any-arm64
+ grub-efi-arm64-dbg deb debug optional arch=any-arm64
+ grub-efi-arm64-signed-template deb admin optional arch=arm64
+ grub-efi-ia32 deb admin optional arch=any-i386,any-amd64
+ grub-efi-ia32-bin deb admin optional arch=any-i386,any-amd64
+ grub-efi-ia32-dbg deb debug optional arch=any-i386,any-amd64
+ grub-efi-ia32-signed-template deb admin optional arch=i386
+ grub-efi-ia64 deb admin optional arch=any-ia64
+ grub-efi-ia64-bin deb admin optional arch=any-ia64
+ grub-efi-ia64-dbg deb debug optional arch=any-ia64
+ grub-emu deb admin optional arch=any-i386,any-amd64,any-powerpc
+ grub-emu-dbg deb debug optional arch=any-i386,any-amd64,any-powerpc
+ grub-firmware-qemu deb admin optional arch=any-i386,any-amd64
+ grub-ieee1275 deb admin optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64
+ grub-ieee1275-bin deb admin optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64
+ grub-ieee1275-dbg deb debug optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64
+ grub-linuxbios deb oldlibs optional arch=any-i386,any-amd64
+ grub-mount-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any
+ grub-pc deb admin optional arch=any-i386,any-amd64
+ grub-pc-bin deb admin optional arch=any-i386,any-amd64
+ grub-pc-dbg deb debug optional arch=any-i386,any-amd64
+ grub-rescue-pc deb admin optional arch=any-i386,any-amd64
+ grub-theme-starfield deb admin optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64,any-mipsel,any-ia64,any-arm,any-arm64
+ grub-uboot deb admin optional arch=any-arm
+ grub-uboot-bin deb admin optional arch=any-arm
+ grub-uboot-dbg deb debug optional arch=any-arm
+ grub-xen deb admin optional arch=i386,amd64
+ grub-xen-bin deb admin optional arch=i386,amd64
+ grub-xen-dbg deb debug optional arch=i386,amd64
+ grub-xen-host deb admin optional arch=i386,amd64
+ grub-yeeloong deb admin optional arch=any-mipsel
+ grub-yeeloong-bin deb admin optional arch=any-mipsel
+ grub-yeeloong-dbg deb debug optional arch=any-mipsel
+ grub2 deb oldlibs optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64
+ grub2-common deb admin optional arch=any-i386,any-amd64,any-powerpc,any-ppc64,any-ppc64el,any-sparc,any-sparc64,any-mipsel,any-ia64,any-arm,any-arm64
+Directory: pool/main/g/grub2
+Priority: source
+Section: admin
+
+Package: libdatetime-timezone-perl
+Binary: libdatetime-timezone-perl
+Version: 1:2.47-1+2023d
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclass-singleton-perl <!nocheck>, libdatetime-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libparams-validationcompiler-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libspecio-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-taint-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdatetime-timezone-perl.git
+Checksums-Sha256:
+ 38e3b1fe842e5b3f26399aa19d5c31ae302eb3e144bcdac07c66b4a1def36d43 2917 libdatetime-timezone-perl_2.47-1+2023d.dsc
+ 41617138dbb5e255fe5ac3cab6f1cc8e09f934bc95906b8cd7077192a21ef2b9 1006477 libdatetime-timezone-perl_2.47.orig.tar.gz
+ 524d4436c96481c17aaa946c793ad8deae751e5dfd5a85c94bf5fb81932be7e6 104960 libdatetime-timezone-perl_2.47-1+2023d.debian.tar.xz
+Homepage: http://datetime.perl.org/
+Dgit: 14a9b8204453f0c15f4f62c370d716820f093af3 debian archive/debian/1%2.47-1+2023d https://git.dgit.debian.org/libdatetime-timezone-perl
+Package-List: 
+ libdatetime-timezone-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdatetime-timezone-perl
+Priority: source
+Section: perl
+
+Package: postfix
+Binary: postfix, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-sqlite, postfix-doc
+Version: 3.5.23-0+deb11u1
+Maintainer: LaMont Jones <lamont@debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 12), po-debconf (>= 0.5.0), groff-base, patch, pkg-config, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), liblmdb-dev, libpcre3-dev, default-libmysqlclient-dev | libmysqlclient-dev, libssl-dev (>= 1.0.2), libsasl2-dev, libpq-dev, libcdb-dev, dpkg-dev (>= 1.16.1~), libsqlite3-dev, html2text, libicu-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/postfix-team/postfix-dev
+Vcs-Git: https://salsa.debian.org/postfix-team/postfix-dev.git
+Checksums-Sha256:
+ 73ecce675283e37ae99de4c0b9cddd22b80fe300606c71e16278537ecf358c3f 3039 postfix_3.5.23-0+deb11u1.dsc
+ 35fc0489ddc997cc83a835907e7deb9e725ca0f5bbce2c9d007634f8873b5b31 4649997 postfix_3.5.23.orig.tar.gz
+ 76f3256c4a85e1bac0b0f6dd0dd98b058e30dde68916d93d95bc8c4849813360 220 postfix_3.5.23.orig.tar.gz.asc
+ b141d0aabab7dd7463b11caa168f45f2fe654148f7ffe590c008a4d4a7f46c4b 211128 postfix_3.5.23-0+deb11u1.debian.tar.xz
+Homepage: http://www.postfix.org
+Package-List: 
+ postfix deb mail optional arch=any
+ postfix-cdb deb mail optional arch=any
+ postfix-doc deb doc optional arch=all
+ postfix-ldap deb mail optional arch=any
+ postfix-lmdb deb mail optional arch=any
+ postfix-mysql deb mail optional arch=any
+ postfix-pcre deb mail optional arch=any
+ postfix-pgsql deb mail optional arch=any
+ postfix-sqlite deb mail optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libsasl2-modules, lsb-release, procmail, python3, python3-pexpect, sasl2-bin
+Directory: pool/main/p/postfix
+Priority: source
+Section: mail
+
+Package: systemd
+Binary: systemd, systemd-sysv, systemd-container, systemd-journal-remote, systemd-coredump, systemd-timesyncd, systemd-tests, libpam-systemd, libnss-myhostname, libnss-mymachines, libnss-resolve, libnss-systemd, libsystemd0, libsystemd-dev, udev, libudev1, libudev-dev, udev-udeb, libudev1-udeb
+Version: 247.3-7+deb11u4
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Marco d'Itri <md@linux.it>, Sjoerd Simons <sjoerd@debian.org>, Martin Pitt <mpitt@debian.org>, Felipe Sateler <fsateler@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, xsltproc, docbook-xsl, docbook-xml, m4, meson (>= 0.52.1), gettext, gperf, gnu-efi [amd64 i386 arm64 armhf], libcap-dev (>= 1:2.24-9~), libpam0g-dev, libapparmor-dev (>= 2.13) <!stage1>, libidn2-dev <!stage1>, libiptc-dev <!stage1>, libaudit-dev <!stage1>, libdbus-1-dev (>= 1.3.2) <!nocheck> <!noinsttest>, libcryptsetup-dev (>= 2:1.6.0) <!stage1>, libselinux1-dev (>= 2.1.9), libacl1-dev, liblzma-dev, liblz4-dev (>= 0.0~r125), liblz4-tool <!nocheck>, libbz2-dev <!stage1>, zlib1g-dev <!stage1> | libz-dev <!stage1>, libcurl4-gnutls-dev <!stage1> | libcurl-dev <!stage1>, libmicrohttpd-dev <!stage1>, libgnutls28-dev <!stage1>, libpcre2-dev <!stage1>, libgcrypt20-dev, libkmod-dev (>= 15), libblkid-dev (>= 2.24), libmount-dev (>= 2.30), libseccomp-dev (>= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el riscv64 s390x], libdw-dev (>= 0.158) <!stage1>, libpolkit-gobject-1-dev <!stage1>, libzstd-dev (>= 1.4.0), linux-base <!nocheck>, acl <!nocheck>, python3:native, python3-lxml:native, python3-pyparsing <!nocheck>, python3-evdev <!nocheck>, tzdata <!nocheck>, libcap2-bin <!nocheck>, iproute2 <!nocheck>, zstd <!nocheck>
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/systemd-team/systemd
+Vcs-Git: https://salsa.debian.org/systemd-team/systemd.git
+Checksums-Sha256:
+ 7d1b87217b355b62b454728be911c7a9ecf9f9c8e33155e8c0a499b57a86f649 5224 systemd_247.3-7+deb11u4.dsc
+ 2869986e219a8dfc96cc0dffac66e0c13bb70a89e16b85a3948876c146cfa3e0 9895385 systemd_247.3.orig.tar.gz
+ d1641185f547643cc2788606f209c57a9d66bd9f646564959a2680a7da1e2234 196116 systemd_247.3-7+deb11u4.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Package-List: 
+ libnss-myhostname deb admin optional arch=linux-any
+ libnss-mymachines deb admin optional arch=linux-any
+ libnss-resolve deb admin optional arch=linux-any
+ libnss-systemd deb admin standard arch=linux-any
+ libpam-systemd deb admin standard arch=linux-any
+ libsystemd-dev deb libdevel optional arch=linux-any
+ libsystemd0 deb libs optional arch=linux-any
+ libudev-dev deb libdevel optional arch=linux-any
+ libudev1 deb libs optional arch=linux-any
+ libudev1-udeb udeb debian-installer optional arch=linux-any profile=!noudeb
+ systemd deb admin important arch=linux-any
+ systemd-container deb admin optional arch=linux-any profile=!stage1
+ systemd-coredump deb admin optional arch=linux-any profile=!stage1
+ systemd-journal-remote deb admin optional arch=linux-any profile=!stage1
+ systemd-sysv deb admin important arch=linux-any
+ systemd-tests deb admin optional arch=linux-any profile=!noinsttest
+ systemd-timesyncd deb admin standard arch=linux-any
+ udev deb admin important arch=linux-any
+ udev-udeb udeb debian-installer optional arch=linux-any profile=!noudeb
+Testsuite: autopkgtest
+Testsuite-Triggers: acl, apparmor, build-essential, busybox-static, cron, cryptsetup-bin, dbus-user-session, dmeventd, dnsmasq-base, e2fsprogs, evemu-tools, fdisk, gcc, gdm3, iproute2, iputils-ping, isc-dhcp-client, kbd, less, libc-dev, libc6-dev, libcap2-bin, liblz4-tool, locales, make, net-tools, netcat-openbsd, network-manager, perl, pkg-config, plymouth, policykit-1, python3, qemu-system-arm, qemu-system-ppc, qemu-system-s390x, qemu-system-x86, quota, rsyslog, seabios, socat, squashfs-tools, strace, tree, util-linux, xserver-xorg, xserver-xorg-video-dummy, xz-utils, zstd
+Directory: pool/main/s/systemd
+Priority: source
+Section: admin
+
+Package: tzdata
+Binary: tzdata
+Version: 2021a-1+deb11u11
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: gawk, po-debconf, symlinks
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/glibc-team/tzdata
+Vcs-Git: https://salsa.debian.org/glibc-team/tzdata.git
+Checksums-Sha256:
+ 3b731bafa4c33b8c7e93d8af3a9f70ea3c7e9c0da6547a2121936b8040b0ff50 2273 tzdata_2021a-1+deb11u11.dsc
+ 39e7d2ba08c68cbaefc8de3227aab0dec2521be8042cf56855f7dc3a9fb14e08 411892 tzdata_2021a.orig.tar.gz
+ 9dc5f54674166f4ffbc2d4485e656227430ab5f39c9006e6ed9986281117f058 833 tzdata_2021a.orig.tar.gz.asc
+ 6e47625c58bd323f2ec4a2a4e1187d8504bf2055fc4ea0ca154da8bd99dfbd06 125056 tzdata_2021a-1+deb11u11.debian.tar.xz
+Homepage: https://www.iana.org/time-zones
+Package-List: 
+ tzdata deb localization required arch=all
+Directory: pool/main/t/tzdata
+Priority: source
+Section: localization
+

@@ -1,0 +1,12 @@
+[Unit]
+Description=Foundry client
+Documentation=https://gitlab.com/mergetb/tech/foundry
+
+[Service]
+ExecStart=/usr/local/bin/foundryc
+Type=simple
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

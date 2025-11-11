@@ -1,0 +1,46 @@
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda1
+Feb 13 05:54:36 debian 05efi: debug: /dev/sda1 is a FAT32 partition
+Feb 13 05:54:36 debian 05efi: debug: /dev/sda1 partition scheme is gpt
+Feb 13 05:54:36 debian 05efi: debug: /dev/sda1 partition type is c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+Feb 13 05:54:36 debian 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/10elilo
+Feb 13 05:54:36 debian 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/20microsoft
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda1
+Feb 13 05:54:36 debian 10freedos: debug: /dev/sda1 is a FAT32 partition
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda1
+Feb 13 05:54:36 debian 10qnx: debug: /dev/sda1 is not a QNX4 partition: exiting
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda1
+Feb 13 05:54:36 debian macosx-prober: debug: /dev/sda1 is not an HFS+ partition: exiting
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda1
+Feb 13 05:54:36 debian 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda1
+Feb 13 05:54:36 debian 30utility: debug: /dev/sda1 is a FAT32 partition
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda1
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda1
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda1
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda1
+Feb 13 05:54:36 debian 83haiku: debug: /dev/sda1 is not a BeFS partition: exiting
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda1
+Feb 13 05:54:36 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda1
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/vda1
+Nov 10 16:45:43 debian 05efi: debug: /dev/vda1 is a FAT32 partition
+Nov 10 16:45:43 debian 05efi: debug: /dev/vda1 partition scheme is gpt
+Nov 10 16:45:43 debian 05efi: debug: /dev/vda1 partition type is c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+Nov 10 16:45:43 debian 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/10elilo
+Nov 10 16:45:43 debian 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/20microsoft
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/vda1
+Nov 10 16:45:43 debian 10freedos: debug: /dev/vda1 is a FAT32 partition
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/vda1
+Nov 10 16:45:43 debian 10qnx: debug: /dev/vda1 is not a QNX4 partition: exiting
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/vda1
+Nov 10 16:45:43 debian macosx-prober: debug: /dev/vda1 is not an HFS+ partition: exiting
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/vda1
+Nov 10 16:45:43 debian 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/vda1
+Nov 10 16:45:43 debian 30utility: debug: /dev/vda1 is a FAT32 partition
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/vda1
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/vda1
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/vda1
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/vda1
+Nov 10 16:45:43 debian 83haiku: debug: /dev/vda1 is not a BeFS partition: exiting
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/vda1
+Nov 10 16:45:43 debian os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/vda1

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/cgi-fcgi
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfcgi-bin
+/usr/share/doc/libfcgi-bin/changelog.Debian.gz
+/usr/share/doc/libfcgi-bin/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/cgi-fcgi.1.gz

@@ -1,0 +1,10 @@
+[Unit]
+Description=Mount efivars as a readonly mount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/efivars-remount.sh
+
+[Install]
+WantedBy=multi-user.target

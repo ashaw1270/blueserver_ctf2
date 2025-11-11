@@ -1,0 +1,12 @@
+Language:         american (American English)
+Hash-Name:        american
+Emacsen-Name:     american
+Casechars:        [A-Za-z]
+Not-Casechars:    [^A-Za-z]
+Otherchars:       [']
+Many-Otherchars:
+Additionalchars:
+Ispell-Args:      -B -d american
+Extended-Character-Mode:
+Coding-System:    utf-8
+Auto-Compat:      american

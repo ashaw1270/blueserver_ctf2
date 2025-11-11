@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/bin
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3.9
+/usr/share/doc/python3.9/HISTORY.gz
+/usr/share/doc/python3.9/README.maintainers
+/usr/share/doc/python3.9/README.valgrind.gz
+/usr/share/doc/python3.9/gdbinit.gz
+/usr/share/doc/python3.9/pybench.log
+/usr/share/doc/python3.9/test_results.gz
+/usr/share/man
+/usr/share/man/man1
+/usr/bin/python3.9-config
+/usr/share/doc/python3.9-dev
+/usr/share/man/man1/python3.9-config.1.gz

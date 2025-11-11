@@ -1,0 +1,5 @@
+aac7a67b582c046208d861b66f332ebe  usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb
+0a57fb1dbf05b8298a826ac325461cf9  usr/share/doc/rubygems-integration/README.markdown
+689a41f16843114ac34a27a2e47c9d31  usr/share/doc/rubygems-integration/changelog.gz
+b3d83014ea061a7985f88f4ab2f0eb41  usr/share/doc/rubygems-integration/copyright
+b22a4b06f23cb926e30c893f4f661897  usr/share/lintian/overrides/rubygems-integration

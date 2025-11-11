@@ -1,0 +1,9 @@
+[Unit]
+Description=Initialize machine id
+
+[Service]
+Type=oneshot
+ExecStart=/bin/systemd-machine-id-setup
+
+[Install]
+WantedBy=multi-user.target

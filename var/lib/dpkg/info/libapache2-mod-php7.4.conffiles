@@ -1,0 +1,2 @@
+/etc/apache2/mods-available/php7.4.conf
+/etc/apache2/mods-available/php7.4.load

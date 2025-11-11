@@ -1,0 +1,1664 @@
+Package: ca-certificates-java
+Version: 20190909+deb11u1
+Installed-Size: 43
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: ca-certificates (>= 20121114), default-jre-headless | java8-runtime-headless, libnss3 (>= 3.12.10-2~)
+Description: Common CA certificates (JKS keystore)
+Multi-Arch: foreign
+Description-md5: 304cd3554728e5d076f8ecbb3b5057d8
+Tag: protocol::ssl, role::app-data, security::authentication,
+ security::cryptography
+Section: java
+Priority: optional
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_20190909+deb11u1_all.deb
+Size: 15932
+SHA256: 0722c1297881d7cd1a2abeeb2fc25904c13468f7a081d5b195a8fcce82836478
+
+Package: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 775
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-freshclam (>= 0.103.10+dfsg) | clamav-data, libc6 (>= 2.28), libclamav9 (>= 0.103.10), libcurl4 (>= 7.16.2), libjson-c5 (>= 0.15), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: libclamunrar, clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 181192
+SHA256: cfcb44435824adb3202db13b61f9278e6c29387fc009dc3569f978eff35c9c5e
+
+Package: clamav-base
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 178
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: https://www.clamav.net/
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Tag: interface::commandline, role::app-data, role::program,
+ security::antivirus, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.103.10+dfsg-0+deb11u1_all.deb
+Size: 129588
+SHA256: 3fed8300f8e65ee2b4640d9315ed5cf4f8f4760a332167b8f3f1a846086a454e
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 1042
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (= 0.103.10+dfsg-0+deb11u1), clamav-freshclam (>= 0.103.10+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libclamav9 (>= 0.103.10), libcurl4 (>= 7.18.2), libncurses6 (>= 6), libsystemd0, libtinfo6 (>= 6), zlib1g (>= 1:1.2.0.2)
+Recommends: clamdscan
+Suggests: libclamunrar, apparmor, clamav-docs, daemon
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: https://www.clamav.net/
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ uitoolkit::ncurses, use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 256732
+SHA256: 346f65f9de20a9043eea2c4b35a7285ad4b4ed21c0c7e88c20ea02bac95122a8
+
+Package: clamav-docs
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 8996
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: af78818bbdf8851b6358c15693a31419
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ role::program, security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.103.10+dfsg-0+deb11u1_all.deb
+Size: 2637900
+SHA256: e803848097c23d4fb79507b463aea2f7bab907aea295504abd543f2509a97543
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 372
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: clamav-data
+Depends: clamav-base (>= 0.103.10+dfsg-0+deb11u1), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.7), libclamav9 (>= 0.103.10)
+Recommends: ca-certificates
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: https://www.clamav.net/
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 180900
+SHA256: 79b0ff881c4af15d98a71b06b383d51fddcf2e1e578948275bcedaecdb08fab9
+
+Package: clamav-milter
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 551
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (>= 0.103.10+dfsg-0+deb11u1), clamav-freshclam (>= 0.103.10+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libclamav9 (>= 0.103.10), libmilter1.0.1
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: https://www.clamav.net/
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-milter_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 233216
+SHA256: f2c9284c7f5f4d0f88a4f89aae3a6cfa487463a3b05050254defe5e6c454b3f9
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 6543
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Multi-Arch: foreign
+Homepage: https://www.clamav.net/
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Tag: devel::testing-qa, interface::commandline, made-of::dictionary,
+ role::app-data, role::program, security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.103.10+dfsg-0+deb11u1_all.deb
+Size: 2886376
+SHA256: cfefae7949e12ce106e0bbed3b85ee0317afc26810ddeda925a8109e1bff85cd
+
+Package: clamdscan
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 253
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-base (= 0.103.10+dfsg-0+deb11u1), libc6 (>= 2.28), libclamav9 (>= 0.103.10)
+Suggests: clamav-daemon, clamav-docs
+Description: anti-virus utility for Unix - scanner client
+Homepage: https://www.clamav.net/
+Description-md5: ad077e4c74b9870b6e7bb55aef11c547
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamdscan_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 105144
+SHA256: be5b39a9ba843b18d3786e6c3df1ce3ff83d2aab4cd81d220762970abf22efd9
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 165
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav9 (= 0.103.10+dfsg-0+deb11u1), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: https://www.clamav.net/
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ role::program, security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 74756
+SHA256: 97d18e0cbd7a8800c52f33651f88784c40e0baf476e5c6f646ffde62f5aca0d2
+
+Package: libclamav9
+Source: clamav
+Version: 0.103.10+dfsg-0+deb11u1
+Installed-Size: 2352
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-1.0, libc6 (>= 2.29), libcurl4 (>= 7.16.2), libjson-c5 (>= 0.15), libltdl7 (>= 2.4.6), libmspack0 (>= 0.4), libpcre2-8-0 (>= 10.22), libssl1.1 (>= 1.1.0), libtfm1 (>= 0.13), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.4)
+Suggests: libclamunrar, libclamunrar9
+Description: anti-virus utility for Unix - library
+Multi-Arch: same
+Homepage: https://www.clamav.net/
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav9_0.103.10+dfsg-0+deb11u1_amd64.deb
+Size: 882464
+SHA256: 03817b138525c3f84f94cd30d5bd924fefb8873e4ad4bfe11875ba20d71b7fc5
+
+Package: crun
+Version: 0.17+dfsg-1+deb11u2
+Installed-Size: 1371
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.28), libcap2 (>= 1:2.10), libseccomp2 (>= 2.2.1), libsystemd0 (>= 237), libyajl2 (>= 2.0.4)
+Description: lightweight OCI runtime for running containers
+Homepage: https://github.com/containers/crun
+Built-Using: golang-github-opencontainers-image-spec (= 1.0.1-5), golang-github-opencontainers-specs (= 1.0.2.41.g7413a7f-1+deb11u1)
+Description-md5: 190d3fbb5479005fbfa8f5f0f25584d3
+Section: admin
+Priority: optional
+Filename: pool/main/c/crun/crun_0.17+dfsg-1+deb11u2_amd64.deb
+Size: 240848
+SHA256: 2134dd39d5013ceb29682726989b5758e9d0a397f163e7169bfc1a353c8e2320
+
+Package: debian-security-support
+Version: 1:11+2023.05.04
+Installed-Size: 154
+Maintainer: Holger Levsen <holger@debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, adduser, gettext-base
+Description: Debian security support coverage checker
+Description-md5: 12ffce3ff2b1f544b0063de409234b9b
+Section: admin
+Priority: optional
+Filename: pool/main/d/debian-security-support/debian-security-support_11+2023.05.04_all.deb
+Size: 30172
+SHA256: 28667f2b93297a99abebb5afe90f6d87e4b1a35337eab616ee9e5df333748ba9
+
+Package: glibc-doc
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 3162
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Suggests: glibc-doc-reference
+Description: GNU C Library: Documentation
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: ec34f59d4398ff8ca003177c6585bf0a
+Tag: devel::doc, devel::lang:c, devel::library, implemented-in::c,
+ made-of::html, made-of::info, role::devel-lib, role::documentation,
+ suite::gnu
+Section: doc
+Priority: optional
+Filename: pool/main/g/glibc/glibc-doc_2.31-13+deb11u5_all.deb
+Size: 3183972
+SHA256: cda4a510c42769384ff24be0bdeb248c5e1f63a09d2e41f1eb8c9b05847ae6e0
+
+Package: glibc-source
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 24397
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Recommends: xz-utils
+Breaks: cross-toolchain-base (<< 45~), cross-toolchain-base-mipsen (<< 10), cross-toolchain-base-ports (<< 37~)
+Description: GNU C Library: sources
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 1892ef83f2f36db0d236ccc041158b32
+Section: devel
+Priority: optional
+Filename: pool/main/g/glibc/glibc-source_2.31-13+deb11u5_all.deb
+Size: 18601168
+SHA256: 3523903fb5c630f07760481acb1ef36183feecfed4874ab026a18eb71ab8615e
+
+Package: libc-bin
+Source: glibc
+Version: 2.31-13+deb11u5
+Essential: yes
+Installed-Size: 3736
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>> 2.31), libc6 (<< 2.32)
+Recommends: manpages
+Description: GNU C Library: Binaries
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 7625903821514b57277d1bae69ec3c1a
+Tag: role::shared-lib
+Section: libs
+Priority: required
+Filename: pool/main/g/glibc/libc-bin_2.31-13+deb11u5_amd64.deb
+Size: 828332
+SHA256: 92a19a31dd2ed0c1881bee02a8b3d026cb971ec916d5ef6332f9dd378798f06a
+
+Package: libc-dev-bin
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 377
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>> 2.31), libc6 (<< 2.32)
+Recommends: manpages, manpages-dev, libc-devtools (>> 2.31)
+Description: GNU C Library: Development binaries
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: eb75d411df403df7feafbba2bf0cf5f7
+Tag: devel::code-generator, devel::i18n, devel::library, devel::profiler,
+ devel::rpc, devel::testing-qa, implemented-in::c,
+ interface::commandline, role::devel-lib, role::program, scope::utility,
+ suite::gnu, works-with::file, works-with::software:running
+Section: libdevel
+Priority: optional
+Filename: pool/main/g/glibc/libc-dev-bin_2.31-13+deb11u5_amd64.deb
+Size: 275760
+SHA256: 5d9103f286362de9741bca996ab4f59ee01715c30e0219ed3d68dbec6814413d
+
+Package: libc-devtools
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 322
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Replaces: libc-dev-bin (<< 2.31-8)
+Depends: libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~)
+Recommends: manpages, manpages-dev
+Breaks: libc-dev-bin (<< 2.31-8)
+Description: GNU C Library: Development tools
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 20d92638e9360ec19e7290046eb0d8f7
+Section: devel
+Priority: optional
+Filename: pool/main/g/glibc/libc-devtools_2.31-13+deb11u5_amd64.deb
+Size: 245836
+SHA256: 3b8d22e6c396916e1983fe11501fe3723f54f2148b5fd4670d1e80585e0badbb
+
+Package: libc-l10n
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 4397
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Description: GNU C Library: localization files
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 53ecaa40591ab16906ffe57e37f97283
+Section: localization
+Priority: standard
+Filename: pool/main/g/glibc/libc-l10n_2.31-13+deb11u5_all.deb
+Size: 864556
+SHA256: bac4a07774fbd532c12c350f3ec6e847d6abb3b1d5a5a9fc2030a48e76eeed56
+
+Package: libc6
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 12837
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Replaces: libc6-amd64
+Depends: libgcc-s1, libcrypt1
+Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
+Suggests: glibc-doc, debconf | debconf-2.0, libc-l10n, locales
+Breaks: busybox (<< 1.30.1-6), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.31), locales-all (<< 2.31), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.31), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.1p1-5), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
+Description: GNU C Library: Shared libraries
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: fc3001b0b90a1c8e6690b283a619d57f
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/glibc/libc6_2.31-13+deb11u5_amd64.deb
+Size: 2825060
+SHA256: adf6994e4c000ff5b882db411a23925a5860a10146e27fa08fc08cb4d08e6d85
+
+Package: libc6-dbg
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 11607
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Provides: libc-dbg, libc6-dbgsym
+Depends: libc6 (= 2.31-13+deb11u5)
+Description: GNU C Library: detached debugging symbols
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Build-Ids: 013b95c9bd2750325cb5a5829f6d3fb3d6c7cc99 02b100c7b53abee2365a8fd6b762b88c271181f1 02fef90b340c553239e4bf4b2213cc4cb49787eb 06ee231931453a81b94e185a763cd315c379c62a 07b751de3168638730214fd3ddec36ee24a92889 08269187f2f125b4ef245e2d85779f38ff8430b7 085c2fa85ee546a63db3a8bf285fe68bbfc26fba 0bac74fe46e122ba91474e50c958adf4b2cf2326 0c3a0935f8e024fcd63a72fa025c4b5dcff156e7 0d2d8edc67f869f6ecaef943359ef97986fbb167 0d953fec525ac5ae7d7991bfab1e900829da7aba 0fbd301b581a54160d0cbc72e80996db2ae6e4d1 1170a75955d17fb51f654d3edb2037706cd52dcf 12003fb0fd73747e4d3bbf74aeb5b71d13ee80d7 13d1624199dca7e820e44764dda89953e9fb96c3 14c229d34d642428af224aaab02d43e599924f6b 15418c6ee8271327a17e41146d484bd1a793d201 161124b8378f9e197f17726e406f5437fd5a33dd 1645874e1dc84dc48eba163b2592bb76718c3def 1658715a0ce35d17f10864f0037ed28563faa67e 181af3025106ebc13469e583c952355aa40d7d26 189c792c9583e91b922124b550d5d801a0bd9e16 195daf2ac8319f9f1e7df41d975197a3e72f92f7 19ce9d072d424acfcd5d2e8fd2af0203600c38d6 1a25eac90477e51ca002cfd19fbb95a4b91f0a19 1c96ddab95168d6c562c1eb3be3482cc0894a1f2 1d6ff6c4c69f3572486bc27b8290ee932b0b9f39 1e6a09f93f3f829d71303aed5681fbec3bba6a2e 1fe3cad9618c2ee9b1baa6f1f9c39c28a4a6ef7e 205bf59f000a2a2d471175a0201c4d18daa1d7db 20b263b0e8915cc43229a575be2800028e9362ed 20cbff60777b6b1322ee6f8a7b3f5895ac6a176f 20e9082cf3ac678ed73c7da74af09c3213267f91 219d90d75ae7920c337300998207874290185ea3 21a903a9fc0b231b1778dec05a07012c2362cfb4 21ba69af48bcfb14ed8c9676381a1112330111f9 22fcea508b042ff7d8274003c52ee23772eb1b49 240172e2f00dcce439e02934998fd01310ed92cc 2539a4ae02c8a50446c7386b381cb01998707f1c 25a8908c8174f461cc65ffe53882f82e9b3eb825 26d48d042b3bb402a1d71f423ac1d438c1a37887 28f6fb542bab993a38c55e425a08918358bf68c1 28f97731248c589a0fdb41e8904f500b110876cc 29167e7943914a245ccf9e47c14c3ac20aca44cd 2acc2fb405498329c544e1fbfd63f6def755a660 2c77c60b39c86012c3e1f0d139818d1c5aa91a0b 2dd6d4622423b245128f1ce17f2f246168ecc418 2dde8833fed8d5c8c95f5faca9b1587cbedf0386 2f224692ce47df41cbfd6524a15c0862f53e2d76 2fa24aed2785ff89771fca5abbae8a95ad812810 2fca15a411d86be3308c0a851d73518b253b4a94 30e1b451e16905bc7ffacb28a3c2f2b98bb0ed36 32176173134f7a4d144fcadf2cf7594797127da6 327dd90e808e7487c8a87a1e20911e59f0d6da59 336c7a422bb9379d6ebe59c6bed3141fd639227b 34b7f97cf54500cd998caf62d7f25e1714216c97 35e6b8689a87e60b0e26f2de08719d3b0c7a6285 3670b2112e0098e9b2e5922f3122caf0cb66fc78 38a2e3cd32c6db08b92c81bb0167f2882a8a3770 399460ecab9770c6292f9adc86812f4eff700e3d 3c6567bf662d906832327a3b580acfb2c288186a 3ce66b88ff624f826a5536147f0f5936d7f24454 3d14858fb1f889ed7af119f4c1515256977614d0 3f837277e33204f55c86501a43b7c4a0e516dd03 404ec38c45f992cce356922ecc31cf49e3ae680d 40992ae05e1a9704389481944c4a3436becade83 40a1089793b3e93139bc2291d66df03e525bf96c 43d372c871e6b510eb858ac32ffc0b8a3566a4e6 44302a4c41213f1d66e0bfe32c5484d45414f952 45a2f140c7cdee0694b7241e373832beff1812f9 4606703e94417408bfb0b540835a98b970d1b750 4666548e3cd70f282487c92851b7c1f15a4daa10 46b3bf3f9b9eb092a5c0cf5575e89092f768054c 46f43e97d293733187cb53ceb1f6e7190ef4da5e 47c886dd83836add9547514cd896a068f917e5cc 484b4a90a6a532887417a719d56c24dd43a6cd7e 48d887c01bb375d60d57ffe843d70d0abca3b2d5 49011539d360c705861581011c11444d1103d09f 492b76d4611808ff0fc97164e4ffb05c9a8165d6 495f7d213f2cccc5991a3e17187d771fdb2945a5 4989977df9e8a44b805a76a54db42a3ead427b58 4a72f8f15198131e4d9e2656ba77f9482fe93c0d 4ab34be93ba8f623af7b733a8e1a79b6e4cf2c32 4bbd84c2f1b86e7c33ae4aa4c614ea276052eb5d 4c03e3071203e8e8e8d2480e5a87b0eae98f6ac2 4c04053d5ad70f578991fe038da2828897090e58 4e133a8c43d36a4f9534cc8e1504d6a0d00189c5 4e487685a9a9d48c0e1e2f785b80ae22931601b0 4eb9154aa1fd4c8d4189e73988516afe0073a383 4fdf5c51c7c92ad22ae4b17b6c87879b7e32d9e9 5053693019aac84f9ba2cf914a996e02a939efd8 507e616b62d96d9854bdf866ddb30c1931773b3c 508f8f869d69f9147029f8c69c331e044043418b 50a0564d83d1c2c91b1b41f1fe109dcf48afb8d6 50a94f67f75c08c5f1a78c499c22d511525e9cfb 511ccae2d8f67185015842ae9fc51ff5ee2a2e79 51a25775d6b45a3a0724c048e02731425bac0b6d 51dbaf095ca4ef2a82570a9e76f60eb938270430 578e0afe185c4e9b57289db75a332245e82a2aee 579516b305e2256dca5ffc14fcd977d5d1354fc1 585f449d9ea9ea62ebbcdf32d341069fb8741c68 58a762c36aad815f366a353d32b0752a77be4d61 5a124dd1d4828ea5d9261c8441a88545df45786b 5ba02d59917aa1154b24ce590fa9de41a83d6215 5d42c5cba5238e880b52035889e64939ce8ead0c 5d770983d67019f86efea787bd00a7e03aada518 5e11ceefa2cd649d313584dce095b4cae83a5dcc 5e40f694d856685cf865a0531ca0d62e25da16c6 5e4ee68731e6e35cc6b5447e33f6abf242b8f086 5fbbdcc0d366d11d4aa7f170b88495a043b91be0 61db9893011dc57e87ff5bbea792dffcd32eb76a 637935b0352c15e8b343424f51472a99900aafe8 64106bc3729c431acf132473be9f8581fbbccefc 65dfeaf88c8e38d2eae4ae064575473f650a85a1 65f969ae4717377e9967b56f45936cad4320513c 670c98bf429c751a13b56ad9c58b9de1e7113b2d 6748e670ae21c959a0927a00855571ab9197a5e5 6808f1a7acd91b05bbe754b0955b3dd52264fa85 684ce32cc4649b5dc3191b1e8b33f48e7e4d7778 6b68f2f2bb8d1a3468654cff05fe54c9010d381b 6dead05977debbc8449820583e00a6074ca786da 6f108fa09f0f2a00c164e7409af0b7f11830dc04 6f14b675183f3f3f450e0c7745eccd972964b98a 747528af9e9df0881c2950aa075d1281a467645a 74a2f7c8d749e20ab531e51f1b60efc77d16ce44 7610e14d7f681f6c9b61a0e93759c016e0d3528a 76c6e134ded38b6576f6cc74a914e89af3c238f6 76e408cc645e9e5ca51e902d6374e3117ee266a0 7a111dc41cea179b5f53302d97416e7d961d1575 7a1995a75accde981d4ecf8a37ac2c077e107647 7c0ab941af098acf0d8e8f1e125ed8f0ff510725 7e917b520ea1ef206b5d7982103022a33d818db5 804a1625d87af1755a461c41ec5cbcf06f1bbf04 82845af78df2c2866f440f3cae5a8103bd3b5acb 82fddb3b8c220c361337a531c038efae4da4bf1c 8353b3f244b6476bf3d6b3416b1bafcf21318a2a 847cd7c4c215f2ac6ec955c9f8c16013d2abd476 863070b0466507317384b539d3904f49eccefb5d 871c7164ef60a85e16c4e807e2a60410876eebea 87a2bd4d19eda03e3bd5a98efc6a379350bf418f 881e337f57fe95691dd86068abb0b0ce46a75a60 8887028a17ee2c6f19fe1c2c0ec65f2e9c68cee3 897901ffceb83e3b4a9cc4a5ad5120f7e2204bf4 89ffc339356c7322f83370fb7bb5c61c64812d44 8b719c16395136103d62e9ed5537e0e3997cedd7 8d33df6ac5da5b2fcb79c82dfb2b8806e0ccefd8 8d45b8d73c8a103d3f2290bf186b220dbd97980d 8ec2d38f39339b321774c952b5f1c90ede1d9a60 8ee98ef08a0d695c3d002b46d05fa35e4c58597b 8f0fc1b69e6d1785acf6c0be55ec0aeaab9ff43e 8fe4d91510ad3ce01b6d9aa0075c8fc71de25c8b 922e5d99104d71ed53f40da98e0e6efdac5645ee 93b12a157dfec8e4587f4e59cfdfe15aa054d61f 94429fa10e67b89163444a803a65a02c5ee25f70 94c23c7875d257576773494117ef0fe4a724bc5c 94eb073951d01c0bef30eb1edfc1d3899d878681 962afa5006404bc966086caca20dae53d943d7b7 96bf2ef6bd927a25a46d2b00d85d09ee1ddcdb59 97ea864d495e04c4021cf696081c8e0f46b64cea 998baf4b0696873bba1bbebd8731b92187622ded 9ad8759a3ad7236e4fa9ea75c05309017e27f547 9b7e4c292f9eb747b1874a302a0fbecc1aaf7ff6 9bdf7939db53bc29820383c965c0bad012f57d77 9cfd21e9ebecaa0d3e677279a9d4d578860248b9 9e9d89059b1014bba92f65ce88ebe08932b076de a024098cc4e0b5fae0adc37c07f6777866a090f3 a1014a1f0a7cb494ea8767eeed59c7ed4afc8803 a19f02bfb5e58258bdf4c474e8d6f86e893d929c a2287883dbeb0dd7239642c97eb2781c921ffe2e a29d875f3ea3f14b843f88c390404cc586fdc0e6 a490b2bf06bce7c26f236cf7822b6d7943f8fe1e a543de3b2341d59a2aa7599ab409e518a5dbace5 a71028b8c15b9e565ac3a828c9555ad5d1b944b2 a825282bae912c3f7a4ac2c8a4403ca71f8aa856 a951c1458bd4dcf79fbfd60c2f6909b23c4b5859 aad86ab4d04ea87c0902ae8060773dd233541eae abc3a8a287c40ad91e190addbaa87094f299b84e ad161100e557e2b9155708202be871e71ef85b87 aee8e858c2f3452ec43a2987d5a59a18003503a8 afbb25069db24ef99f77d5f0e968645c1d5a7718 b064b8389dbd2f58c2ed418f06b01165f5b4aac9 b069c4163218040370ff42193a8a5363a4c733c4 b07e047ef58225ca806302c64780973289ae7d82 b0ba0b55d24d7dc95fd53c80ab23f14a09ccb233 b0ce3665fefcf74d47ffec849d6628125b5b5415 b145ae8c6c173320ebf3095488a329b3f2196908 b2c0c09fc1b5664f83244cebf0491818221eff25 b3457e4e31d7eff67a277ddca3fb1bc0f188d591 b370f8678cb6a86f4ef1e13db38bcee0315575bd b4b9524c422b6388b7c22effcf6db2fba770080c b503275bf9fee51581fdceef97533b194035b4f7 b5f6a2fe1fa6d557f6c7dce4ea29fe68e86d1427 b679184f15e99d12228c098d86b5d4f6b1923ed3 b70f3cf6597bcc793836ed912919db1c61944fcf b94be11cb811d3096ec6eb3b90a51a750cb57d34 bab4b71665bcc7f3f9b142804534c6de15b6e824 bae4419fdf0ae1541ba4e1ab3fbc4f41b9b6c75e bbf697dfa5f7a336833ad11f232218cb86cc2acd bdea5246e8b0aa7d876cabe469608299ac433603 be4ef45ae0217f18867ed0c4d27f2ddb62c3fb43 bf7219540542edb365db42d9aa678d0bbfa1d05d bfbe2868ff68590c30d6960a7d0e336f9a8946b2 bfc2635addd0595999387bbebb3ed6a2415db66e bfd37c79fa2a3d3cf052a7f63c43d961c77ccbe7 c175b3e762b6f6403e8c526b7e6f01f2a81bf2d3 c18edd19b432d10799424e4d3ab4b79be611ceef c1e92e31810af837f5e5ff63c07a4d9f1706391b c2b073465c9efb990bac9613141f3501343f9c89 c32de30b55591e8eefe5aa037a79ceedbe6e5f09 c37d7b18a4ee5387c187c20bb4f24ef2d1aed336 c43196b6431e36c4193c1970972bd3b679fe4807 c5e97a92cf815d536e5bae01b1ebf6be977f1e83 c6033b321387f5ca3953cc9dee284b54868d910f c75d0d1ecefcae18ae4d17306011d737d519b084 c7659e9a5ac515f217fa6edf16fbcdbb3b893b4a c7bc80c8f1db7d75418d31106f5c0042cf0d21fd c7cbb94fa62de7dcb476fd238a4b67d82006eb77 cbdabc991f4c0e612c435b31f9c33dc54d11997f cbf06b4e697f810fdfbf8359df562d52527abbec cceb0fe08320ae8ced9242937a60e9c879f3ee62 cdb71ecae96c1cf52a953fa112d3d551b0de8b7e ce8d951f036382e76054fe69e2bfb58c6a8eb12d ced451f84f24a9a281fe892fd7df71ea052608ab cf13b4edb2a3db77c62790ce3b76253749b7c408 d06407d03a8b931cdb58c7d0a854bbd43ed14cec d152e524250dce7d4a47dfc36ef69ce38c0c22af d18cd7f60c942b48d81cc07d24392eab3a49b74f d19103922875e6f122f2a49ab367cad41abc1542 d1c7c0b207abcb716b487ba41c7c7e4e5ddb70ab d24cce226c693d63649e53f066ea1b5e5e0e183f d34e6510fa5b8b2945f9524a672c6b3aa99e8410 d380aa9378f47303d8b8b1fc22cda3dc32116df1 d6704957a845af43da28f4b08fa6be1f8a202a94 d6be1d1452a479af0fa34559a30b7082a7532c60 d6c1777dabb317c8aebb17c309be5b2f2ce82e3b d8ece795818dce860accc847133031ef894380c2 daca4fa39d253f0f21a29181b00170bc73c7593c daf3858dfa4c91db02e5676725442d4cafae0bb4 dbd26f9e93d0ca96b0dc839e14482b9f46313ba5 df098934bfc3bb92f0bb6be59fab13be9cd1993b dfb6e1d039986c9bd40fa7c7768f827acbff2577 e01487745c57f481bf66c7e92091ee0416bdd22c e016c5e276f1ed06fd28e649d2a331a0302e524c e11f32493dd0e5e6643664a88c3a72defd81cbf1 e25570740d590e5cb7b1a20d86332a8d1bb3b65f e2af70e6cbe00de3bbaec7670688f8d7da2dce56 e3d89df67b09c78b00c7c613d73237da89d47099 e5eb5b4e51845ba570f557cca7bbfe65f86609b6 e7f4ed118ded1df68adc22b9713098939a1d1c4c e8199e504288c017cc6802b5b32c3435bbc9b03f e83bb8abb39aa90ce24ac483d874494212d80349 ea0d1412e15dd895553bec16dcfd6d28dbe459f7 ea1a07b1cbeff62c4765079f2ded4eed8c16d98d eaed3d94bdefdd58a12b684f4968f54d3adf7e58 ed902034ee3cf1680e757487a17f796c46b83bd5 ef2b128b4a8cd5b2e318530bae1398cc80e2fd78 ef74afa641cf24549bb8a5bbb6b9ea927523f5c2 f32a9765e2c7e3ff106c20d7b618d2ca22119a8d f5ac5224101e18a3dda02e16550d60a7a66eac66 f5c0e8d297d2f3ed11395c98183ebcce2b656485 f5eaed14254ed4e6d21c5674f0ef50207684fb79 f6742c8da1aff3cdf65adc345b29e8fd4f002030 f6a3572050d6eb6fa7a6c4b68de86eb0e59cba44 f7c1544e17f1178c6a312a2b0f03f07d65838b54 f82fd3cdb3735daef854b2bf334e9a198d5d43b7 f9f648e15d83edc2dea7da116f020dbc74136bfc f9fce9ce3edc29aedeabbfe30c416cf3063984cc fac7bd32600682f7bbbc78c95c9d602c66bc41e2 fb44e18ae9e85f46cc604bf77953a2e76c95f013 fb8a8ce5afcf6125a7a135147c2cfd8bd506b53e fbba5824afbf73c10b8e2649db1f834203d71b91 fbe98dd45ee9097c93e09e2fbf19fab7e3fc8e06 fe453e026f0e1c86a59fc65039412efc9a1bbce9
+Description-md5: bbc98343da14bf76d4a45c2181fd8902
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/glibc/libc6-dbg_2.31-13+deb11u5_amd64.deb
+Size: 7520920
+SHA256: 14363081c423b67c7de69f18c2fbfb6bad2ef70f3011dc829efe427008955902
+
+Package: libc6-dev
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 14507
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Provides: libc-dev
+Depends: libc6 (= 2.31-13+deb11u5), libc-dev-bin (= 2.31-13+deb11u5), linux-libc-dev, libcrypt-dev, libnsl-dev
+Suggests: glibc-doc, manpages-dev
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Breaks: libc6-dev-amd64-cross (<< 2.31~), libgcc-10-dev (<< 10-20200321-1~), libgcc-7-dev (<< 7.5.0-6~), libgcc-8-dev (<< 8.4.0-2~), libgcc-9-dev (<< 9.3.0-5~), libperl5.26 (<< 5.26.1-3), python3.7 (<< 3.7.7-1+b1), python3.8 (<< 3.8.2-1+b1)
+Description: GNU C Library: Development Libraries and Header Files
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 1bbdc717d9acdb44db940928d570e749
+Build-Essential: yes
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ suite::gnu
+Section: libdevel
+Priority: optional
+Filename: pool/main/g/glibc/libc6-dev_2.31-13+deb11u5_amd64.deb
+Size: 2359020
+SHA256: eb2cb7cf94d0513aea5b0ab5463b11e75c7a94121604b3f3eda0a7128ea28bc6
+
+Package: libc6-dev-i386
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 8831
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Provides: lib32c-dev
+Depends: libc6-i386 (= 2.31-13+deb11u5), libc6-dev (= 2.31-13+deb11u5)
+Recommends: gcc-multilib
+Description: GNU C Library: 32-bit development libraries for AMD64
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 50cf6ae98f9a3cdef9c53b186287325f
+Tag: devel::library, role::devel-lib, role::shared-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/g/glibc/libc6-dev-i386_2.31-13+deb11u5_amd64.deb
+Size: 1840636
+SHA256: 1e5e706ccd6bd03cb69224fb9d3fad360ac1c7fb91be2b631e8308a38f36a323
+
+Package: libc6-dev-x32
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 9391
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6-x32 (= 2.31-13+deb11u5), libc6-dev-i386 (= 2.31-13+deb11u5), libc6-dev (= 2.31-13+deb11u5)
+Recommends: gcc-multilib
+Description: GNU C Library: X32 ABI Development Libraries for AMD64
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 0859bbe63e876c4ed2ca05543b5d535f
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/g/glibc/libc6-dev-x32_2.31-13+deb11u5_amd64.deb
+Size: 1948984
+SHA256: 42d4dd0f5acdc3921b010cdd9d36e5d666e4e84e26c1887ebad324ff7e347427
+
+Package: libc6-i386
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 12000
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Replaces: libc6-dev-i386
+Depends: libc6 (= 2.31-13+deb11u5)
+Conflicts: libc0.1-i386, libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-s390, libc6-sparc, libc6-sparc64, libc6-x32:i386
+Description: GNU C Library: 32-bit shared libraries for AMD64
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 126bea51eae6ba3832096d4d56bfd9d2
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/glibc/libc6-i386_2.31-13+deb11u5_amd64.deb
+Size: 2616208
+SHA256: c0082a25992a99b3a07d4a81610e5838ba3c564a016986af002dddbdf66ef21f
+
+Package: libc6-x32
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 11795
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (= 2.31-13+deb11u5)
+Conflicts: libc0.1-i386, libc6-amd64, libc6-i386:x32, libc6-mips32, libc6-mips64, libc6-mipsn32, libc6-powerpc, libc6-ppc64, libc6-s390, libc6-sparc, libc6-sparc64, libc6-x32:i386
+Description: GNU C Library: X32 ABI Shared libraries for AMD64
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 010abf82e546e9de191aa54ef585d592
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/g/glibc/libc6-x32_2.31-13+deb11u5_amd64.deb
+Size: 2680408
+SHA256: 9d5549c0050cd76b83ae93f1f40d4abab2bc743c6cbc8af4777725b451901bb6
+
+Package: locales
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 16014
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Depends: libc-bin (>> 2.31), libc-l10n (>> 2.31), debconf (>= 0.5) | debconf-2.0
+Description: GNU C Library: National Language (locale) data [support]
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: 68ccf846a4935e541c4a717fc0a1f3e3
+Tag: admin::configuring, devel::i18n, implemented-in::c, role::app-data,
+ role::program, scope::utility, suite::gnu
+Section: localization
+Priority: standard
+Filename: pool/main/g/glibc/locales_2.31-13+deb11u5_all.deb
+Size: 4085904
+SHA256: 99d7dfb07e8381d71c4938a9c75f633cba6c740261c838a748a2b273bf303924
+
+Package: locales-all
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 221935
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: libc-l10n (>> 2.31)
+Description: GNU C Library: Precompiled locale data
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: c360552536cba624a24a347b513939dd
+Section: localization
+Priority: optional
+Filename: pool/main/g/glibc/locales-all_2.31-13+deb11u5_amd64.deb
+Size: 10802480
+SHA256: 84fe695b4acd45c1f12cee09048addd75e2dc331cf2b27ce608586c6d3b8fc84
+
+Package: nscd
+Source: glibc
+Version: 2.31-13+deb11u5
+Installed-Size: 430
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Depends: lsb-base (>= 3.0-6), libaudit1 (>= 1:2.2.1), libc6 (>> 2.31), libc6 (<< 2.32), libcap2 (>= 1:2.10), libselinux1 (>= 3.1~)
+Description: GNU C Library: Name Service Cache Daemon
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description-md5: e8172254ec0df735a3e44c0f557100bc
+Tag: interface::daemon, network::server, protocol::dns, role::program,
+ suite::gnu, use::proxying
+Section: admin
+Priority: optional
+Filename: pool/main/g/glibc/nscd_2.31-13+deb11u5_amd64.deb
+Size: 290504
+SHA256: 6a46f28c899fc21ef11b97a2088ccce9f1d64385b5de4f40679c5628f601ebae
+
+Package: grub-efi-amd64-signed
+Version: 1+2.06+3~deb11u2
+Installed-Size: 5860
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (>= 2.06-3~deb11u2)
+Recommends: shim-signed
+Description: GRand Unified Bootloader, version 2 (amd64 UEFI signed by Debian)
+Built-Using: grub2 (= 2.06-3~deb11u2)
+Description-md5: f8d7d130b6d73ff8f5f6d3b33d090327
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub-efi-amd64-signed/grub-efi-amd64-signed_1+2.06+3~deb11u2_amd64.deb
+Size: 473680
+SHA256: 940ea67312b600199b7d15d762bb5373cc3df4c1ca239a50de21e4ca6ffa0239
+
+Package: grub-common
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 17820
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4), init-select
+Depends: libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, grub-emu, mtools, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Conflicts: init-select
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Description: GRand Unified Bootloader (common files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 9c75036dc0a0792fedbc58df208ed227
+Tag: admin::boot, admin::configuring, devel::TODO, implemented-in::c,
+ implemented-in::shell, role::app-data, role::examples, role::program
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-common_2.06-3~deb11u2_amd64.deb
+Size: 2766092
+SHA256: 54ffcffbf7abf396e512c47d96d210f7865e6a629fff9fbfec56557f599eb1df
+
+Package: grub-coreboot
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 159
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios, grub-pc, grub2 (<< 2.06-3~deb11u2)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-coreboot-bin (= 2.06-3~deb11u2), ucf
+Conflicts: grub (<< 0.97-54), grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-linuxbios (<< 2.06-3~deb11u2), grub-pc, grub-xen
+Description: GRand Unified Bootloader, version 2 (Coreboot version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 24bd58f91c5eb109ee5e6d95810f1702
+Tag: uitoolkit::ncurses
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-coreboot_2.06-3~deb11u2_amd64.deb
+Size: 40256
+SHA256: 7b1af838888faf063a21716550e4d83009b0fcdb9b13986b78db5f21dd7fa38c
+
+Package: grub-coreboot-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 1961
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot (<< 1.99-1), grub-linuxbios, grub2 (<< 2.06-3~deb11u2)
+Depends: grub-common (= 2.06-3~deb11u2)
+Conflicts: grub-linuxbios (<< 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Coreboot modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: be941282995956a28b42e4848b6d427b
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-coreboot-bin_2.06-3~deb11u2_amd64.deb
+Size: 631332
+SHA256: cadae42bc3d26c38bb9fd3a9c4fe3b5147989f6b37242743dec85d3a4ac66204
+
+Package: grub-coreboot-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 10769
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-coreboot-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Coreboot debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: ee3f45ba8ef408dea3b4e172ff46a041
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-coreboot-dbg_2.06-3~deb11u2_amd64.deb
+Size: 2814740
+SHA256: 755b880ab2dc21926a1ee99b0f736a11a8f13e27fb4456584be4d7931856479c
+
+Package: grub-efi
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 12
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-efi-amd64 (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (dummy package)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 2e384f4cebd455e65f849ef1c510f0be
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi_2.06-3~deb11u2_amd64.deb
+Size: 2400
+SHA256: bc341e9c60ee64549979e5f1c26d3d24efc956fec1d3a69b9de72310562004b4
+
+Package: grub-efi-amd64
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 159
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.06-3~deb11u2)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-efi-amd64-bin (= 2.06-3~deb11u2), ucf
+Conflicts: elilo, grub, grub-coreboot, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 1718e7ac8c2b19e7fc9fd6edaaa9c56e
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-amd64_2.06-3~deb11u2_amd64.deb
+Size: 40256
+SHA256: 8bdd1937e242d7a857edb2f7134ed761909e12d691662f7e9bc0d466192d3fbb
+
+Package: grub-efi-amd64-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 8707
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.06-3~deb11u2)
+Depends: grub-common (= 2.06-3~deb11u2)
+Recommends: grub-efi-amd64-signed, efibootmgr
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: f6ad99c32640061c96401d0bc70e2f8a
+Efi-Vendor: debian
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-amd64-bin_2.06-3~deb11u2_amd64.deb
+Size: 711928
+SHA256: 5a2677be131d685427f6fd6dd876227b38e8434093cfe37e9f95ab9b444e9cc5
+
+Package: grub-efi-amd64-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 18484
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-efi-amd64-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 01a50868394847340399eb4743e46af0
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-amd64-dbg_2.06-3~deb11u2_amd64.deb
+Size: 3395280
+SHA256: ef9666822a7d18e03e6e1f72c59b6d927012bbb7b47eaa02ce808a6a76f48b88
+
+Package: grub-efi-amd64-signed-template
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 275
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 signing template)
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 6505085992cc3617973cb57dcebc7eeb
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-amd64-signed-template_2.06-3~deb11u2_amd64.deb
+Size: 242644
+SHA256: 3a9199bdc7c6e28e90f06fc29b3abf0c543c15711154ce35cab4ec67f75e1177
+
+Package: grub-efi-ia32
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 159
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi, grub-efi-amd64, grub-ieee1275, grub-legacy, grub-pc, grub2 (<< 2.06-3~deb11u2)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-efi-ia32-bin (= 2.06-3~deb11u2), ucf
+Conflicts: elilo, grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-ieee1275, grub-legacy, grub-pc, grub-xen
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: b87b1ad90490c4debbe551521ed2934e
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-ia32_2.06-3~deb11u2_amd64.deb
+Size: 40264
+SHA256: 6bb272d480b53fd71f03940cf0f2872980e84d3f5dd8a3fee38ce4ef576f32e5
+
+Package: grub-efi-ia32-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 6365
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi, grub-efi-ia32 (<< 1.99-1), grub2 (<< 2.06-3~deb11u2)
+Depends: grub-common (= 2.06-3~deb11u2)
+Recommends: efibootmgr
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 72eca32dad838f96ef1c12b3d764e537
+Efi-Vendor: debian
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-ia32-bin_2.06-3~deb11u2_amd64.deb
+Size: 675648
+SHA256: 3d877ed37ed082b60f61fedd182c7bcffb72b46f5e15192761d646e6faa79c3d
+
+Package: grub-efi-ia32-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 11821
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-efi-ia32-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (EFI-IA32 debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 985cf475352ed91c8a577b3365c0062f
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-efi-ia32-dbg_2.06-3~deb11u2_amd64.deb
+Size: 3062664
+SHA256: ea02dcd7f68e3dcc36f660dd54a61c74f54c53f1717d4ffea5cbbba52fd5ac26
+
+Package: grub-emu
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 21462
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta3-1)
+Depends: libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), libgcc-s1 (>= 3.0), libsdl1.2debian (>= 1.2.11), grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (emulated version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: eaa24f3f146f8d2e05f7109f088cfa8b
+Tag: uitoolkit::ncurses, uitoolkit::sdl
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-emu_2.06-3~deb11u2_amd64.deb
+Size: 4280300
+SHA256: 20c907ae3ee2b647d88138726b6dff0b2621bf24891be914ede0ae008317a9fd
+
+Package: grub-emu-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 14433
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-emu (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (emulated debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 4066695808b06e6425e6d4c1f6d4205e
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-emu-dbg_2.06-3~deb11u2_amd64.deb
+Size: 2661072
+SHA256: 8c8ba74c836f2343c155dceaf491e39eac9312fcc683f1c0fc02b29533563277
+
+Package: grub-firmware-qemu
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 2069
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Recommends: qemu-system-x86
+Enhances: qemu-system-x86
+Description: GRUB firmware image for QEMU
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: cc3754b92a7e1d8e16c04265627088b6
+Tag: admin::boot, admin::virtualization, implemented-in::python,
+ role::app-data, suite::openstack, system::cloud, system::virtual
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-firmware-qemu_2.06-3~deb11u2_amd64.deb
+Size: 838276
+SHA256: 6a96cf9f5e4f605d6329319a5199d6b071ee114d5a69fb5e6e62a626b48f87ec
+
+Package: grub-ieee1275
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 159
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-legacy, grub-pc, grub2 (<< 2.06-3~deb11u2)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-ieee1275-bin (= 2.06-3~deb11u2), ucf
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-legacy, grub-pc, grub-xen
+Description: GRand Unified Bootloader, version 2 (Open Firmware version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 4182e3a83ecc589a21da82d455a9182d
+Tag: uitoolkit::ncurses
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-ieee1275_2.06-3~deb11u2_amd64.deb
+Size: 40248
+SHA256: f4c5965bee1df915e0d90fa196a0cd7662d7a4454f6d09e93e77f5ddb0e41df2
+
+Package: grub-ieee1275-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 1929
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-ieee1275 (<< 1.99-1), grub2 (<< 2.06-3~deb11u2)
+Depends: grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Open Firmware modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 502a917bf5af6a6f686b59cff29486fd
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-ieee1275-bin_2.06-3~deb11u2_amd64.deb
+Size: 618680
+SHA256: b589d7f94877b08f8b2877a3cdd54b54d52555f23aa845954feb10e630ab8874
+
+Package: grub-ieee1275-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 10706
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-ieee1275-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Open Firmware debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 3e4b991fd886a5a8442d2e484c000e45
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-ieee1275-dbg_2.06-3~deb11u2_amd64.deb
+Size: 2783144
+SHA256: 952663d2d1732a475ed579855aac0c8e31627314cf825092ad43a06c914b9ea8
+
+Package: grub-linuxbios
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 12
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-coreboot (= 2.06-3~deb11u2), grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (dummy package)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 8d63829707a75c424f8ce33f10391cc0
+Tag: uitoolkit::ncurses
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-linuxbios_2.06-3~deb11u2_amd64.deb
+Size: 2372
+SHA256: f0bb8174fc95507bfe2fa205738acb5e89e2d02ee022c2e5a8056399d91e7745
+
+Package: grub-pc
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 534
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.06-3~deb11u2)
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-pc-bin (= 2.06-3~deb11u2), ucf
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-xen
+Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 55663e0e8d42f469d665f9cc0013b733
+Tag: admin::boot, implemented-in::c, interface::framebuffer,
+ interface::shell, interface::text-mode, role::TODO, role::program
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-pc_2.06-3~deb11u2_amd64.deb
+Size: 131436
+SHA256: 6fe764f8a5fe7eb832719138e94785001c6c95d1c1964822aac6ddfc9f24d1ea
+
+Package: grub-pc-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 3116
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.06-3~deb11u2)
+Depends: libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.06-3~deb11u2)
+Suggests: desktop-base (>= 4.0.6)
+Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 20901840d7f9daaf1870638db2221cb1
+Tag: admin::boot
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-pc-bin_2.06-3~deb11u2_amd64.deb
+Size: 991664
+SHA256: 3ecb9c667a9da9fac2d72592b8d9ed77149f20f559b7efff9df599828ef0e5cc
+
+Package: grub-pc-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 11676
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-pc-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (PC/BIOS debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 7c0972b8a14a3f1091b6056556730eb4
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-pc-dbg_2.06-3~deb11u2_amd64.deb
+Size: 3028084
+SHA256: f83004c63856491cfb9b75bf31a967a2193435ff4b9ed63322489ab8486434e0
+
+Package: grub-rescue-pc
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 6506
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Description: GRUB bootable rescue images, version 2 (PC/BIOS version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 5e771fe83a2112f4f90cabc9f93cbd47
+Tag: admin::boot
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-rescue-pc_2.06-3~deb11u2_amd64.deb
+Size: 2542740
+SHA256: 3cab78b9d802da4c99db357246e2619ff9004f6aa6c01560aa5c6078fefa26a0
+
+Package: grub-theme-starfield
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 2782
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (starfield theme)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 52232de4094a1dafa8ade1df40ec6451
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-theme-starfield_2.06-3~deb11u2_amd64.deb
+Size: 2157072
+SHA256: f4823cd45f11bf38a17779ba601af450ebe62f451ce3c0cfbd6768f14f0e66c9
+
+Package: grub-xen
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 159
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.06-3~deb11u2), grub2-common (= 2.06-3~deb11u2), grub-xen-bin (= 2.06-3~deb11u2), ucf
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-pc
+Description: GRand Unified Bootloader, version 2 (Xen version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 2eceba62a74d5d7f9e98f3a6f5d2a1d1
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-xen_2.06-3~deb11u2_amd64.deb
+Size: 40192
+SHA256: 002761b76aeccae120a0daa9198fb18834897c18efe9d0fa0f758f24bad5de6c
+
+Package: grub-xen-bin
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 5463
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Xen modules)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: f30684489a7949e282652e8bd8f6c727
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-xen-bin_2.06-3~deb11u2_amd64.deb
+Size: 1008108
+SHA256: fb389942a2e7e5ecf076d9ae8ccc2eb6ae0f17db84c8bb367ed1a210672c78d6
+
+Package: grub-xen-dbg
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 31520
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-common (= 2.06-3~deb11u2), grub-xen-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Xen debug files)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: 08653de052a0b5d9f21f8d2925bd514b
+Tag: role::debug-symbols
+Section: debug
+Priority: optional
+Filename: pool/main/g/grub2/grub-xen-dbg_2.06-3~deb11u2_amd64.deb
+Size: 7193444
+SHA256: 6bef7eb6aff466729d15faf63b68cbaccc388b54d0dc27e0e17057bfb0b71f9f
+
+Package: grub-xen-host
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 5411
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-xen-bin (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (Xen host version)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: fd8c60ce62b7d58e25af7b045851f73b
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub-xen-host_2.06-3~deb11u2_amd64.deb
+Size: 1231616
+SHA256: c6b145a9d7bfac20806b022080f241ef316e4ff886706fb5b51ec9988e67d8ba
+
+Package: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 12
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Depends: grub-pc (= 2.06-3~deb11u2), grub-common (= 2.06-3~deb11u2)
+Description: GRand Unified Bootloader, version 2 (dummy package)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: bbb470013d1f2450dba730f10fbd09b4
+Tag: admin::boot, role::dummy
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub2_2.06-3~deb11u2_amd64.deb
+Size: 2376
+SHA256: 8eb18f292cc30f0c5fa67bef85d5dd51a05ee3418d95ae472bae27892366f554
+
+Package: grub2-common
+Source: grub2
+Version: 2.06-3~deb11u2
+Installed-Size: 1344
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Architecture: amd64
+Replaces: grub, grub-cloud-amd64 (<< 0.0.4), grub-common (<< 1.99-1), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy, grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7)
+Depends: grub-common (= 2.06-3~deb11u2), dpkg (>= 1.15.4) | install-info, libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), liblzma5 (>= 5.1.1alpha+20120614)
+Conflicts: grub-legacy
+Breaks: grub (<< 0.97-54), grub-cloud-amd64 (<< 0.0.4), grub-coreboot (<< 2.02+dfsg1-7), grub-doc (<< 0.97-32), grub-efi-amd64 (<< 2.02+dfsg1-7), grub-efi-arm (<< 2.02+dfsg1-7), grub-efi-arm64 (<< 2.02+dfsg1-7), grub-efi-ia32 (<< 2.02+dfsg1-7), grub-efi-ia64 (<< 2.02+dfsg1-7), grub-ieee1275 (<< 2.02+dfsg1-7), grub-legacy-doc (<< 0.97-59), grub-pc (<< 2.02+dfsg1-7), grub-uboot (<< 2.02+dfsg1-7), grub-xen (<< 2.02+dfsg1-7), grub-yeeloong (<< 2.02+dfsg1-7), shim (<< 0.9+1474479173.6c180c6-0ubuntu1~)
+Description: GRand Unified Bootloader (common files for version 2)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description-md5: a969e6536e745e177a340b30bdb5ba3f
+Tag: admin::boot, devel::lang:c, devel::library, implemented-in::c,
+ role::app-data, role::devel-lib, role::documentation, role::program
+Section: admin
+Priority: optional
+Filename: pool/main/g/grub2/grub2-common_2.06-3~deb11u2_amd64.deb
+Size: 609560
+SHA256: a9d532f5526ca7dab3253ca50369a7ab61317e84d75f8dbd4543c656abfa06a4
+
+Package: libdatetime-timezone-perl
+Version: 1:2.47-1+2023d
+Installed-Size: 6637
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl:any, libclass-singleton-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl, libspecio-perl, libtry-tiny-perl
+Recommends: libdatetime-perl
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_2.47-1+2023d_all.deb
+Size: 276584
+SHA256: 7d25cf1d8f460d8c5415cc71f5d4aee787e0c711b26894912686c33afa6df995
+
+Package: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 4209
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: mail-transport-agent
+Provides: mail-transport-agent
+Depends: libc6 (>= 2.14), libdb5.3, libicu67 (>= 67.1-1~), libnsl2 (>= 1.0), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.1b), debconf (>= 0.5) | debconf-2.0, netbase, adduser (>= 3.48), dpkg (>= 1.8.3), lsb-base (>= 3.0-6), ssl-cert, cpio, e2fsprogs
+Recommends: python3, ca-certificates
+Suggests: procmail, postfix-mysql, postfix-pgsql, postfix-ldap, postfix-pcre, postfix-lmdb, postfix-sqlite, sasl2-bin | dovecot-common, libsasl2-modules | dovecot-common, resolvconf, postfix-cdb, mail-reader, ufw, postfix-doc
+Conflicts: mail-transport-agent, smail
+Description: High-performance mail transport agent
+Homepage: http://www.postfix.org
+Description-md5: 98656fbf1bb45b53edd367037a2e5a90
+Tag: implemented-in::c, interface::daemon, mail::smtp, mail::transport-agent,
+ network::server, protocol::smtp, role::program, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix_3.5.23-0+deb11u1_amd64.deb
+Size: 1563508
+SHA256: b668e7f001825dfb85987cdcf56229e134467daedeeddfa4907a8251b3233d61
+
+Package: postfix-cdb
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 405
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcdb1, postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: CDB map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: e2d7cf0a3c214f6a9735e5ad7671b55e
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-cdb_3.5.23-0+deb11u1_amd64.deb
+Size: 361956
+SHA256: 51e1f9fadc416cb8871a25b98cd1b955113bf2c46af97a843eae204452ae6075
+
+Package: postfix-doc
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 4473
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: all
+Suggests: postfix
+Description: Documentation for Postfix
+Homepage: http://www.postfix.org
+Description-md5: b22cfd4a338576617daa68c3d8c6c80a
+Tag: mail::smtp, mail::transport-agent, protocol::smtp, role::documentation,
+ role::program, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/p/postfix/postfix-doc_3.5.23-0+deb11u1_all.deb
+Size: 1220556
+SHA256: c06e348cdd5913255cb543a8db488419beebda6c2a8e6982bd4974c116c2691b
+
+Package: postfix-ldap
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 436
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7), postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: LDAP map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: 6275ddb745f2250c57cc85063f27fcc4
+Tag: interface::daemon, network::server, protocol::ldap, protocol::smtp,
+ role::program, security::authentication, works-with::db,
+ works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-ldap_3.5.23-0+deb11u1_amd64.deb
+Size: 380416
+SHA256: b9436fa8b7cf1e98d4f4e167cfdfdef7c691fe43e7aab2d2dd57909ecbfb89ce
+
+Package: postfix-lmdb
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 421
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.14), liblmdb0 (>= 0.9.14), postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: LMDB map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: dadedd4c3edba2567b172520ab66c14b
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-lmdb_3.5.23-0+deb11u1_amd64.deb
+Size: 367448
+SHA256: fd7d6db1a47cba3c0631365aac2acd62993c0ffa941ad3b54bf647213ff438c2
+
+Package: postfix-mysql
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 421
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.2.5), libmariadb3 (>= 3.0.0), postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: MySQL map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: 28696ca88c5183ab5144174d86f2c973
+Tag: devel::lang:sql, interface::daemon, network::server, protocol::smtp,
+ role::program, security::authentication, use::storing, works-with::db,
+ works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-mysql_3.5.23-0+deb11u1_amd64.deb
+Size: 369740
+SHA256: 8a955bf0069f18c5062cd5821a646c775762fe6255769beceb3568fb38b5d4b1
+
+Package: postfix-pcre
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 415
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.4), libpcre3, postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: PCRE map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: 303555b1e86bf9cee974968dfd625a29
+Tag: interface::daemon, network::server, role::program,
+ security::authentication, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-pcre_3.5.23-0+deb11u1_amd64.deb
+Size: 367696
+SHA256: c5f580bcc212255cb8dfdb0a05bfd2d1cbd0d28ff6e41b66dcbf1307702c3977
+
+Package: postfix-pgsql
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 420
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.4), libpq5, postfix (= 3.5.23-0+deb11u1)
+Breaks: postfix (<< 3.1.3-7~)
+Description: PostgreSQL map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: 546205f4e5c0c34da8348a5a0f8dfa40
+Tag: devel::lang:sql, interface::daemon, network::server, protocol::smtp,
+ role::program, security::authentication, use::storing, works-with::db,
+ works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-pgsql_3.5.23-0+deb11u1_amd64.deb
+Size: 368444
+SHA256: 88fd22237b09d11c744f67487b222f601a6a2d57757e0eb9e9562715023e36de
+
+Package: postfix-sqlite
+Source: postfix
+Version: 3.5.23-0+deb11u1
+Installed-Size: 409
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Replaces: postfix (<< 3.1.3-7~)
+Depends: libc6 (>= 2.4), libsqlite3-0 (>= 3.5.9), postfix (= 3.5.23-0+deb11u1)
+Description: SQLite map support for Postfix
+Homepage: http://www.postfix.org
+Description-md5: 78969de91802d7f52e4f5b456e3732f9
+Section: mail
+Priority: optional
+Filename: pool/main/p/postfix/postfix-sqlite_3.5.23-0+deb11u1_amd64.deb
+Size: 365436
+SHA256: 52a93b2b646fc529921aaa3d34500fa0c094dd24f54b0eee8fa78f9aa2a27f50
+
+Package: libnss-myhostname
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 235
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30)
+Description: nss module providing fallback resolution for the current hostname
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 0bec93cc0b56ef90c11c1a7842dd8f8a
+Tag: implemented-in::c, role::plugin
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/libnss-myhostname_247.3-7+deb11u4_amd64.deb
+Size: 140732
+SHA256: 650154d9446c5d8f2c3f84eeda2f9ec216c3340b8ff8b7ad72bd922109bbc3da
+
+Package: libnss-mymachines
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 421
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30), systemd-container (= 247.3-7+deb11u4)
+Description: nss module to resolve hostnames for local container instances
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 588342105e1fdd6ff74c093651cb80cc
+Tag: implemented-in::c, role::plugin
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/libnss-mymachines_247.3-7+deb11u4_amd64.deb
+Size: 224464
+SHA256: 191ee635378d3d8bf709fdc28da8b978211503ee13c033c4802460526b400290
+
+Package: libnss-resolve
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 239
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30), systemd (= 247.3-7+deb11u4)
+Description: nss module to resolve names via systemd-resolved
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: fa2bc74d218dfae9ad286df8f31fa19f
+Tag: implemented-in::c, role::plugin
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/libnss-resolve_247.3-7+deb11u4_amd64.deb
+Size: 154528
+SHA256: 4c6a5b1f82785b80d8eca6fd76bcdf6f9a5e779b4d93c517b193845adf36160d
+
+Package: libnss-systemd
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 363
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30), systemd (= 247.3-7+deb11u4)
+Description: nss module providing dynamic user and group name resolution
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: f5bdd7572f97a2162876ec5b0a11a2ca
+Section: admin
+Priority: standard
+Filename: pool/main/s/systemd/libnss-systemd_247.3-7+deb11u4_amd64.deb
+Size: 198616
+SHA256: 1390fe8a8c71caacedf8507f4bedab79e9d9edac1869e7c3118c7b16b8e04165
+
+Package: libpam-systemd
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 575
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Provides: default-logind (= 247.3-7+deb11u4), logind (= 247.3-7+deb11u4)
+Depends: libc6 (>= 2.30), libpam0g (>= 0.99.7.1), systemd (= 247.3-7+deb11u4), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
+Description: system and service manager - PAM module
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 7acf141cc9da21b0ad349b6cecc40e46
+Tag: admin::login, implemented-in::c, role::plugin, role::program
+Section: admin
+Priority: standard
+Filename: pool/main/s/systemd/libpam-systemd_247.3-7+deb11u4_amd64.deb
+Size: 283348
+SHA256: df085bdb7a2dd297a096b9cfe536ceb4a7dfda2a9506c1042982380955e18e9b
+
+Package: libsystemd-dev
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 1085
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libsystemd0 (= 247.3-7+deb11u4)
+Description: systemd utility library - development files
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 7122bf9ab5ca8703093117a2cda0fe22
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/s/systemd/libsystemd-dev_247.3-7+deb11u4_amd64.deb
+Size: 401512
+SHA256: de9edd7dad264eec8dbb3ac09bb70bea77fcc9305216ffb3c777f7dfb0b2afb5
+
+Package: libsystemd0
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 865
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Pre-Depends: libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)
+Description: systemd utility library
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 92180a6b506aa0eff52136aeb8212dc6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/s/systemd/libsystemd0_247.3-7+deb11u4_amd64.deb
+Size: 376456
+SHA256: e6f3e65e388196a399c1a36564c38ad987337350358732056227db1b6e708878
+
+Package: libudev-dev
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 208
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libudev1 (= 247.3-7+deb11u4)
+Description: libudev development files
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 4085049214953c1e2cf5d9aee1c32173
+Tag: devel::lang:c, devel::library, hardware::detection, implemented-in::c,
+ role::devel-lib, role::program
+Section: libdevel
+Priority: optional
+Filename: pool/main/s/systemd/libudev-dev_247.3-7+deb11u4_amd64.deb
+Size: 123676
+SHA256: 0c3d2064c93f5052f4c1fe50a33526aeb802f478c4471557c5a8aad1dd1314f4
+
+Package: libudev1
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 282
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.30)
+Description: libudev shared library
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: ace5b83d7b48187416c90173a93255b6
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/s/systemd/libudev1_247.3-7+deb11u4_amd64.deb
+Size: 168500
+SHA256: 9274ca1aa37fcdf5895dad1de0895162351099ef8dff8a62f2f4c9eb181a8fce
+
+Package: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 16028
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libcap2 (>= 1:2.24-9~), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.7.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libsystemd0 (= 247.3-7+deb11u4), util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 3.1~), libzstd1 (>= 1.4.0)
+Recommends: dbus, systemd-timesyncd | time-daemon
+Suggests: systemd-container, policykit-1
+Conflicts: consolekit, libpam-ck-connector
+Breaks: python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), resolvconf (<< 1.83~), systemd-shim (<< 10-4~), udev (<< 247~)
+Description: system and service manager
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 19399579cbc0c47a303288bf15eadcd4
+Tag: admin::boot, implemented-in::c, interface::daemon, role::program,
+ works-with::software:running
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/systemd_247.3-7+deb11u4_amd64.deb
+Size: 4501976
+SHA256: a55f90e5fc83cf8dec83d93615ed7fc4654b92a359ef578095d36fcd621130c3
+
+Package: systemd-container
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 1220
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.28), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), systemd (= 247.3-7+deb11u4), zlib1g (>= 1:1.1.4), dbus
+Recommends: libnss-mymachines
+Description: systemd container/nspawn tools
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 06057fffc2ba14e4be80360a092a18b4
+Tag: admin::virtualization, implemented-in::c, implemented-in::python,
+ role::program, suite::openstack, system::cloud, system::virtual
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/systemd-container_247.3-7+deb11u4_amd64.deb
+Size: 441536
+SHA256: 9b3c61d8ad1facd3d0a0f469f774f4b95c66b6b55179d31a8f3bc6653176eebc
+
+Package: systemd-coredump
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 264
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: core-dump-handler
+Provides: core-dump-handler
+Depends: libc6 (>= 2.14), libdw1 (>= 0.158), libelf1 (>= 0.131), systemd (= 247.3-7+deb11u4), adduser
+Conflicts: core-dump-handler
+Description: tools for storing and retrieving coredumps
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 149b22bdf2366b7d731957d1b710e54f
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/systemd-coredump_247.3-7+deb11u4_amd64.deb
+Size: 148312
+SHA256: f2f1d0f0703872da86bbd7a19b22159da2f63ed71c5ea26810ea367800eebf8f
+
+Package: systemd-journal-remote
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 331
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: systemd (<< 239-6)
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libgnutls30 (>= 3.7.0), libmicrohttpd12 (>= 0.9.50), systemd (= 247.3-7+deb11u4), adduser
+Breaks: systemd (<< 239-6)
+Description: tools for sending and receiving remote journal logs
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: 6bd80842a0c96acb169877c7a6a25ff6
+Tag: admin::logging, implemented-in::c, network::service, role::program
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/systemd-journal-remote_247.3-7+deb11u4_amd64.deb
+Size: 165160
+SHA256: aa8ed90c40b8e6e9ed74ce9dd75fa773a2df47e159f95c5bc9ac779928f2d78c
+
+Package: systemd-sysv
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 140
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Pre-Depends: systemd
+Recommends: libpam-systemd, libnss-systemd
+Conflicts: file-rc, systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Description: system and service manager - SysV links
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: b0c2db4da8d807aa3f83a2977e491907
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/systemd-sysv_247.3-7+deb11u4_amd64.deb
+Size: 113628
+SHA256: 85c3bbf784bce8bda5388410e803b3c9d2d8b47812a3069d46f520a864980722
+
+Package: systemd-tests
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 33376
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.24), libc6 (>= 2.30), libcap2 (>= 1:2.24-9~), libdbus-1-3 (>= 1.9.14), libgcrypt20 (>= 1.8.0), libglib2.0-0 (>= 2.26.0), libgpg-error0 (>= 1.14), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.4.1), libselinux1 (>= 3.1~), libsystemd0 (= 247.3-7+deb11u4), libudev1 (>= 247), systemd (= 247.3-7+deb11u4), zlib1g (>= 1:1.1.4), python3
+Description: tests for systemd
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: ece07db851f8a2e9731975ec11eedb8d
+Section: admin
+Priority: optional
+Filename: pool/main/s/systemd/systemd-tests_247.3-7+deb11u4_amd64.deb
+Size: 5562112
+SHA256: 546f50a6ccc19c3e80074fbfc80c9a56c7f880221debbf75b898bc5b1e3b08b8
+
+Package: systemd-timesyncd
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 207
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: systemd (<< 245.4-2~), time-daemon
+Provides: time-daemon
+Depends: libc6 (>= 2.29), systemd (= 247.3-7+deb11u4), adduser
+Conflicts: time-daemon
+Breaks: systemd (<< 245.4-2~)
+Description: minimalistic service to synchronize local time with NTP servers
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: cc67d85c248836d96a6310e58a659de0
+Section: admin
+Priority: standard
+Filename: pool/main/s/systemd/systemd-timesyncd_247.3-7+deb11u4_amd64.deb
+Size: 131496
+SHA256: a6cdbec962601cc7c7d6340b89b973028869f159df1049577c77cbfe1f08e894
+
+Package: udev
+Source: systemd
+Version: 247.3-7+deb11u4
+Installed-Size: 8962
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: systemd (<< 233-4)
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.30), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 247.3-7+deb11u4), util-linux (>= 2.27.1)
+Conflicts: hal
+Breaks: systemd (<< 233-4)
+Description: /dev/ and hotplug management daemon
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description-md5: e875ddb09f46f1f7672af537f0c875ca
+Tag: admin::boot, admin::filesystem, admin::hardware, admin::kernel,
+ devel::lang:c, devel::library, hardware::detection, implemented-in::c,
+ implemented-in::shell, interface::daemon, role::devel-lib,
+ role::program
+Section: admin
+Priority: important
+Filename: pool/main/s/systemd/udev_247.3-7+deb11u4_amd64.deb
+Size: 1464372
+SHA256: 05eb0671819cd9e5110498a723ee58ba006cd2a5f074d1eb4a9155e74d86662d
+
+Package: tzdata
+Version: 2021a-1+deb11u11
+Installed-Size: 3413
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Provides: tzdata-bullseye
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: https://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2021a-1+deb11u11_all.deb
+Size: 286556
+SHA256: 7076496cd377dfcfe3e84d02c46c9ac54c6e68fa84bcc39862b7c20405388324
+

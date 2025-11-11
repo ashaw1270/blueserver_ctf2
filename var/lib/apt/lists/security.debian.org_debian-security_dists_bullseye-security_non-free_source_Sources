@@ -1,0 +1,68 @@
+Package: amd64-microcode
+Binary: amd64-microcode
+Version: 3.20250311.1~deb11u1
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Uploaders: Giacomo Catenazzi <cate@debian.org>
+Build-Depends: debhelper (>= 9)
+Architecture: i386 amd64 x32
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Vcs-Browser: https://salsa.debian.org/hmh/amd64-microcode
+Vcs-Git: https://salsa.debian.org/hmh/amd64-microcode.git
+Checksums-Sha256:
+ 1ab3ea8e9a2ba56b76f11cbc68a99aa21ee36d1bec6fd5c9c4a362163e977acf 1718 amd64-microcode_3.20250311.1~deb11u1.dsc
+ c89763b84228268246fd0c0d9b1daf6b3480d60909e9157d886e822bde7b8463 282928 amd64-microcode_3.20250311.1~deb11u1.tar.xz
+Autobuild: yes
+Package-List: 
+ amd64-microcode deb non-free/admin standard arch=i386,amd64,x32
+Directory: pool/updates/non-free/a/amd64-microcode
+Priority: extra
+Section: non-free/admin
+
+Package: intel-microcode
+Binary: intel-microcode
+Version: 3.20250812.1~deb11u1
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Uploaders: Giacomo Catenazzi <cate@debian.org>
+Build-Depends: debhelper (>= 9), iucode-tool (>= 0.9)
+Architecture: i386 amd64 x32
+Standards-Version: 4.1.1
+Format: 3.0 (native)
+Vcs-Browser: https://salsa.debian.org/hmh/intel-microcode
+Vcs-Git: https://salsa.debian.org/hmh/intel-microcode.git
+Checksums-Sha256:
+ b5e1fbfe8ff48635a65f8594bc3b293ab941b3541cec7b3466a13ecf4902513b 1824 intel-microcode_3.20250812.1~deb11u1.dsc
+ 7ea18d99334c5053efd67c6bcfc1607c7b212a9ea282e1fdae659c1832edb5a6 12002804 intel-microcode_3.20250812.1~deb11u1.tar.xz
+Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+Autobuild: yes
+Package-List: 
+ intel-microcode deb non-free/admin standard arch=i386,amd64,x32
+Directory: pool/updates/non-free/i/intel-microcode
+Priority: extra
+Section: non-free/admin
+
+Package: libclamunrar
+Binary: libclamunrar, libclamunrar11, clamav-testfiles-rar
+Version: 1.0.3-1~deb11u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Tautschnig <mt@debian.org>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Scott Kitterman <scott@kitterman.com>
+Build-Depends: bindgen, cargo-web, check, cmake, debhelper-compat (= 13), libbz2-dev, libcurl4-openssl-dev, libjson-c-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, python3-pytest, rustfmt-web, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Vcs-Browser: https://salsa.debian.org/clamav-team/libclamunrar
+Vcs-Git: https://salsa.debian.org/clamav-team/libclamunrar.git -b unstable
+Checksums-Sha256:
+ 03c7f20bf729b48b695840ad28e50ed8eb4dbf2a2a87d0252de83b021ca1e265 2552 libclamunrar_1.0.3-1~deb11u1.dsc
+ c944c21e128445fab7b7eadce50195eefdf863661c7c4563c20fb9c9a09977d5 14390520 libclamunrar_1.0.3.orig.tar.xz
+ 11ba0ffa7b52085837b5cdb6c77102f9d096079fb432b124f146df4bd716436d 23648 libclamunrar_1.0.3-1~deb11u1.debian.tar.xz
+Homepage: https://www.clamav.net/
+Autobuild: yes
+Package-List: 
+ clamav-testfiles-rar deb non-free/libs optional arch=all
+ libclamunrar deb non-free/libs optional arch=all
+ libclamunrar11 deb non-free/libs optional arch=any
+Directory: pool/updates/non-free/libc/libclamunrar
+Priority: extra
+Section: non-free/libs
+

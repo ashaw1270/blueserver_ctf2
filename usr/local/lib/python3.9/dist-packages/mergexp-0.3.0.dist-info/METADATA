@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mergexp
+Version: 0.3.0
+Summary: Python Merge Experimentation Library
+Home-page: https://gitlab.com/mergetb/xir/tree/master/lang/mx
+Author: Ryan Goodfellow
+Author-email: rgoodfel@isi.edu
+License: Apache2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: sympy
+
+# MergeXP
+
+The MergeTB experiment library.
+
+

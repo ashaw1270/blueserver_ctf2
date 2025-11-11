@@ -1,0 +1,2 @@
+# This version explicitly breaks support for ruby2.5
+rubygems-integration: breaks-without-version ruby2.5

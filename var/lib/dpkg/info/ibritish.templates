@@ -1,0 +1,11 @@
+Template: shared/packages-ispell
+Type: text
+Description: Do not translate, for internal use.
+ Intended to get a list of owners of this shared template.
+
+Template: ibritish/languages
+Type: text
+Default: british (British English)
+Description: Do not translate, for internal use.
+ Intended to contain a list of language keys provided by this
+ package. These are the internal untranslated keys.

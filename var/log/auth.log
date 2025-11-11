@@ -1,0 +1,770 @@
+Feb 13 05:53:19 debian systemd-logind[338]: New seat seat0.
+Feb 13 05:53:19 debian systemd-logind[338]: Watching system buttons on /dev/input/event3 (Power Button)
+Feb 13 05:53:19 debian systemd-logind[338]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Feb 13 05:53:19 debian sshd[380]: Server listening on 0.0.0.0 port 22.
+Feb 13 05:53:19 debian sshd[380]: Server listening on :: port 22.
+Feb 13 05:53:23 debian sshd[386]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 05:53:23 debian sshd[386]: Connection closed by 10.0.2.2 port 55706
+Feb 13 05:53:23 debian sshd[385]: Accepted password for test from 10.0.2.2 port 55718 ssh2
+Feb 13 05:53:23 debian sshd[385]: pam_unix(sshd:session): session opened for user test(uid=1000) by (uid=0)
+Feb 13 05:53:23 debian systemd-logind[338]: New session 1 of user test.
+Feb 13 05:53:23 debian systemd: pam_unix(systemd-user:session): session opened for user test(uid=1000) by (uid=0)
+Feb 13 05:53:23 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get update -y --fix-missing
+Feb 13 05:53:23 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:24 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:24 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt dist-upgrade -y
+Feb 13 05:53:24 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:25 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:25 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt install -y curl gnupg2 ssh vim-nox tmux tcpdump ethtool grub-efi efibootmgr
+Feb 13 05:53:25 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:32 debian groupadd[1222]: group added to /etc/group: name=tcpdump, GID=112
+Feb 13 05:53:32 debian groupadd[1222]: group added to /etc/gshadow: name=tcpdump
+Feb 13 05:53:32 debian groupadd[1222]: new group: name=tcpdump, GID=112
+Feb 13 05:53:32 debian useradd[1230]: new user: name=tcpdump, UID=106, GID=112, home=/nonexistent, shell=/usr/sbin/nologin, from=none
+Feb 13 05:53:32 debian usermod[1237]: change user 'tcpdump' password
+Feb 13 05:53:32 debian chage[1244]: changed password expiry for tcpdump
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/rm -f /etc/discover-pkginstall.conf
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/cp /tmp/aa /etc/apt/apt.conf.d/20auto-upgrades
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get autoremove -y
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get clean -y
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get autoclean -y
+Feb 13 05:53:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/cp /tmp/sudoers /etc/sudoers
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/sed -i s/^.*Storage.*$/Storage=persistent/g /etc/systemd/journald.conf
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/tee -a /etc/ssh/sshd_config
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/rm -f /etc/machine-id
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/rm -f /var/lib/dbus/machine-id
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/touch /etc/machine-id
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/tee /etc/systemd/system/machine-id-init.service
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod 644 /etc/systemd/system/machine-id-init.service
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable machine-id-init.service
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/rm -rf /etc/network/interfaces
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl disable ifupdown-pre.service
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl disable ifupdown-wait-online.service
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:35 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable systemd-networkd
+Feb 13 05:53:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:36 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable systemd-resolved
+Feb 13 05:53:36 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mv /tmp/foundryc /usr/local/bin/foundryc
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mv /tmp/foundryc.service /lib/systemd/system/foundryc.service
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod 755 /usr/local/bin/foundryc
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod 644 /lib/systemd/system/foundryc.service
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable foundryc.service
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mkdir /tmp/collect
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod a+r /tmp/collect
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/cp /boot/vmlinuz-5.10.0-33-amd64 /tmp/collect/
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/cp /boot/initrd.img-5.10.0-33-amd64 /tmp/collect/
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/tmp/collect ; USER=root ; COMMAND=/usr/bin/ln -s vmlinuz-5.10.0-33-amd64 sled-kernel
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/tmp/collect ; USER=root ; COMMAND=/usr/bin/ln -s initrd.img-5.10.0-33-amd64 sled-initramfs
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/tmp/collect ; USER=root ; COMMAND=/usr/bin/chmod -R a+r /tmp/collect
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get update -y --fix-missing --allow-releaseinfo-change
+Feb 13 05:53:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:38 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:38 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt install -y git jq
+Feb 13 05:53:38 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:53:41 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:53:41 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pip
+Feb 13 05:53:41 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:04 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:04 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/apt-get clean -y
+Feb 13 05:54:04 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:04 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:04 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/pip3 install --upgrade pip
+Feb 13 05:54:04 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:06 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:06 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/local/bin/pip install jupyterhub
+Feb 13 05:54:06 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:14 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:14 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/local/bin/pip install jupyterlab
+Feb 13 05:54:14 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:23 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:23 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/local/bin/pip install notebook
+Feb 13 05:54:23 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:25 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:27 debian sudo:     test : PWD=/tmp/xir ; USER=root ; COMMAND=/usr/local/bin/pip install v0.3/mx
+Feb 13 05:54:27 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:33 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/tmp ; USER=root ; COMMAND=/usr/bin/rm -rf xir
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mv /tmp/fstab /etc/fstab
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/rm -f /etc/resolv.conf
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable systemd-resolved
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/sed -i s/GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX="apparmor=0 root=PARTUUID=a0000000-0000-0000-0000-00000000000a rootfstype=ext4 rw net.ifnames=0 biosdevname=0 console=tty1 console=ttyS0,115200n8 earlyprintk=ttyS0 8250.nr_uarts=1"/g /etc/default/grub
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:34 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/sbin/update-grub2
+Feb 13 05:54:34 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:36 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/sbin/grub-install /dev/sda --target=x86_64-efi --efi-directory=/boot/efi
+Feb 13 05:54:36 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/cp -r /boot/efi/EFI/debian /boot/efi/EFI/merge
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mv /tmp/efivars-remount.sh /bin/efivars-remount.sh
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod +x /bin/efivars-remount.sh
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chown root:root /tmp/efivars-remount.service
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/mv /tmp/efivars-remount.service /etc/systemd/system/efivars-remount.service
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/chmod 644 /etc/systemd/system/efivars-remount.service
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl enable efivars-remount.service
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:37 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/dd if=/dev/zero of=/EMPTY bs=1M
+Feb 13 05:54:37 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:40 debian sudo: pam_unix(sudo:session): session closed for user rootFeb 13 05:54:41 debian sudo: pam_unix(sudo:session): session closed for user root
+Feb 13 05:54:42 debian sudo:     test : PWD=/home/test ; USER=root ; COMMAND=/usr/bin/systemctl poweroff
+Feb 13 05:54:42 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 13 05:54:42 debian systemd-logind[338]: System is powering down.
+Feb 13 05:54:42 debian sshd[385]: pam_unix(sshd:session): session closed for user test
+Feb 13 05:54:42 debian sshd[385]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov 10 16:45:31 debian systemd-logind[347]: New seat seat0.
+Nov 10 16:45:31 debian systemd-logind[347]: Watching system buttons on /dev/input/event3 (Power Button)
+Nov 10 16:45:31 debian systemd-logind[347]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Nov 10 16:45:31 debian sshd[392]: Server listening on 0.0.0.0 port 22.
+Nov 10 16:45:31 debian sshd[392]: Server listening on :: port 22.
+Nov 10 16:45:36 debian useradd[406]: new group: name=usc430nyrs, GID=1001
+Nov 10 16:45:36 debian useradd[406]: new user: name=usc430nyrs, UID=1001, GID=1001, home=/home/usc430nyrs, shell=/bin/bash, from=none
+Nov 10 16:45:36 debian passwd[413]: password for 'usc430nyrs' changed by 'root'
+Nov 10 16:45:36 debian usermod[420]: add 'usc430nyrs' to group 'sudo'
+Nov 10 16:45:36 debian usermod[420]: add 'usc430nyrs' to shadow group 'sudo'
+Nov 10 16:45:36 debian usermod[427]: add 'usc430nyrs' to group 'usc430nyrs'
+Nov 10 16:45:36 debian usermod[427]: add 'usc430nyrs' to shadow group 'usc430nyrs'
+Nov 10 16:45:36 debian useradd[434]: new group: name=usc430zobb, GID=1002
+Nov 10 16:45:36 debian useradd[434]: new user: name=usc430zobb, UID=1002, GID=1002, home=/home/usc430zobb, shell=/bin/bash, from=none
+Nov 10 16:45:36 debian passwd[441]: password for 'usc430zobb' changed by 'root'
+Nov 10 16:45:36 debian usermod[448]: add 'usc430zobb' to group 'sudo'
+Nov 10 16:45:36 debian usermod[448]: add 'usc430zobb' to shadow group 'sudo'
+Nov 10 16:45:36 debian usermod[455]: add 'usc430zobb' to group 'usc430zobb'
+Nov 10 16:45:36 debian usermod[455]: add 'usc430zobb' to shadow group 'usc430zobb'
+Nov 10 16:45:36 debian useradd[462]: new group: name=usc430qexj, GID=1003
+Nov 10 16:45:36 debian useradd[462]: new user: name=usc430qexj, UID=1003, GID=1003, home=/home/usc430qexj, shell=/bin/bash, from=none
+Nov 10 16:45:36 debian passwd[469]: password for 'usc430qexj' changed by 'root'
+Nov 10 16:45:36 debian usermod[476]: add 'usc430qexj' to group 'sudo'
+Nov 10 16:45:36 debian usermod[476]: add 'usc430qexj' to shadow group 'sudo'
+Nov 10 16:45:36 debian usermod[483]: add 'usc430qexj' to group 'usc430qexj'
+Nov 10 16:45:36 debian usermod[483]: add 'usc430qexj' to shadow group 'usc430qexj'
+Nov 10 16:45:36 debian useradd[490]: new group: name=usc430uoya, GID=1004
+Nov 10 16:45:36 debian useradd[490]: new user: name=usc430uoya, UID=1004, GID=1004, home=/home/usc430uoya, shell=/bin/bash, from=none
+Nov 10 16:45:36 debian passwd[497]: password for 'usc430uoya' changed by 'root'
+Nov 10 16:45:36 debian usermod[504]: add 'usc430uoya' to group 'sudo'
+Nov 10 16:45:36 debian usermod[504]: add 'usc430uoya' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[511]: add 'usc430uoya' to group 'usc430uoya'
+Nov 10 16:45:37 debian usermod[511]: add 'usc430uoya' to shadow group 'usc430uoya'
+Nov 10 16:45:37 debian useradd[518]: new group: name=usc430jwuh, GID=1005
+Nov 10 16:45:37 debian useradd[518]: new user: name=usc430jwuh, UID=1005, GID=1005, home=/home/usc430jwuh, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[525]: password for 'usc430jwuh' changed by 'root'
+Nov 10 16:45:37 debian usermod[532]: add 'usc430jwuh' to group 'sudo'
+Nov 10 16:45:37 debian usermod[532]: add 'usc430jwuh' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[539]: add 'usc430jwuh' to group 'usc430jwuh'
+Nov 10 16:45:37 debian usermod[539]: add 'usc430jwuh' to shadow group 'usc430jwuh'
+Nov 10 16:45:37 debian useradd[546]: new group: name=usc430okci, GID=1006
+Nov 10 16:45:37 debian useradd[546]: new user: name=usc430okci, UID=1006, GID=1006, home=/home/usc430okci, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[553]: password for 'usc430okci' changed by 'root'
+Nov 10 16:45:37 debian usermod[560]: add 'usc430okci' to group 'sudo'
+Nov 10 16:45:37 debian usermod[560]: add 'usc430okci' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[567]: add 'usc430okci' to group 'usc430okci'
+Nov 10 16:45:37 debian usermod[567]: add 'usc430okci' to shadow group 'usc430okci'
+Nov 10 16:45:37 debian useradd[574]: new group: name=usc430zrcd, GID=1007
+Nov 10 16:45:37 debian useradd[574]: new user: name=usc430zrcd, UID=1007, GID=1007, home=/home/usc430zrcd, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[581]: password for 'usc430zrcd' changed by 'root'
+Nov 10 16:45:37 debian usermod[588]: add 'usc430zrcd' to group 'sudo'
+Nov 10 16:45:37 debian usermod[588]: add 'usc430zrcd' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[595]: add 'usc430zrcd' to group 'usc430zrcd'
+Nov 10 16:45:37 debian usermod[595]: add 'usc430zrcd' to shadow group 'usc430zrcd'
+Nov 10 16:45:37 debian useradd[602]: new group: name=usc430uvpi, GID=1008
+Nov 10 16:45:37 debian useradd[602]: new user: name=usc430uvpi, UID=1008, GID=1008, home=/home/usc430uvpi, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[609]: password for 'usc430uvpi' changed by 'root'
+Nov 10 16:45:37 debian usermod[616]: add 'usc430uvpi' to group 'sudo'
+Nov 10 16:45:37 debian usermod[616]: add 'usc430uvpi' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[623]: add 'usc430uvpi' to group 'usc430uvpi'
+Nov 10 16:45:37 debian usermod[623]: add 'usc430uvpi' to shadow group 'usc430uvpi'
+Nov 10 16:45:37 debian useradd[630]: new group: name=usc430etbc, GID=1009
+Nov 10 16:45:37 debian useradd[630]: new user: name=usc430etbc, UID=1009, GID=1009, home=/home/usc430etbc, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[637]: password for 'usc430etbc' changed by 'root'
+Nov 10 16:45:37 debian usermod[644]: add 'usc430etbc' to group 'sudo'
+Nov 10 16:45:37 debian usermod[644]: add 'usc430etbc' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[651]: add 'usc430etbc' to group 'usc430etbc'
+Nov 10 16:45:37 debian usermod[651]: add 'usc430etbc' to shadow group 'usc430etbc'
+Nov 10 16:45:37 debian useradd[658]: new group: name=usc430icsd, GID=1010
+Nov 10 16:45:37 debian useradd[658]: new user: name=usc430icsd, UID=1010, GID=1010, home=/home/usc430icsd, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[665]: password for 'usc430icsd' changed by 'root'
+Nov 10 16:45:37 debian usermod[672]: add 'usc430icsd' to group 'sudo'
+Nov 10 16:45:37 debian usermod[672]: add 'usc430icsd' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[679]: add 'usc430icsd' to group 'usc430icsd'
+Nov 10 16:45:37 debian usermod[679]: add 'usc430icsd' to shadow group 'usc430icsd'
+Nov 10 16:45:37 debian useradd[686]: new group: name=usc430fdnd, GID=1011
+Nov 10 16:45:37 debian useradd[686]: new user: name=usc430fdnd, UID=1011, GID=1011, home=/home/usc430fdnd, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[693]: password for 'usc430fdnd' changed by 'root'
+Nov 10 16:45:37 debian usermod[700]: add 'usc430fdnd' to group 'sudo'
+Nov 10 16:45:37 debian usermod[700]: add 'usc430fdnd' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[707]: add 'usc430fdnd' to group 'usc430fdnd'
+Nov 10 16:45:37 debian usermod[707]: add 'usc430fdnd' to shadow group 'usc430fdnd'
+Nov 10 16:45:37 debian useradd[714]: new group: name=usc430cdyi, GID=1012
+Nov 10 16:45:37 debian useradd[714]: new user: name=usc430cdyi, UID=1012, GID=1012, home=/home/usc430cdyi, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[721]: password for 'usc430cdyi' changed by 'root'
+Nov 10 16:45:37 debian usermod[728]: add 'usc430cdyi' to group 'sudo'
+Nov 10 16:45:37 debian usermod[728]: add 'usc430cdyi' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[735]: add 'usc430cdyi' to group 'usc430cdyi'
+Nov 10 16:45:37 debian usermod[735]: add 'usc430cdyi' to shadow group 'usc430cdyi'
+Nov 10 16:45:37 debian useradd[742]: new group: name=usc430pkaz, GID=1013
+Nov 10 16:45:37 debian useradd[742]: new user: name=usc430pkaz, UID=1013, GID=1013, home=/home/usc430pkaz, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[749]: password for 'usc430pkaz' changed by 'root'
+Nov 10 16:45:37 debian usermod[756]: add 'usc430pkaz' to group 'sudo'
+Nov 10 16:45:37 debian usermod[756]: add 'usc430pkaz' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[763]: add 'usc430pkaz' to group 'usc430pkaz'
+Nov 10 16:45:37 debian usermod[763]: add 'usc430pkaz' to shadow group 'usc430pkaz'
+Nov 10 16:45:37 debian useradd[770]: new group: name=glawler, GID=1014
+Nov 10 16:45:37 debian useradd[770]: new user: name=glawler, UID=1014, GID=1014, home=/home/glawler, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[777]: password for 'glawler' changed by 'root'
+Nov 10 16:45:37 debian usermod[784]: add 'glawler' to group 'sudo'
+Nov 10 16:45:37 debian usermod[784]: add 'glawler' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[791]: add 'glawler' to group 'glawler'
+Nov 10 16:45:37 debian usermod[791]: add 'glawler' to shadow group 'glawler'
+Nov 10 16:45:37 debian useradd[798]: new group: name=usc430moyp, GID=1015
+Nov 10 16:45:37 debian useradd[798]: new user: name=usc430moyp, UID=1015, GID=1015, home=/home/usc430moyp, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[805]: password for 'usc430moyp' changed by 'root'
+Nov 10 16:45:37 debian usermod[812]: add 'usc430moyp' to group 'sudo'
+Nov 10 16:45:37 debian usermod[812]: add 'usc430moyp' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[819]: add 'usc430moyp' to group 'usc430moyp'
+Nov 10 16:45:37 debian usermod[819]: add 'usc430moyp' to shadow group 'usc430moyp'
+Nov 10 16:45:37 debian useradd[826]: new group: name=usc430pvmq, GID=1016
+Nov 10 16:45:37 debian useradd[826]: new user: name=usc430pvmq, UID=1016, GID=1016, home=/home/usc430pvmq, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[833]: password for 'usc430pvmq' changed by 'root'
+Nov 10 16:45:37 debian usermod[840]: add 'usc430pvmq' to group 'sudo'
+Nov 10 16:45:37 debian usermod[840]: add 'usc430pvmq' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[847]: add 'usc430pvmq' to group 'usc430pvmq'
+Nov 10 16:45:37 debian usermod[847]: add 'usc430pvmq' to shadow group 'usc430pvmq'
+Nov 10 16:45:37 debian useradd[854]: new group: name=usc430efev, GID=1017
+Nov 10 16:45:37 debian useradd[854]: new user: name=usc430efev, UID=1017, GID=1017, home=/home/usc430efev, shell=/bin/bash, from=none
+Nov 10 16:45:37 debian passwd[861]: password for 'usc430efev' changed by 'root'
+Nov 10 16:45:37 debian usermod[868]: add 'usc430efev' to group 'sudo'
+Nov 10 16:45:37 debian usermod[868]: add 'usc430efev' to shadow group 'sudo'
+Nov 10 16:45:37 debian usermod[875]: add 'usc430efev' to group 'usc430efev'
+Nov 10 16:45:37 debian usermod[875]: add 'usc430efev' to shadow group 'usc430efev'
+Nov 10 16:45:38 debian useradd[882]: new group: name=usc430mrwn, GID=1018
+Nov 10 16:45:38 debian useradd[882]: new user: name=usc430mrwn, UID=1018, GID=1018, home=/home/usc430mrwn, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[889]: password for 'usc430mrwn' changed by 'root'
+Nov 10 16:45:38 debian usermod[896]: add 'usc430mrwn' to group 'sudo'
+Nov 10 16:45:38 debian usermod[896]: add 'usc430mrwn' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[903]: add 'usc430mrwn' to group 'usc430mrwn'
+Nov 10 16:45:38 debian usermod[903]: add 'usc430mrwn' to shadow group 'usc430mrwn'
+Nov 10 16:45:38 debian useradd[910]: new group: name=usc430rllk, GID=1019
+Nov 10 16:45:38 debian useradd[910]: new user: name=usc430rllk, UID=1019, GID=1019, home=/home/usc430rllk, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[917]: password for 'usc430rllk' changed by 'root'
+Nov 10 16:45:38 debian usermod[924]: add 'usc430rllk' to group 'sudo'
+Nov 10 16:45:38 debian usermod[924]: add 'usc430rllk' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[931]: add 'usc430rllk' to group 'usc430rllk'
+Nov 10 16:45:38 debian usermod[931]: add 'usc430rllk' to shadow group 'usc430rllk'
+Nov 10 16:45:38 debian useradd[938]: new group: name=gbartlet, GID=1020
+Nov 10 16:45:38 debian useradd[938]: new user: name=gbartlet, UID=1020, GID=1020, home=/home/gbartlet, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[945]: password for 'gbartlet' changed by 'root'
+Nov 10 16:45:38 debian usermod[952]: add 'gbartlet' to group 'sudo'
+Nov 10 16:45:38 debian usermod[952]: add 'gbartlet' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[959]: add 'gbartlet' to group 'gbartlet'
+Nov 10 16:45:38 debian usermod[959]: add 'gbartlet' to shadow group 'gbartlet'
+Nov 10 16:45:38 debian useradd[966]: new group: name=usc430eddl, GID=1021
+Nov 10 16:45:38 debian useradd[966]: new user: name=usc430eddl, UID=1021, GID=1021, home=/home/usc430eddl, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[973]: password for 'usc430eddl' changed by 'root'
+Nov 10 16:45:38 debian usermod[980]: add 'usc430eddl' to group 'sudo'
+Nov 10 16:45:38 debian usermod[980]: add 'usc430eddl' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[987]: add 'usc430eddl' to group 'usc430eddl'
+Nov 10 16:45:38 debian usermod[987]: add 'usc430eddl' to shadow group 'usc430eddl'
+Nov 10 16:45:38 debian useradd[994]: new group: name=usc430yovi, GID=1022
+Nov 10 16:45:38 debian useradd[994]: new user: name=usc430yovi, UID=1022, GID=1022, home=/home/usc430yovi, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1001]: password for 'usc430yovi' changed by 'root'
+Nov 10 16:45:38 debian usermod[1008]: add 'usc430yovi' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1008]: add 'usc430yovi' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1015]: add 'usc430yovi' to group 'usc430yovi'
+Nov 10 16:45:38 debian usermod[1015]: add 'usc430yovi' to shadow group 'usc430yovi'
+Nov 10 16:45:38 debian useradd[1022]: new group: name=usc430wzwu, GID=1023
+Nov 10 16:45:38 debian useradd[1022]: new user: name=usc430wzwu, UID=1023, GID=1023, home=/home/usc430wzwu, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1029]: password for 'usc430wzwu' changed by 'root'
+Nov 10 16:45:38 debian usermod[1036]: add 'usc430wzwu' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1036]: add 'usc430wzwu' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1043]: add 'usc430wzwu' to group 'usc430wzwu'
+Nov 10 16:45:38 debian usermod[1043]: add 'usc430wzwu' to shadow group 'usc430wzwu'
+Nov 10 16:45:38 debian useradd[1050]: new group: name=usc430qhzh, GID=1024
+Nov 10 16:45:38 debian useradd[1050]: new user: name=usc430qhzh, UID=1024, GID=1024, home=/home/usc430qhzh, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1057]: password for 'usc430qhzh' changed by 'root'
+Nov 10 16:45:38 debian usermod[1064]: add 'usc430qhzh' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1064]: add 'usc430qhzh' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1071]: add 'usc430qhzh' to group 'usc430qhzh'
+Nov 10 16:45:38 debian usermod[1071]: add 'usc430qhzh' to shadow group 'usc430qhzh'
+Nov 10 16:45:38 debian useradd[1078]: new group: name=usc430zhzv, GID=1025
+Nov 10 16:45:38 debian useradd[1078]: new user: name=usc430zhzv, UID=1025, GID=1025, home=/home/usc430zhzv, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1085]: password for 'usc430zhzv' changed by 'root'
+Nov 10 16:45:38 debian usermod[1092]: add 'usc430zhzv' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1092]: add 'usc430zhzv' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1099]: add 'usc430zhzv' to group 'usc430zhzv'
+Nov 10 16:45:38 debian usermod[1099]: add 'usc430zhzv' to shadow group 'usc430zhzv'
+Nov 10 16:45:38 debian useradd[1106]: new group: name=usc430oiau, GID=1026
+Nov 10 16:45:38 debian useradd[1106]: new user: name=usc430oiau, UID=1026, GID=1026, home=/home/usc430oiau, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1113]: password for 'usc430oiau' changed by 'root'
+Nov 10 16:45:38 debian usermod[1120]: add 'usc430oiau' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1120]: add 'usc430oiau' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1127]: add 'usc430oiau' to group 'usc430oiau'
+Nov 10 16:45:38 debian usermod[1127]: add 'usc430oiau' to shadow group 'usc430oiau'
+Nov 10 16:45:38 debian useradd[1134]: new group: name=mirkovic, GID=1027
+Nov 10 16:45:38 debian useradd[1134]: new user: name=mirkovic, UID=1027, GID=1027, home=/home/mirkovic, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1141]: password for 'mirkovic' changed by 'root'
+Nov 10 16:45:38 debian usermod[1148]: add 'mirkovic' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1148]: add 'mirkovic' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1155]: add 'mirkovic' to group 'mirkovic'
+Nov 10 16:45:38 debian usermod[1155]: add 'mirkovic' to shadow group 'mirkovic'
+Nov 10 16:45:38 debian useradd[1162]: new group: name=usc430wcwy, GID=1028
+Nov 10 16:45:38 debian useradd[1162]: new user: name=usc430wcwy, UID=1028, GID=1028, home=/home/usc430wcwy, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1169]: password for 'usc430wcwy' changed by 'root'
+Nov 10 16:45:38 debian usermod[1176]: add 'usc430wcwy' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1176]: add 'usc430wcwy' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1183]: add 'usc430wcwy' to group 'usc430wcwy'
+Nov 10 16:45:38 debian usermod[1183]: add 'usc430wcwy' to shadow group 'usc430wcwy'
+Nov 10 16:45:38 debian useradd[1190]: new group: name=usc430ygpd, GID=1029
+Nov 10 16:45:38 debian useradd[1190]: new user: name=usc430ygpd, UID=1029, GID=1029, home=/home/usc430ygpd, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1197]: password for 'usc430ygpd' changed by 'root'
+Nov 10 16:45:38 debian usermod[1204]: add 'usc430ygpd' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1204]: add 'usc430ygpd' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1211]: add 'usc430ygpd' to group 'usc430ygpd'
+Nov 10 16:45:38 debian usermod[1211]: add 'usc430ygpd' to shadow group 'usc430ygpd'
+Nov 10 16:45:38 debian useradd[1218]: new group: name=usc430joiy, GID=1030
+Nov 10 16:45:38 debian useradd[1218]: new user: name=usc430joiy, UID=1030, GID=1030, home=/home/usc430joiy, shell=/bin/bash, from=none
+Nov 10 16:45:38 debian passwd[1225]: password for 'usc430joiy' changed by 'root'
+Nov 10 16:45:38 debian usermod[1232]: add 'usc430joiy' to group 'sudo'
+Nov 10 16:45:38 debian usermod[1232]: add 'usc430joiy' to shadow group 'sudo'
+Nov 10 16:45:38 debian usermod[1239]: add 'usc430joiy' to group 'usc430joiy'
+Nov 10 16:45:38 debian usermod[1239]: add 'usc430joiy' to shadow group 'usc430joiy'
+Nov 10 16:45:39 debian useradd[1246]: new group: name=usc430mdle, GID=1031
+Nov 10 16:45:39 debian useradd[1246]: new user: name=usc430mdle, UID=1031, GID=1031, home=/home/usc430mdle, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1253]: password for 'usc430mdle' changed by 'root'
+Nov 10 16:45:39 debian usermod[1260]: add 'usc430mdle' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1260]: add 'usc430mdle' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1267]: add 'usc430mdle' to group 'usc430mdle'
+Nov 10 16:45:39 debian usermod[1267]: add 'usc430mdle' to shadow group 'usc430mdle'
+Nov 10 16:45:39 debian useradd[1274]: new group: name=usc430fkwg, GID=1032
+Nov 10 16:45:39 debian useradd[1274]: new user: name=usc430fkwg, UID=1032, GID=1032, home=/home/usc430fkwg, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1281]: password for 'usc430fkwg' changed by 'root'
+Nov 10 16:45:39 debian usermod[1288]: add 'usc430fkwg' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1288]: add 'usc430fkwg' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1295]: add 'usc430fkwg' to group 'usc430fkwg'
+Nov 10 16:45:39 debian usermod[1295]: add 'usc430fkwg' to shadow group 'usc430fkwg'
+Nov 10 16:45:39 debian useradd[1302]: new group: name=usc430zglv, GID=1033
+Nov 10 16:45:39 debian useradd[1302]: new user: name=usc430zglv, UID=1033, GID=1033, home=/home/usc430zglv, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1309]: password for 'usc430zglv' changed by 'root'
+Nov 10 16:45:39 debian usermod[1316]: add 'usc430zglv' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1316]: add 'usc430zglv' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1323]: add 'usc430zglv' to group 'usc430zglv'
+Nov 10 16:45:39 debian usermod[1323]: add 'usc430zglv' to shadow group 'usc430zglv'
+Nov 10 16:45:39 debian useradd[1330]: new group: name=usc430hwlv, GID=1034
+Nov 10 16:45:39 debian useradd[1330]: new user: name=usc430hwlv, UID=1034, GID=1034, home=/home/usc430hwlv, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1337]: password for 'usc430hwlv' changed by 'root'
+Nov 10 16:45:39 debian usermod[1344]: add 'usc430hwlv' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1344]: add 'usc430hwlv' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1351]: add 'usc430hwlv' to group 'usc430hwlv'
+Nov 10 16:45:39 debian usermod[1351]: add 'usc430hwlv' to shadow group 'usc430hwlv'
+Nov 10 16:45:39 debian useradd[1358]: new group: name=usc430mvxv, GID=1035
+Nov 10 16:45:39 debian useradd[1358]: new user: name=usc430mvxv, UID=1035, GID=1035, home=/home/usc430mvxv, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1365]: password for 'usc430mvxv' changed by 'root'
+Nov 10 16:45:39 debian usermod[1372]: add 'usc430mvxv' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1372]: add 'usc430mvxv' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1379]: add 'usc430mvxv' to group 'usc430mvxv'
+Nov 10 16:45:39 debian usermod[1379]: add 'usc430mvxv' to shadow group 'usc430mvxv'
+Nov 10 16:45:39 debian useradd[1386]: new group: name=usc430fhpl, GID=1036
+Nov 10 16:45:39 debian useradd[1386]: new user: name=usc430fhpl, UID=1036, GID=1036, home=/home/usc430fhpl, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1393]: password for 'usc430fhpl' changed by 'root'
+Nov 10 16:45:39 debian usermod[1400]: add 'usc430fhpl' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1400]: add 'usc430fhpl' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1407]: add 'usc430fhpl' to group 'usc430fhpl'
+Nov 10 16:45:39 debian usermod[1407]: add 'usc430fhpl' to shadow group 'usc430fhpl'
+Nov 10 16:45:39 debian useradd[1414]: new group: name=usc430gwst, GID=1037
+Nov 10 16:45:39 debian useradd[1414]: new user: name=usc430gwst, UID=1037, GID=1037, home=/home/usc430gwst, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1421]: password for 'usc430gwst' changed by 'root'
+Nov 10 16:45:39 debian usermod[1428]: add 'usc430gwst' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1428]: add 'usc430gwst' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1435]: add 'usc430gwst' to group 'usc430gwst'
+Nov 10 16:45:39 debian usermod[1435]: add 'usc430gwst' to shadow group 'usc430gwst'
+Nov 10 16:45:39 debian useradd[1442]: new group: name=sunshine, GID=1038
+Nov 10 16:45:39 debian useradd[1442]: new user: name=sunshine, UID=1038, GID=1038, home=/home/sunshine, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1449]: password for 'sunshine' changed by 'root'
+Nov 10 16:45:39 debian usermod[1456]: add 'sunshine' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1456]: add 'sunshine' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1463]: add 'sunshine' to group 'sunshine'
+Nov 10 16:45:39 debian usermod[1463]: add 'sunshine' to shadow group 'sunshine'
+Nov 10 16:45:39 debian useradd[1470]: new group: name=usc430diie, GID=1039
+Nov 10 16:45:39 debian useradd[1470]: new user: name=usc430diie, UID=1039, GID=1039, home=/home/usc430diie, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1477]: password for 'usc430diie' changed by 'root'
+Nov 10 16:45:39 debian usermod[1484]: add 'usc430diie' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1484]: add 'usc430diie' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1491]: add 'usc430diie' to group 'usc430diie'
+Nov 10 16:45:39 debian usermod[1491]: add 'usc430diie' to shadow group 'usc430diie'
+Nov 10 16:45:39 debian useradd[1498]: new group: name=usc430igzw, GID=1040
+Nov 10 16:45:39 debian useradd[1498]: new user: name=usc430igzw, UID=1040, GID=1040, home=/home/usc430igzw, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1505]: password for 'usc430igzw' changed by 'root'
+Nov 10 16:45:39 debian usermod[1512]: add 'usc430igzw' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1512]: add 'usc430igzw' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1519]: add 'usc430igzw' to group 'usc430igzw'
+Nov 10 16:45:39 debian usermod[1519]: add 'usc430igzw' to shadow group 'usc430igzw'
+Nov 10 16:45:39 debian useradd[1526]: new group: name=usc430grid, GID=1041
+Nov 10 16:45:39 debian useradd[1526]: new user: name=usc430grid, UID=1041, GID=1041, home=/home/usc430grid, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1533]: password for 'usc430grid' changed by 'root'
+Nov 10 16:45:39 debian usermod[1540]: add 'usc430grid' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1540]: add 'usc430grid' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1547]: add 'usc430grid' to group 'usc430grid'
+Nov 10 16:45:39 debian usermod[1547]: add 'usc430grid' to shadow group 'usc430grid'
+Nov 10 16:45:39 debian useradd[1554]: new group: name=usc430ypim, GID=1042
+Nov 10 16:45:39 debian useradd[1554]: new user: name=usc430ypim, UID=1042, GID=1042, home=/home/usc430ypim, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1561]: password for 'usc430ypim' changed by 'root'
+Nov 10 16:45:39 debian usermod[1568]: add 'usc430ypim' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1568]: add 'usc430ypim' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1575]: add 'usc430ypim' to group 'usc430ypim'
+Nov 10 16:45:39 debian usermod[1575]: add 'usc430ypim' to shadow group 'usc430ypim'
+Nov 10 16:45:39 debian useradd[1582]: new group: name=usc430bdhl, GID=1043
+Nov 10 16:45:39 debian useradd[1582]: new user: name=usc430bdhl, UID=1043, GID=1043, home=/home/usc430bdhl, shell=/bin/bash, from=none
+Nov 10 16:45:39 debian passwd[1589]: password for 'usc430bdhl' changed by 'root'
+Nov 10 16:45:39 debian usermod[1596]: add 'usc430bdhl' to group 'sudo'
+Nov 10 16:45:39 debian usermod[1596]: add 'usc430bdhl' to shadow group 'sudo'
+Nov 10 16:45:39 debian usermod[1603]: add 'usc430bdhl' to group 'usc430bdhl'
+Nov 10 16:45:39 debian usermod[1603]: add 'usc430bdhl' to shadow group 'usc430bdhl'
+Nov 10 16:45:39 debian useradd[1610]: new group: name=usc430fjzx, GID=1044
+Nov 10 16:45:39 debian useradd[1610]: new user: name=usc430fjzx, UID=1044, GID=1044, home=/home/usc430fjzx, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1617]: password for 'usc430fjzx' changed by 'root'
+Nov 10 16:45:40 debian usermod[1624]: add 'usc430fjzx' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1624]: add 'usc430fjzx' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1631]: add 'usc430fjzx' to group 'usc430fjzx'
+Nov 10 16:45:40 debian usermod[1631]: add 'usc430fjzx' to shadow group 'usc430fjzx'
+Nov 10 16:45:40 debian useradd[1638]: new group: name=usc430dzqg, GID=1045
+Nov 10 16:45:40 debian useradd[1638]: new user: name=usc430dzqg, UID=1045, GID=1045, home=/home/usc430dzqg, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1645]: password for 'usc430dzqg' changed by 'root'
+Nov 10 16:45:40 debian usermod[1652]: add 'usc430dzqg' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1652]: add 'usc430dzqg' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1659]: add 'usc430dzqg' to group 'usc430dzqg'
+Nov 10 16:45:40 debian usermod[1659]: add 'usc430dzqg' to shadow group 'usc430dzqg'
+Nov 10 16:45:40 debian useradd[1666]: new group: name=usc430pzog, GID=1046
+Nov 10 16:45:40 debian useradd[1666]: new user: name=usc430pzog, UID=1046, GID=1046, home=/home/usc430pzog, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1673]: password for 'usc430pzog' changed by 'root'
+Nov 10 16:45:40 debian usermod[1680]: add 'usc430pzog' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1680]: add 'usc430pzog' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1687]: add 'usc430pzog' to group 'usc430pzog'
+Nov 10 16:45:40 debian usermod[1687]: add 'usc430pzog' to shadow group 'usc430pzog'
+Nov 10 16:45:40 debian useradd[1694]: new group: name=usc430qtpz, GID=1047
+Nov 10 16:45:40 debian useradd[1694]: new user: name=usc430qtpz, UID=1047, GID=1047, home=/home/usc430qtpz, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1701]: password for 'usc430qtpz' changed by 'root'
+Nov 10 16:45:40 debian usermod[1708]: add 'usc430qtpz' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1708]: add 'usc430qtpz' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1715]: add 'usc430qtpz' to group 'usc430qtpz'
+Nov 10 16:45:40 debian usermod[1715]: add 'usc430qtpz' to shadow group 'usc430qtpz'
+Nov 10 16:45:40 debian useradd[1722]: new group: name=usc430pupn, GID=1048
+Nov 10 16:45:40 debian useradd[1722]: new user: name=usc430pupn, UID=1048, GID=1048, home=/home/usc430pupn, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1729]: password for 'usc430pupn' changed by 'root'
+Nov 10 16:45:40 debian usermod[1736]: add 'usc430pupn' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1736]: add 'usc430pupn' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1743]: add 'usc430pupn' to group 'usc430pupn'
+Nov 10 16:45:40 debian usermod[1743]: add 'usc430pupn' to shadow group 'usc430pupn'
+Nov 10 16:45:40 debian useradd[1750]: new group: name=usc430xinr, GID=1049
+Nov 10 16:45:40 debian useradd[1750]: new user: name=usc430xinr, UID=1049, GID=1049, home=/home/usc430xinr, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1757]: password for 'usc430xinr' changed by 'root'
+Nov 10 16:45:40 debian usermod[1764]: add 'usc430xinr' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1764]: add 'usc430xinr' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1771]: add 'usc430xinr' to group 'usc430xinr'
+Nov 10 16:45:40 debian usermod[1771]: add 'usc430xinr' to shadow group 'usc430xinr'
+Nov 10 16:45:40 debian useradd[1778]: new group: name=usc430ooyl, GID=1050
+Nov 10 16:45:40 debian useradd[1778]: new user: name=usc430ooyl, UID=1050, GID=1050, home=/home/usc430ooyl, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1785]: password for 'usc430ooyl' changed by 'root'
+Nov 10 16:45:40 debian usermod[1792]: add 'usc430ooyl' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1792]: add 'usc430ooyl' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1799]: add 'usc430ooyl' to group 'usc430ooyl'
+Nov 10 16:45:40 debian usermod[1799]: add 'usc430ooyl' to shadow group 'usc430ooyl'
+Nov 10 16:45:40 debian useradd[1806]: new group: name=usc430lfbp, GID=1051
+Nov 10 16:45:40 debian useradd[1806]: new user: name=usc430lfbp, UID=1051, GID=1051, home=/home/usc430lfbp, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1813]: password for 'usc430lfbp' changed by 'root'
+Nov 10 16:45:40 debian usermod[1820]: add 'usc430lfbp' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1820]: add 'usc430lfbp' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1827]: add 'usc430lfbp' to group 'usc430lfbp'
+Nov 10 16:45:40 debian usermod[1827]: add 'usc430lfbp' to shadow group 'usc430lfbp'
+Nov 10 16:45:40 debian useradd[1834]: new group: name=usc430bvim, GID=1052
+Nov 10 16:45:40 debian useradd[1834]: new user: name=usc430bvim, UID=1052, GID=1052, home=/home/usc430bvim, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1841]: password for 'usc430bvim' changed by 'root'
+Nov 10 16:45:40 debian usermod[1848]: add 'usc430bvim' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1848]: add 'usc430bvim' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1855]: add 'usc430bvim' to group 'usc430bvim'
+Nov 10 16:45:40 debian usermod[1855]: add 'usc430bvim' to shadow group 'usc430bvim'
+Nov 10 16:45:40 debian useradd[1862]: new group: name=usc430mbjz, GID=1053
+Nov 10 16:45:40 debian useradd[1862]: new user: name=usc430mbjz, UID=1053, GID=1053, home=/home/usc430mbjz, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1869]: password for 'usc430mbjz' changed by 'root'
+Nov 10 16:45:40 debian usermod[1876]: add 'usc430mbjz' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1876]: add 'usc430mbjz' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1883]: add 'usc430mbjz' to group 'usc430mbjz'
+Nov 10 16:45:40 debian usermod[1883]: add 'usc430mbjz' to shadow group 'usc430mbjz'
+Nov 10 16:45:40 debian useradd[1890]: new group: name=usc430mxrd, GID=1054
+Nov 10 16:45:40 debian useradd[1890]: new user: name=usc430mxrd, UID=1054, GID=1054, home=/home/usc430mxrd, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1897]: password for 'usc430mxrd' changed by 'root'
+Nov 10 16:45:40 debian usermod[1904]: add 'usc430mxrd' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1904]: add 'usc430mxrd' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1911]: add 'usc430mxrd' to group 'usc430mxrd'
+Nov 10 16:45:40 debian usermod[1911]: add 'usc430mxrd' to shadow group 'usc430mxrd'
+Nov 10 16:45:40 debian useradd[1918]: new group: name=usc430cxst, GID=1055
+Nov 10 16:45:40 debian useradd[1918]: new user: name=usc430cxst, UID=1055, GID=1055, home=/home/usc430cxst, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1925]: password for 'usc430cxst' changed by 'root'
+Nov 10 16:45:40 debian usermod[1932]: add 'usc430cxst' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1932]: add 'usc430cxst' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1939]: add 'usc430cxst' to group 'usc430cxst'
+Nov 10 16:45:40 debian usermod[1939]: add 'usc430cxst' to shadow group 'usc430cxst'
+Nov 10 16:45:40 debian useradd[1946]: new group: name=usc430pnnw, GID=1056
+Nov 10 16:45:40 debian useradd[1946]: new user: name=usc430pnnw, UID=1056, GID=1056, home=/home/usc430pnnw, shell=/bin/bash, from=none
+Nov 10 16:45:40 debian passwd[1953]: password for 'usc430pnnw' changed by 'root'
+Nov 10 16:45:40 debian usermod[1960]: add 'usc430pnnw' to group 'sudo'
+Nov 10 16:45:40 debian usermod[1960]: add 'usc430pnnw' to shadow group 'sudo'
+Nov 10 16:45:40 debian usermod[1967]: add 'usc430pnnw' to group 'usc430pnnw'
+Nov 10 16:45:40 debian usermod[1967]: add 'usc430pnnw' to shadow group 'usc430pnnw'
+Nov 10 16:45:41 debian useradd[1974]: new group: name=usc430bcey, GID=1057
+Nov 10 16:45:41 debian useradd[1974]: new user: name=usc430bcey, UID=1057, GID=1057, home=/home/usc430bcey, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[1981]: password for 'usc430bcey' changed by 'root'
+Nov 10 16:45:41 debian usermod[1988]: add 'usc430bcey' to group 'sudo'
+Nov 10 16:45:41 debian usermod[1988]: add 'usc430bcey' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[1995]: add 'usc430bcey' to group 'usc430bcey'
+Nov 10 16:45:41 debian usermod[1995]: add 'usc430bcey' to shadow group 'usc430bcey'
+Nov 10 16:45:41 debian useradd[2002]: new group: name=usc430gnlb, GID=1058
+Nov 10 16:45:41 debian useradd[2002]: new user: name=usc430gnlb, UID=1058, GID=1058, home=/home/usc430gnlb, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2009]: password for 'usc430gnlb' changed by 'root'
+Nov 10 16:45:41 debian usermod[2016]: add 'usc430gnlb' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2016]: add 'usc430gnlb' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2023]: add 'usc430gnlb' to group 'usc430gnlb'
+Nov 10 16:45:41 debian usermod[2023]: add 'usc430gnlb' to shadow group 'usc430gnlb'
+Nov 10 16:45:41 debian useradd[2030]: new group: name=usc430jpqo, GID=1059
+Nov 10 16:45:41 debian useradd[2030]: new user: name=usc430jpqo, UID=1059, GID=1059, home=/home/usc430jpqo, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2037]: password for 'usc430jpqo' changed by 'root'
+Nov 10 16:45:41 debian usermod[2044]: add 'usc430jpqo' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2044]: add 'usc430jpqo' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2051]: add 'usc430jpqo' to group 'usc430jpqo'
+Nov 10 16:45:41 debian usermod[2051]: add 'usc430jpqo' to shadow group 'usc430jpqo'
+Nov 10 16:45:41 debian useradd[2058]: new group: name=usc430wshb, GID=1060
+Nov 10 16:45:41 debian useradd[2058]: new user: name=usc430wshb, UID=1060, GID=1060, home=/home/usc430wshb, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2065]: password for 'usc430wshb' changed by 'root'
+Nov 10 16:45:41 debian usermod[2072]: add 'usc430wshb' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2072]: add 'usc430wshb' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2079]: add 'usc430wshb' to group 'usc430wshb'
+Nov 10 16:45:41 debian usermod[2079]: add 'usc430wshb' to shadow group 'usc430wshb'
+Nov 10 16:45:41 debian useradd[2086]: new group: name=usc430pquy, GID=1061
+Nov 10 16:45:41 debian useradd[2086]: new user: name=usc430pquy, UID=1061, GID=1061, home=/home/usc430pquy, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2093]: password for 'usc430pquy' changed by 'root'
+Nov 10 16:45:41 debian usermod[2100]: add 'usc430pquy' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2100]: add 'usc430pquy' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2107]: add 'usc430pquy' to group 'usc430pquy'
+Nov 10 16:45:41 debian usermod[2107]: add 'usc430pquy' to shadow group 'usc430pquy'
+Nov 10 16:45:41 debian useradd[2114]: new group: name=usc430pcto, GID=1062
+Nov 10 16:45:41 debian useradd[2114]: new user: name=usc430pcto, UID=1062, GID=1062, home=/home/usc430pcto, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2121]: password for 'usc430pcto' changed by 'root'
+Nov 10 16:45:41 debian usermod[2128]: add 'usc430pcto' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2128]: add 'usc430pcto' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2135]: add 'usc430pcto' to group 'usc430pcto'
+Nov 10 16:45:41 debian usermod[2135]: add 'usc430pcto' to shadow group 'usc430pcto'
+Nov 10 16:45:41 debian useradd[2142]: new group: name=usc430jzpq, GID=1063
+Nov 10 16:45:41 debian useradd[2142]: new user: name=usc430jzpq, UID=1063, GID=1063, home=/home/usc430jzpq, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2149]: password for 'usc430jzpq' changed by 'root'
+Nov 10 16:45:41 debian usermod[2156]: add 'usc430jzpq' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2156]: add 'usc430jzpq' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2163]: add 'usc430jzpq' to group 'usc430jzpq'
+Nov 10 16:45:41 debian usermod[2163]: add 'usc430jzpq' to shadow group 'usc430jzpq'
+Nov 10 16:45:41 debian useradd[2170]: new group: name=usc430fqhp, GID=1064
+Nov 10 16:45:41 debian useradd[2170]: new user: name=usc430fqhp, UID=1064, GID=1064, home=/home/usc430fqhp, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2177]: password for 'usc430fqhp' changed by 'root'
+Nov 10 16:45:41 debian usermod[2184]: add 'usc430fqhp' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2184]: add 'usc430fqhp' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2191]: add 'usc430fqhp' to group 'usc430fqhp'
+Nov 10 16:45:41 debian usermod[2191]: add 'usc430fqhp' to shadow group 'usc430fqhp'
+Nov 10 16:45:41 debian useradd[2198]: new group: name=usc430jfgr, GID=1065
+Nov 10 16:45:41 debian useradd[2198]: new user: name=usc430jfgr, UID=1065, GID=1065, home=/home/usc430jfgr, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2205]: password for 'usc430jfgr' changed by 'root'
+Nov 10 16:45:41 debian usermod[2212]: add 'usc430jfgr' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2212]: add 'usc430jfgr' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2219]: add 'usc430jfgr' to group 'usc430jfgr'
+Nov 10 16:45:41 debian usermod[2219]: add 'usc430jfgr' to shadow group 'usc430jfgr'
+Nov 10 16:45:41 debian useradd[2226]: new group: name=usc430qcxc, GID=1066
+Nov 10 16:45:41 debian useradd[2226]: new user: name=usc430qcxc, UID=1066, GID=1066, home=/home/usc430qcxc, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2233]: password for 'usc430qcxc' changed by 'root'
+Nov 10 16:45:41 debian usermod[2240]: add 'usc430qcxc' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2240]: add 'usc430qcxc' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2247]: add 'usc430qcxc' to group 'usc430qcxc'
+Nov 10 16:45:41 debian usermod[2247]: add 'usc430qcxc' to shadow group 'usc430qcxc'
+Nov 10 16:45:41 debian useradd[2254]: new group: name=usc430gkdu, GID=1067
+Nov 10 16:45:41 debian useradd[2254]: new user: name=usc430gkdu, UID=1067, GID=1067, home=/home/usc430gkdu, shell=/bin/bash, from=none
+Nov 10 16:45:41 debian passwd[2261]: password for 'usc430gkdu' changed by 'root'
+Nov 10 16:45:41 debian usermod[2268]: add 'usc430gkdu' to group 'sudo'
+Nov 10 16:45:41 debian usermod[2268]: add 'usc430gkdu' to shadow group 'sudo'
+Nov 10 16:45:41 debian usermod[2275]: add 'usc430gkdu' to group 'usc430gkdu'
+Nov 10 16:45:41 debian usermod[2275]: add 'usc430gkdu' to shadow group 'usc430gkdu'
+Nov 10 17:17:01 debian CRON[3038]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 17:17:01 debian CRON[3038]: pam_unix(cron:session): session closed for user root
+Nov 10 18:17:01 debian CRON[3047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 18:17:01 debian CRON[3047]: pam_unix(cron:session): session closed for user root
+Nov 10 19:17:01 debian CRON[3052]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 19:17:01 debian CRON[3052]: pam_unix(cron:session): session closed for user root
+Nov 10 19:37:50 debian sshd[3057]: Accepted publickey for sunshine from 192.168.254.2 port 49936 ssh2: RSA SHA256:7PukJ9hjdbjLbszHC8dua8Bp+KWIhkhHneiyuCa5O0s
+Nov 10 19:37:50 debian sshd[3057]: pam_unix(sshd:session): session opened for user sunshine(uid=1038) by (uid=0)
+Nov 10 19:37:50 debian systemd-logind[347]: New session 4 of user sunshine.
+Nov 10 19:37:50 debian systemd: pam_unix(systemd-user:session): session opened for user sunshine(uid=1038) by (uid=0)
+Nov 10 19:37:50 debian sshd[3079]: Received disconnect from 192.168.254.2 port 49936:11: disconnected by user
+Nov 10 19:37:50 debian sshd[3079]: Disconnected from user sunshine 192.168.254.2 port 49936
+Nov 10 19:37:50 debian sshd[3057]: pam_unix(sshd:session): session closed for user sunshine
+Nov 10 19:37:50 debian systemd-logind[347]: Session 4 logged out. Waiting for processes to exit.
+Nov 10 19:37:50 debian systemd-logind[347]: Removed session 4.
+Nov 10 19:37:50 debian sshd[3081]: Accepted publickey for sunshine from 192.168.254.2 port 49944 ssh2: RSA SHA256:7PukJ9hjdbjLbszHC8dua8Bp+KWIhkhHneiyuCa5O0s
+Nov 10 19:37:50 debian sshd[3081]: pam_unix(sshd:session): session opened for user sunshine(uid=1038) by (uid=0)
+Nov 10 19:37:50 debian systemd-logind[347]: New session 6 of user sunshine.
+Nov 10 19:37:50 debian sshd[3087]: Received disconnect from 192.168.254.2 port 49944:11: disconnected by user
+Nov 10 19:37:50 debian sshd[3087]: Disconnected from user sunshine 192.168.254.2 port 49944
+Nov 10 19:37:50 debian sshd[3081]: pam_unix(sshd:session): session closed for user sunshine
+Nov 10 19:37:51 debian systemd-logind[347]: Session 6 logged out. Waiting for processes to exit.
+Nov 10 19:37:51 debian systemd-logind[347]: Removed session 6.
+Nov 10 19:37:51 debian sshd[3089]: Accepted publickey for sunshine from 192.168.254.2 port 49956 ssh2: RSA SHA256:7PukJ9hjdbjLbszHC8dua8Bp+KWIhkhHneiyuCa5O0s
+Nov 10 19:37:51 debian sshd[3089]: pam_unix(sshd:session): session opened for user sunshine(uid=1038) by (uid=0)
+Nov 10 19:37:51 debian systemd-logind[347]: New session 7 of user sunshine.
+Nov 10 19:37:51 debian sudo: sunshine : PWD=/tmp/blueserver ; USER=root ; COMMAND=/usr/bin/bash install
+Nov 10 19:37:51 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1038)
+Nov 10 19:37:55 debian groupadd[3660]: group added to /etc/group: name=mysql, GID=113
+Nov 10 19:37:55 debian groupadd[3660]: group added to /etc/gshadow: name=mysql
+Nov 10 19:37:55 debian groupadd[3660]: new group: name=mysql, GID=113
+Nov 10 19:37:55 debian useradd[3668]: new user: name=mysql, UID=107, GID=113, home=/nonexistent, shell=/bin/false, from=none
+Nov 10 19:37:55 debian chage[3675]: changed password expiry for mysql
+Nov 10 19:37:55 debian chfn[3679]: changed user 'mysql' information
+Nov 10 19:37:57 debian groupadd[3998]: group added to /etc/group: name=ssl-cert, GID=114
+Nov 10 19:37:57 debian groupadd[3998]: group added to /etc/gshadow: name=ssl-cert
+Nov 10 19:37:57 debian groupadd[3998]: new group: name=ssl-cert, GID=114
+Nov 10 19:38:12 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 19:38:12 debian sshd[3095]: Received disconnect from 192.168.254.2 port 49956:11: disconnected by user
+Nov 10 19:38:12 debian sshd[3095]: Disconnected from user sunshine 192.168.254.2 port 49956
+Nov 10 19:38:12 debian sshd[3089]: pam_unix(sshd:session): session closed for user sunshine
+Nov 10 19:38:12 debian systemd-logind[347]: Session 7 logged out. Waiting for processes to exit.
+Nov 10 19:38:12 debian systemd-logind[347]: Removed session 7.
+Nov 10 19:38:22 debian systemd: pam_unix(systemd-user:session): session closed for user sunshine
+Nov 10 19:39:01 debian CRON[13213]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 19:39:01 debian CRON[13213]: pam_unix(cron:session): session closed for user root
+Nov 10 20:09:01 debian CRON[13265]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 20:09:01 debian CRON[13265]: pam_unix(cron:session): session closed for user root
+Nov 10 20:17:01 debian CRON[13317]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 20:17:01 debian CRON[13317]: pam_unix(cron:session): session closed for user root
+Nov 10 20:39:01 debian CRON[13322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 20:39:01 debian CRON[13322]: pam_unix(cron:session): session closed for user root
+Nov 10 21:09:01 debian CRON[13374]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 21:09:01 debian CRON[13374]: pam_unix(cron:session): session closed for user root
+Nov 10 21:17:01 debian CRON[13426]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 21:17:01 debian CRON[13426]: pam_unix(cron:session): session closed for user root
+Nov 10 21:39:01 debian CRON[13431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 21:39:01 debian CRON[13431]: pam_unix(cron:session): session closed for user root
+Nov 10 22:09:01 debian CRON[13483]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 22:09:01 debian CRON[13483]: pam_unix(cron:session): session closed for user root
+Nov 10 22:17:01 debian CRON[13534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 22:17:01 debian CRON[13534]: pam_unix(cron:session): session closed for user root
+Nov 10 22:39:01 debian CRON[13538]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 22:39:01 debian CRON[13538]: pam_unix(cron:session): session closed for user root
+Nov 10 23:09:01 debian CRON[13590]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 23:09:01 debian CRON[13590]: pam_unix(cron:session): session closed for user root
+Nov 10 23:17:01 debian CRON[13642]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 23:17:01 debian CRON[13642]: pam_unix(cron:session): session closed for user root
+Nov 10 23:39:01 debian CRON[13646]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 23:39:01 debian CRON[13646]: pam_unix(cron:session): session closed for user root
+Nov 10 23:58:15 debian sshd[13698]: Accepted publickey for usc430jzpq from 192.168.254.3 port 48130 ssh2: RSA SHA256:lecpWRbES1UV/OIMIdR539NuPq30/41F+ZEmxEbIibY
+Nov 10 23:58:15 debian sshd[13698]: pam_unix(sshd:session): session opened for user usc430jzpq(uid=1063) by (uid=0)
+Nov 10 23:58:15 debian systemd-logind[347]: New session 21 of user usc430jzpq.
+Nov 10 23:58:15 debian systemd: pam_unix(systemd-user:session): session opened for user usc430jzpq(uid=1063) by (uid=0)
+Nov 10 23:59:35 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git init
+Nov 10 23:59:35 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)
+Nov 10 23:59:35 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 00:00:31 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Nov 11 00:00:31 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)
+Nov 11 00:00:36 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 00:00:59 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano .gitignore
+Nov 11 00:00:59 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)
+Nov 11 00:01:06 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 00:01:09 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Nov 11 00:01:09 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)
+Nov 11 00:01:10 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 00:03:23 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano .gitignore
+Nov 11 00:03:23 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)
+Nov 11 00:03:26 debian sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 00:03:29 debian sudo: usc430jzpq : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/git add .
+Nov 11 00:03:29 debian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by usc430jzpq(uid=1063)

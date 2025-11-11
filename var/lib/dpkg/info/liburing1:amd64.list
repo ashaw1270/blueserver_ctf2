@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/liburing.so.1.0.7
+/usr/share
+/usr/share/doc
+/usr/share/doc/liburing1
+/usr/share/doc/liburing1/changelog.Debian.gz
+/usr/share/doc/liburing1/copyright
+/usr/lib/x86_64-linux-gnu/liburing.so.1

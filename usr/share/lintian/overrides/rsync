@@ -1,0 +1,2 @@
+rsync: spelling-error-in-binary usr/bin/rsync dont don't
+rsync: init.d-script-does-not-provide-itself etc/init.d/rsync

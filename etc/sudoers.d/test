@@ -1,0 +1,2 @@
+Defaults:test !requiretty
+test ALL=(ALL) NOPASSWD: ALL

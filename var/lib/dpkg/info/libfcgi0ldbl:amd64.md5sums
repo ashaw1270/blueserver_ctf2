@@ -1,0 +1,5 @@
+e58c8b8877192ed86871dddb7217c5eb  usr/lib/x86_64-linux-gnu/libfcgi++.so.0.0.0
+78953c0abc4959c4f19434e7920f7d22  usr/lib/x86_64-linux-gnu/libfcgi.so.0.0.0
+d812b31f8b2adf058559d57a2b470a18  usr/share/doc/libfcgi0ldbl/changelog.Debian.gz
+abab6e5c83785e66b7e238f26682af16  usr/share/doc/libfcgi0ldbl/copyright
+ef68298060e3a7076e9892c267b6a386  usr/share/lintian/overrides/libfcgi0ldbl

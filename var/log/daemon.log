@@ -1,0 +1,1059 @@
+Feb 13 05:53:19 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Feb 13 05:53:19 debian systemd-random-seed[197]: Kernel entropy pool is not initialized yet, waiting until it is.
+Feb 13 05:53:19 debian systemd-sysusers[198]: Creating group systemd-coredump with gid 999.
+Feb 13 05:53:19 debian systemd-sysusers[198]: Creating user systemd-coredump (systemd Core Dumper) with uid 999 and gid 999.
+Feb 13 05:53:19 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+Feb 13 05:53:19 debian systemd[1]: Finished Create System Users.
+Feb 13 05:53:19 debian systemd[1]: Starting Create Static Device Nodes in /dev...
+Feb 13 05:53:19 debian systemd[1]: Finished Coldplug All udev Devices.
+Feb 13 05:53:19 debian systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Feb 13 05:53:19 debian systemd[1]: Finished Create Static Device Nodes in /dev.
+Feb 13 05:53:19 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Feb 13 05:53:19 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Feb 13 05:53:19 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+Feb 13 05:53:19 debian systemd[1]: Finished Set the console keyboard layout.
+Feb 13 05:53:19 debian systemd[1]: Reached target Local File Systems (Pre).
+Feb 13 05:53:19 debian systemd-udevd[210]: Using default interface naming scheme 'v247'.
+Feb 13 05:53:19 debian systemd-udevd[210]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Feb 13 05:53:19 debian systemd-udevd[218]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Feb 13 05:53:19 debian systemd[1]: Found device QEMU_HARDDISK 1.
+Feb 13 05:53:19 debian systemd[1]: Mounting /boot/efi...
+Feb 13 05:53:19 debian systemd[1]: Found device Virtio network device.
+Feb 13 05:53:19 debian systemd[1]: Mounted /boot/efi.
+Feb 13 05:53:19 debian systemd[1]: Reached target Local File Systems.
+Feb 13 05:53:19 debian systemd[1]: Condition check resulted in Load AppArmor profiles being skipped.
+Feb 13 05:53:19 debian systemd[1]: Starting Set console font and keymap...
+Feb 13 05:53:19 debian systemd[1]: Started ifup for ens3.
+Feb 13 05:53:19 debian systemd[1]: Starting Raise network interfaces...
+Feb 13 05:53:19 debian systemd[1]: Starting Create Volatile Files and Directories...
+Feb 13 05:53:19 debian systemd[1]: Finished Set console font and keymap.
+Feb 13 05:53:19 debian systemd[1]: Finished Create Volatile Files and Directories.
+Feb 13 05:53:19 debian systemd[1]: Starting Network Time Synchronization...
+Feb 13 05:53:19 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Feb 13 05:53:19 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Feb 13 05:53:19 debian systemd[1]: Finished Raise network interfaces.
+Feb 13 05:53:19 debian systemd[1]: Reached target Network.
+Feb 13 05:53:19 debian systemd[1]: Started Network Time Synchronization.
+Feb 13 05:53:19 debian systemd[1]: Reached target System Initialization.
+Feb 13 05:53:19 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+Feb 13 05:53:19 debian systemd[1]: Reached target System Time Set.
+Feb 13 05:53:19 debian systemd[1]: Reached target System Time Synchronized.
+Feb 13 05:53:19 debian systemd[1]: Started Daily apt download activities.
+Feb 13 05:53:19 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Feb 13 05:53:19 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Feb 13 05:53:19 debian systemd[1]: Started Discard unused blocks once a week.
+Feb 13 05:53:19 debian systemd[1]: Started Daily rotation of log files.
+Feb 13 05:53:19 debian systemd[1]: Started Daily man-db regeneration.
+Feb 13 05:53:19 debian systemd[1]: Reached target Timers.
+Feb 13 05:53:19 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+Feb 13 05:53:19 debian systemd[1]: Reached target Sockets.
+Feb 13 05:53:19 debian systemd[1]: Reached target Basic System.
+Feb 13 05:53:19 debian systemd[1]: Started Regular background program processing daemon.
+Feb 13 05:53:19 debian systemd[1]: Started D-Bus System Message Bus.
+Feb 13 05:53:19 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Feb 13 05:53:19 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Feb 13 05:53:19 debian systemd[1]: Starting System Logging Service...
+Feb 13 05:53:19 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 13 05:53:19 debian systemd[1]: Starting User Login Management...
+Feb 13 05:53:19 debian systemd[1]: Starting Permit User Sessions...
+Feb 13 05:53:19 debian systemd[1]: Started System Logging Service.
+Feb 13 05:53:19 debian dhclient[329]: Internet Systems Consortium DHCP Client 4.4.1
+Feb 13 05:53:19 debian sh[329]: Internet Systems Consortium DHCP Client 4.4.1
+Feb 13 05:53:19 debian dhclient[329]: Copyright 2004-2018 Internet Systems Consortium.
+Feb 13 05:53:19 debian sh[329]: Copyright 2004-2018 Internet Systems Consortium.
+Feb 13 05:53:19 debian dhclient[329]: All rights reserved.
+Feb 13 05:53:19 debian sh[329]: All rights reserved.
+Feb 13 05:53:19 debian dhclient[329]: For info, please visit https://www.isc.org/software/dhcp/
+Feb 13 05:53:19 debian sh[329]: For info, please visit https://www.isc.org/software/dhcp/
+Feb 13 05:53:19 debian dhclient[329]: 
+Feb 13 05:53:19 debian systemd[1]: Finished Permit User Sessions.
+Feb 13 05:53:19 debian systemd[1]: Started Getty on tty1.
+Feb 13 05:53:19 debian systemd[1]: Reached target Login Prompts.
+Feb 13 05:53:19 debian systemd[1]: Started User Login Management.
+Feb 13 05:53:19 debian dhclient[329]: Listening on LPF/ens3/52:54:00:12:34:56
+Feb 13 05:53:19 debian sh[329]: Listening on LPF/ens3/52:54:00:12:34:56
+Feb 13 05:53:19 debian sh[329]: Sending on   LPF/ens3/52:54:00:12:34:56
+Feb 13 05:53:19 debian sh[329]: Sending on   Socket/fallback
+Feb 13 05:53:19 debian sh[329]: Created duid "\000\001\000\001/@EORT\000\0224V".
+Feb 13 05:53:19 debian sh[329]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 4
+Feb 13 05:53:19 debian dhclient[329]: Sending on   LPF/ens3/52:54:00:12:34:56
+Feb 13 05:53:19 debian dhclient[329]: Sending on   Socket/fallback
+Feb 13 05:53:19 debian dhclient[329]: Created duid "\000\001\000\001/@EORT\000\0224V".
+Feb 13 05:53:19 debian dhclient[329]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 4
+Feb 13 05:53:19 debian dhclient[329]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Feb 13 05:53:19 debian sh[329]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Feb 13 05:53:19 debian sh[329]: DHCPREQUEST for 10.0.2.15 on ens3 to 255.255.255.255 port 67
+Feb 13 05:53:19 debian sh[329]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Feb 13 05:53:19 debian dhclient[329]: DHCPREQUEST for 10.0.2.15 on ens3 to 255.255.255.255 port 67
+Feb 13 05:53:19 debian dhclient[329]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Feb 13 05:53:19 debian dhclient[329]: bound to 10.0.2.15 -- renewal in 35802 seconds.
+Feb 13 05:53:19 debian sh[329]: bound to 10.0.2.15 -- renewal in 35802 seconds.
+Feb 13 05:53:19 debian sh[378]: ens3=ens3
+Feb 13 05:53:19 debian systemd[1]: Finished Load/Save Random Seed.
+Feb 13 05:53:19 debian systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Feb 13 05:53:19 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Feb 13 05:53:19 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Feb 13 05:53:19 debian systemd[1]: e2scrub_reap.service: Succeeded.
+Feb 13 05:53:19 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Feb 13 05:53:19 debian systemd[1]: Started OpenBSD Secure Shell server.
+Feb 13 05:53:19 debian systemd[1]: Reached target Multi-User System.
+Feb 13 05:53:19 debian systemd[1]: Reached target Graphical Interface.
+Feb 13 05:53:19 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Feb 13 05:53:19 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Feb 13 05:53:19 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Feb 13 05:53:19 debian systemd[1]: Startup finished in 1.680s (kernel) + 1.467s (userspace) = 3.148s.
+Feb 13 05:53:23 debian systemd[1]: Created slice User Slice of UID 1000.
+Feb 13 05:53:23 debian systemd[1]: Starting User Runtime Directory /run/user/1000...
+Feb 13 05:53:23 debian systemd[1]: Finished User Runtime Directory /run/user/1000.
+Feb 13 05:53:23 debian systemd[1]: Starting User Manager for UID 1000...
+Feb 13 05:53:23 debian systemd[389]: Queued start job for default target Main User Target.
+Feb 13 05:53:23 debian systemd[389]: Reached target Paths.
+Feb 13 05:53:23 debian systemd[389]: Reached target Sockets.
+Feb 13 05:53:23 debian systemd[389]: Reached target Timers.
+Feb 13 05:53:23 debian systemd[389]: Reached target Basic System.
+Feb 13 05:53:23 debian systemd[389]: Reached target Main User Target.
+Feb 13 05:53:23 debian systemd[389]: Startup finished in 45ms.
+Feb 13 05:53:23 debian systemd[1]: Started User Manager for UID 1000.
+Feb 13 05:53:23 debian systemd[1]: Started Session 1 of user test.
+Feb 13 05:53:35 debian systemd[1]: Reloading.
+Feb 13 05:53:35 debian systemd[1]: Reloading.
+Feb 13 05:53:35 debian systemd[1]: Reloading.
+Feb 13 05:53:35 debian systemd[1]: Reloading.
+Feb 13 05:53:35 debian systemd[1]: Reloading.
+Feb 13 05:53:36 debian systemd[1]: Reloading.
+Feb 13 05:53:37 debian systemd[1]: Reloading.
+Feb 13 05:54:34 debian systemd[1]: Reloading.
+Feb 13 05:54:37 debian systemd[1]: Reloading.
+Feb 13 05:54:37 debian systemd[1]: Reloading.
+Feb 13 05:54:42 debian systemd[1]: Stopping Session 1 of user test.
+Feb 13 05:54:42 debian systemd[1]: Removed slice system-modprobe.slice.
+Feb 13 05:54:42 debian systemd[1]: Stopped target Graphical Interface.
+Feb 13 05:54:42 debian systemd[1]: Stopped target Multi-User System.
+Feb 13 05:54:42 debian systemd[1]: Stopped target Login Prompts.
+Feb 13 05:54:42 debian systemd[1]: Stopped target Timers.
+Feb 13 05:54:42 debian systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Feb 13 05:54:42 debian systemd[1]: Stopped Daily apt upgrade and clean activities.
+Feb 13 05:54:42 debian systemd[1]: apt-daily.timer: Succeeded.
+Feb 13 05:54:42 debian systemd[1]: Stopped Daily apt download activities.
+Feb 13 05:54:42 debian systemd[1]: e2scrub_all.timer: Succeeded.
+Feb 13 05:54:42 debian systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Feb 13 05:54:42 debian systemd[1]: fstrim.timer: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Mounting FUSE Control File System...
+Nov 10 16:45:31 debian systemd[1]: Mounting Kernel Configuration File System...
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Nov 10 16:45:31 debian systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Nov 10 16:45:31 debian systemd[1]: Starting Load/Save Random Seed...
+Nov 10 16:45:31 debian systemd[1]: Starting Apply Kernel Variables...
+Nov 10 16:45:31 debian systemd[1]: Starting Create System Users...
+Nov 10 16:45:31 debian systemd[1]: Finished Set the console keyboard layout.
+Nov 10 16:45:31 debian systemd[1]: Mounted FUSE Control File System.
+Nov 10 16:45:31 debian systemd[1]: Mounted Kernel Configuration File System.
+Nov 10 16:45:31 debian systemd[1]: Finished Load/Save Random Seed.
+Nov 10 16:45:31 debian systemd[1]: Finished Flush Journal to Persistent Storage.
+Nov 10 16:45:31 debian systemd[1]: Finished Apply Kernel Variables.
+Nov 10 16:45:31 debian systemd[1]: Finished Create System Users.
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Nov 10 16:45:31 debian systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov 10 16:45:31 debian systemd[1]: Finished Coldplug All udev Devices.
+Nov 10 16:45:31 debian systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+Nov 10 16:45:31 debian sh[201]: ifquery: couldn't open interfaces file "/etc/network/interfaces": No such file or directory
+Nov 10 16:45:31 debian systemd[1]: Finished Create Static Device Nodes in /dev.
+Nov 10 16:45:31 debian systemd[1]: Reached target Local File Systems (Pre).
+Nov 10 16:45:31 debian systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Nov 10 16:45:31 debian systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+Nov 10 16:45:31 debian systemd-udevd[202]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Nov 10 16:45:31 debian systemd[1]: Started Rule-based Manager for Device Events and Files.
+Nov 10 16:45:31 debian systemd[1]: Starting Network Service...
+Nov 10 16:45:31 debian systemd-udevd[209]: Using default interface naming scheme 'v247'.
+Nov 10 16:45:31 debian systemd-udevd[204]: Using default interface naming scheme 'v247'.
+Nov 10 16:45:31 debian systemd-udevd[204]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 10 16:45:31 debian systemd-udevd[209]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 10 16:45:31 debian systemd[1]: Found device /dev/disk/by-partuuid/10000000-0000-0000-0000-000000000001.
+Nov 10 16:45:31 debian systemd[1]: Mounting /boot/efi...
+Nov 10 16:45:31 debian systemd[1]: Found device /dev/ttyS0.
+Nov 10 16:45:31 debian systemd-udevd[207]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Nov 10 16:45:31 debian systemd-networkd[203]: Enumeration completed
+Nov 10 16:45:31 debian systemd[1]: Started Network Service.
+Nov 10 16:45:31 debian systemd[1]: Mounted /boot/efi.
+Nov 10 16:45:31 debian systemd[1]: Reached target Local File Systems.
+Nov 10 16:45:31 debian systemd[1]: Starting Load AppArmor profiles...
+Nov 10 16:45:31 debian systemd[1]: Starting Set console font and keymap...
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Nov 10 16:45:31 debian systemd[1]: Starting Create Volatile Files and Directories...
+Nov 10 16:45:31 debian systemd[1]: Finished Set console font and keymap.
+Nov 10 16:45:31 debian apparmor.systemd[239]: Restarting AppArmor
+Nov 10 16:45:31 debian apparmor.systemd[239]: Reloading AppArmor profiles
+Nov 10 16:45:31 debian systemd[1]: Finished Create Volatile Files and Directories.
+Nov 10 16:45:31 debian systemd[1]: Starting Network Name Resolution...
+Nov 10 16:45:31 debian systemd[1]: Starting Network Time Synchronization...
+Nov 10 16:45:31 debian systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 10 16:45:31 debian systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Nov 10 16:45:31 debian systemd[1]: Started Network Time Synchronization.
+Nov 10 16:45:31 debian systemd[1]: Reached target System Time Set.
+Nov 10 16:45:31 debian systemd[1]: Reached target System Time Synchronized.
+Nov 10 16:45:31 debian systemd-resolved[280]: Positive Trust Anchors:
+Nov 10 16:45:31 debian systemd-resolved[280]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Nov 10 16:45:31 debian systemd-resolved[280]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Nov 10 16:45:31 debian systemd-resolved[280]: Using system hostname 'debian'.
+Nov 10 16:45:31 debian systemd[1]: Started Network Name Resolution.
+Nov 10 16:45:31 debian systemd[1]: Reached target Host and Network Name Lookups.
+Nov 10 16:45:31 debian systemd[1]: Finished Load AppArmor profiles.
+Nov 10 16:45:31 debian systemd[1]: Reached target System Initialization.
+Nov 10 16:45:31 debian systemd[1]: Started Daily apt download activities.
+Nov 10 16:45:31 debian systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 10 16:45:31 debian systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Nov 10 16:45:31 debian systemd[1]: Started Discard unused blocks once a week.
+Nov 10 16:45:31 debian systemd[1]: Started Daily rotation of log files.
+Nov 10 16:45:31 debian systemd[1]: Started Daily man-db regeneration.
+Nov 10 16:45:31 debian systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 10 16:45:31 debian systemd[1]: Reached target Timers.
+Nov 10 16:45:31 debian systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 10 16:45:31 debian systemd[1]: Reached target Sockets.
+Nov 10 16:45:31 debian systemd[1]: Reached target Basic System.
+Nov 10 16:45:31 debian systemd[1]: Started Regular background program processing daemon.
+Nov 10 16:45:31 debian systemd[1]: Started D-Bus System Message Bus.
+Nov 10 16:45:31 debian systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Nov 10 16:45:31 debian systemd[1]: Starting Mount efivars as a readonly mount...
+Nov 10 16:45:31 debian systemd[1]: Started Foundry client.
+Nov 10 16:45:31 debian systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Nov 10 16:45:31 debian systemd[1]: Starting Initialize machine id...
+Nov 10 16:45:31 debian systemd[1]: Starting Raise network interfaces...
+Nov 10 16:45:31 debian systemd[1]: Starting System Logging Service...
+Nov 10 16:45:31 debian ifup[341]: ifup: couldn't open interfaces file "/etc/network/interfaces": No such file or directory
+Nov 10 16:45:31 debian systemd[1]: Starting User Login Management...
+Nov 10 16:45:31 debian systemd[1]: Finished Mount efivars as a readonly mount.
+Nov 10 16:45:31 debian foundryc[339]: time="2025-11-10T16:45:31Z" level=info msg="foundryc v1.1.1-2-g21d31c7"
+Nov 10 16:45:31 debian foundryc[339]: time="2025-11-10T16:45:31Z" level=info msg="forging primary interface" ifx=eth0
+Nov 10 16:45:31 debian systemd[1]: machine-id-init.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Finished Initialize machine id.
+Nov 10 16:45:31 debian systemd[1]: Started System Logging Service.
+Nov 10 16:45:31 debian systemd[1]: Starting Rotate log files...
+Nov 10 16:45:31 debian systemd[1]: Starting Daily man-db regeneration...
+Nov 10 16:45:31 debian systemd[1]: Stopping Network Service...
+Nov 10 16:45:31 debian systemd[1]: systemd-networkd.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Stopped Network Service.
+Nov 10 16:45:31 debian systemd[1]: Starting Network Service...
+Nov 10 16:45:31 debian systemd[1]: Started User Login Management.
+Nov 10 16:45:31 debian systemd-networkd[366]: Enumeration completed
+Nov 10 16:45:31 debian systemd[1]: Started Network Service.
+Nov 10 16:45:31 debian systemd-networkd[366]: eth0: Link UP
+Nov 10 16:45:31 debian systemd-networkd[366]: eth0: Gained carrier
+Nov 10 16:45:31 debian systemd[1]: Finished Raise network interfaces.
+Nov 10 16:45:31 debian systemd[1]: Reached target Network.
+Nov 10 16:45:31 debian systemd-networkd[366]: eth0: DHCPv4 address 172.30.0.12/16 via 172.30.0.1
+Nov 10 16:45:31 debian dbus-daemon[336]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.5' (uid=101 pid=366 comm="/lib/systemd/systemd-networkd ")
+Nov 10 16:45:31 debian systemd[1]: Starting OpenBSD Secure Shell server...
+Nov 10 16:45:31 debian systemd[1]: Starting Permit User Sessions...
+Nov 10 16:45:31 debian systemd[1]: Starting Hostname Service...
+Nov 10 16:45:31 debian systemd[1]: Finished Permit User Sessions.
+Nov 10 16:45:31 debian systemd[1]: Started Getty on tty1.
+Nov 10 16:45:31 debian systemd[1]: Started Serial Getty on ttyS0.
+Nov 10 16:45:31 debian systemd[1]: Reached target Login Prompts.
+Nov 10 16:45:31 debian systemd[1]: Started OpenBSD Secure Shell server.
+Nov 10 16:45:31 debian systemd[1]: Reached target Multi-User System.
+Nov 10 16:45:31 debian dbus-daemon[336]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 10 16:45:31 debian systemd[1]: Started Hostname Service.
+Nov 10 16:45:31 debian systemd-networkd[366]: Could not set hostname: Permission denied
+Nov 10 16:45:31 debian systemd[1]: e2scrub_reap.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Nov 10 16:45:31 debian systemd[1]: Reached target Graphical Interface.
+Nov 10 16:45:31 debian systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 10 16:45:31 debian systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Nov 10 16:45:31 debian systemd[1]: logrotate.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Finished Rotate log files.
+Nov 10 16:45:31 debian systemd[1]: man-db.service: Succeeded.
+Nov 10 16:45:31 debian systemd[1]: Finished Daily man-db regeneration.
+Nov 10 16:45:32 debian systemd[1]: Startup finished in 1.943s (kernel) + 2.058s (userspace) = 4.001s.
+Nov 10 16:45:33 debian systemd-networkd[366]: eth0: Gained IPv6LL
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=forge id="e6:93:e6:fe:23:96"
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="setting hostname" hostname=blueserver.infra.real.uscdos4.csci430
+Nov 10 16:45:36 debian systemd-hostnamed[388]: Changed static hostname to 'blueserver.infra.real.uscdos4.csci430'
+Nov 10 16:45:36 debian systemd-resolved[280]: System hostname changed to 'blueserver.infra.real.uscdos4.csci430'.
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add phy" addrs="[4.4.4.4/8]" dhcp="<nil>" mac="56:96:97:de:55:81" mtu=0 name=eth1
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="Adding system routes"
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="Adding 2 static routes"
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user" name=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-ssh-key authfile=/home/usc430nyrs/.ssh/authorized_keys path=/home/usc430nyrs/.ssh user=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=cleanup-private-ssh-key user=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key user=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key identity=/home/usc430nyrs/.ssh/id_mrg-0 path=/home/usc430nyrs/.ssh user=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=sudo name=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=usc430nyrs name=usc430nyrs
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user" name=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-ssh-key authfile=/home/usc430zobb/.ssh/authorized_keys path=/home/usc430zobb/.ssh user=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=cleanup-private-ssh-key user=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key user=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key identity=/home/usc430zobb/.ssh/id_mrg-0 path=/home/usc430zobb/.ssh user=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=sudo name=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=usc430zobb name=usc430zobb
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user" name=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-ssh-key authfile=/home/usc430qexj/.ssh/authorized_keys path=/home/usc430qexj/.ssh user=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=cleanup-private-ssh-key user=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key user=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key identity=/home/usc430qexj/.ssh/id_mrg-0 path=/home/usc430qexj/.ssh user=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=sudo name=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=usc430qexj name=usc430qexj
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user" name=usc430uoya
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-ssh-key authfile=/home/usc430uoya/.ssh/authorized_keys path=/home/usc430uoya/.ssh user=usc430uoya
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=cleanup-private-ssh-key user=usc430uoya
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key user=usc430uoya
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg=add-private-ssh-key identity=/home/usc430uoya/.ssh/id_mrg-0 path=/home/usc430uoya/.ssh user=usc430uoya
+Nov 10 16:45:36 debian foundryc[339]: time="2025-11-10T16:45:36Z" level=info msg="add user to group" group=sudo name=usc430uoya
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430uoya name=usc430uoya
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430jwuh/.ssh/authorized_keys path=/home/usc430jwuh/.ssh user=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430jwuh/.ssh/id_mrg-0 path=/home/usc430jwuh/.ssh user=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430jwuh name=usc430jwuh
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430okci/.ssh/authorized_keys path=/home/usc430okci/.ssh user=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430okci/.ssh/id_mrg-0 path=/home/usc430okci/.ssh user=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430okci name=usc430okci
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430zrcd/.ssh/authorized_keys path=/home/usc430zrcd/.ssh user=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430zrcd/.ssh/id_mrg-0 path=/home/usc430zrcd/.ssh user=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430zrcd name=usc430zrcd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430uvpi/.ssh/authorized_keys path=/home/usc430uvpi/.ssh user=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430uvpi/.ssh/id_mrg-0 path=/home/usc430uvpi/.ssh user=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430uvpi name=usc430uvpi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430etbc/.ssh/authorized_keys path=/home/usc430etbc/.ssh user=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430etbc/.ssh/id_mrg-0 path=/home/usc430etbc/.ssh user=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430etbc name=usc430etbc
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430icsd/.ssh/authorized_keys path=/home/usc430icsd/.ssh user=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430icsd/.ssh/id_mrg-0 path=/home/usc430icsd/.ssh user=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430icsd name=usc430icsd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430fdnd/.ssh/authorized_keys path=/home/usc430fdnd/.ssh user=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430fdnd/.ssh/id_mrg-0 path=/home/usc430fdnd/.ssh user=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430fdnd name=usc430fdnd
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430cdyi/.ssh/authorized_keys path=/home/usc430cdyi/.ssh user=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430cdyi/.ssh/id_mrg-0 path=/home/usc430cdyi/.ssh user=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430cdyi name=usc430cdyi
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430pkaz/.ssh/authorized_keys path=/home/usc430pkaz/.ssh user=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430pkaz/.ssh/id_mrg-0 path=/home/usc430pkaz/.ssh user=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430pkaz name=usc430pkaz
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/glawler/.ssh/authorized_keys path=/home/glawler/.ssh user=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/glawler/.ssh/id_mrg-0 path=/home/glawler/.ssh user=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=glawler name=glawler
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430moyp/.ssh/authorized_keys path=/home/usc430moyp/.ssh user=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430moyp/.ssh/id_mrg-0 path=/home/usc430moyp/.ssh user=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430moyp name=usc430moyp
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430pvmq/.ssh/authorized_keys path=/home/usc430pvmq/.ssh user=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430pvmq/.ssh/id_mrg-0 path=/home/usc430pvmq/.ssh user=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430pvmq name=usc430pvmq
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user" name=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-ssh-key authfile=/home/usc430efev/.ssh/authorized_keys path=/home/usc430efev/.ssh user=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=cleanup-private-ssh-key user=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key user=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg=add-private-ssh-key identity=/home/usc430efev/.ssh/id_mrg-0 path=/home/usc430efev/.ssh user=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=sudo name=usc430efev
+Nov 10 16:45:37 debian foundryc[339]: time="2025-11-10T16:45:37Z" level=info msg="add user to group" group=usc430efev name=usc430efev
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430mrwn/.ssh/authorized_keys path=/home/usc430mrwn/.ssh user=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430mrwn/.ssh/id_mrg-0 path=/home/usc430mrwn/.ssh user=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430mrwn name=usc430mrwn
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430rllk/.ssh/authorized_keys path=/home/usc430rllk/.ssh user=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430rllk/.ssh/id_mrg-0 path=/home/usc430rllk/.ssh user=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430rllk name=usc430rllk
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/gbartlet/.ssh/authorized_keys path=/home/gbartlet/.ssh user=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/gbartlet/.ssh/id_mrg-0 path=/home/gbartlet/.ssh user=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=gbartlet name=gbartlet
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430eddl/.ssh/authorized_keys path=/home/usc430eddl/.ssh user=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430eddl/.ssh/id_mrg-0 path=/home/usc430eddl/.ssh user=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430eddl name=usc430eddl
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430yovi/.ssh/authorized_keys path=/home/usc430yovi/.ssh user=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430yovi/.ssh/id_mrg-0 path=/home/usc430yovi/.ssh user=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430yovi name=usc430yovi
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430wzwu/.ssh/authorized_keys path=/home/usc430wzwu/.ssh user=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430wzwu/.ssh/id_mrg-0 path=/home/usc430wzwu/.ssh user=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430wzwu name=usc430wzwu
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430qhzh/.ssh/authorized_keys path=/home/usc430qhzh/.ssh user=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430qhzh/.ssh/id_mrg-0 path=/home/usc430qhzh/.ssh user=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430qhzh name=usc430qhzh
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430zhzv/.ssh/authorized_keys path=/home/usc430zhzv/.ssh user=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430zhzv/.ssh/id_mrg-0 path=/home/usc430zhzv/.ssh user=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430zhzv name=usc430zhzv
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430oiau/.ssh/authorized_keys path=/home/usc430oiau/.ssh user=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430oiau/.ssh/id_mrg-0 path=/home/usc430oiau/.ssh user=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430oiau name=usc430oiau
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/mirkovic/.ssh/authorized_keys path=/home/mirkovic/.ssh user=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/mirkovic/.ssh/id_mrg-0 path=/home/mirkovic/.ssh user=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=mirkovic name=mirkovic
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430wcwy/.ssh/authorized_keys path=/home/usc430wcwy/.ssh user=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430wcwy/.ssh/id_mrg-0 path=/home/usc430wcwy/.ssh user=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430wcwy name=usc430wcwy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430ygpd/.ssh/authorized_keys path=/home/usc430ygpd/.ssh user=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430ygpd/.ssh/id_mrg-0 path=/home/usc430ygpd/.ssh user=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430ygpd name=usc430ygpd
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-ssh-key authfile=/home/usc430joiy/.ssh/authorized_keys path=/home/usc430joiy/.ssh user=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=cleanup-private-ssh-key user=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key user=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg=add-private-ssh-key identity=/home/usc430joiy/.ssh/id_mrg-0 path=/home/usc430joiy/.ssh user=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=sudo name=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user to group" group=usc430joiy name=usc430joiy
+Nov 10 16:45:38 debian foundryc[339]: time="2025-11-10T16:45:38Z" level=info msg="add user" name=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430mdle/.ssh/authorized_keys path=/home/usc430mdle/.ssh user=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430mdle/.ssh/id_mrg-0 path=/home/usc430mdle/.ssh user=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430mdle name=usc430mdle
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430fkwg/.ssh/authorized_keys path=/home/usc430fkwg/.ssh user=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430fkwg/.ssh/id_mrg-0 path=/home/usc430fkwg/.ssh user=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430fkwg name=usc430fkwg
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430zglv/.ssh/authorized_keys path=/home/usc430zglv/.ssh user=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430zglv/.ssh/id_mrg-0 path=/home/usc430zglv/.ssh user=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430zglv name=usc430zglv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430hwlv/.ssh/authorized_keys path=/home/usc430hwlv/.ssh user=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430hwlv/.ssh/id_mrg-0 path=/home/usc430hwlv/.ssh user=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430hwlv name=usc430hwlv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430mvxv/.ssh/authorized_keys path=/home/usc430mvxv/.ssh user=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430mvxv/.ssh/id_mrg-0 path=/home/usc430mvxv/.ssh user=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430mvxv name=usc430mvxv
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430fhpl/.ssh/authorized_keys path=/home/usc430fhpl/.ssh user=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430fhpl/.ssh/id_mrg-0 path=/home/usc430fhpl/.ssh user=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430fhpl name=usc430fhpl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430gwst/.ssh/authorized_keys path=/home/usc430gwst/.ssh user=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430gwst/.ssh/id_mrg-0 path=/home/usc430gwst/.ssh user=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430gwst name=usc430gwst
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/sunshine/.ssh/authorized_keys path=/home/sunshine/.ssh user=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/sunshine/.ssh/id_mrg-0 path=/home/sunshine/.ssh user=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sunshine name=sunshine
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430diie/.ssh/authorized_keys path=/home/usc430diie/.ssh user=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430diie/.ssh/id_mrg-0 path=/home/usc430diie/.ssh user=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430diie name=usc430diie
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430igzw/.ssh/authorized_keys path=/home/usc430igzw/.ssh user=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430igzw/.ssh/id_mrg-0 path=/home/usc430igzw/.ssh user=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430igzw name=usc430igzw
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430grid/.ssh/authorized_keys path=/home/usc430grid/.ssh user=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430grid/.ssh/id_mrg-0 path=/home/usc430grid/.ssh user=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430grid name=usc430grid
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430ypim/.ssh/authorized_keys path=/home/usc430ypim/.ssh user=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430ypim/.ssh/id_mrg-0 path=/home/usc430ypim/.ssh user=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430ypim name=usc430ypim
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-ssh-key authfile=/home/usc430bdhl/.ssh/authorized_keys path=/home/usc430bdhl/.ssh user=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=cleanup-private-ssh-key user=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key user=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg=add-private-ssh-key identity=/home/usc430bdhl/.ssh/id_mrg-0 path=/home/usc430bdhl/.ssh user=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=sudo name=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user to group" group=usc430bdhl name=usc430bdhl
+Nov 10 16:45:39 debian foundryc[339]: time="2025-11-10T16:45:39Z" level=info msg="add user" name=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430fjzx/.ssh/authorized_keys path=/home/usc430fjzx/.ssh user=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430fjzx/.ssh/id_mrg-0 path=/home/usc430fjzx/.ssh user=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430fjzx name=usc430fjzx
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430dzqg/.ssh/authorized_keys path=/home/usc430dzqg/.ssh user=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430dzqg/.ssh/id_mrg-0 path=/home/usc430dzqg/.ssh user=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430dzqg name=usc430dzqg
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430pzog/.ssh/authorized_keys path=/home/usc430pzog/.ssh user=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430pzog/.ssh/id_mrg-0 path=/home/usc430pzog/.ssh user=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430pzog name=usc430pzog
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430qtpz/.ssh/authorized_keys path=/home/usc430qtpz/.ssh user=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430qtpz/.ssh/id_mrg-0 path=/home/usc430qtpz/.ssh user=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430qtpz name=usc430qtpz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430pupn/.ssh/authorized_keys path=/home/usc430pupn/.ssh user=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430pupn/.ssh/id_mrg-0 path=/home/usc430pupn/.ssh user=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430pupn name=usc430pupn
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430xinr/.ssh/authorized_keys path=/home/usc430xinr/.ssh user=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430xinr/.ssh/id_mrg-0 path=/home/usc430xinr/.ssh user=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430xinr name=usc430xinr
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430ooyl/.ssh/authorized_keys path=/home/usc430ooyl/.ssh user=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430ooyl/.ssh/id_mrg-0 path=/home/usc430ooyl/.ssh user=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430ooyl name=usc430ooyl
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430lfbp/.ssh/authorized_keys path=/home/usc430lfbp/.ssh user=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430lfbp/.ssh/id_mrg-0 path=/home/usc430lfbp/.ssh user=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430lfbp name=usc430lfbp
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430bvim/.ssh/authorized_keys path=/home/usc430bvim/.ssh user=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430bvim/.ssh/id_mrg-0 path=/home/usc430bvim/.ssh user=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430bvim name=usc430bvim
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430mbjz/.ssh/authorized_keys path=/home/usc430mbjz/.ssh user=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430mbjz/.ssh/id_mrg-0 path=/home/usc430mbjz/.ssh user=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430mbjz name=usc430mbjz
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430mxrd/.ssh/authorized_keys path=/home/usc430mxrd/.ssh user=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430mxrd/.ssh/id_mrg-0 path=/home/usc430mxrd/.ssh user=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430mxrd name=usc430mxrd
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430cxst/.ssh/authorized_keys path=/home/usc430cxst/.ssh user=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430cxst/.ssh/id_mrg-0 path=/home/usc430cxst/.ssh user=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430cxst name=usc430cxst
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user" name=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-ssh-key authfile=/home/usc430pnnw/.ssh/authorized_keys path=/home/usc430pnnw/.ssh user=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=cleanup-private-ssh-key user=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key user=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg=add-private-ssh-key identity=/home/usc430pnnw/.ssh/id_mrg-0 path=/home/usc430pnnw/.ssh user=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=sudo name=usc430pnnw
+Nov 10 16:45:40 debian foundryc[339]: time="2025-11-10T16:45:40Z" level=info msg="add user to group" group=usc430pnnw name=usc430pnnw
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430bcey/.ssh/authorized_keys path=/home/usc430bcey/.ssh user=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430bcey/.ssh/id_mrg-0 path=/home/usc430bcey/.ssh user=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430bcey name=usc430bcey
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430gnlb/.ssh/authorized_keys path=/home/usc430gnlb/.ssh user=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430gnlb/.ssh/id_mrg-0 path=/home/usc430gnlb/.ssh user=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430gnlb name=usc430gnlb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430jpqo/.ssh/authorized_keys path=/home/usc430jpqo/.ssh user=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430jpqo/.ssh/id_mrg-0 path=/home/usc430jpqo/.ssh user=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430jpqo name=usc430jpqo
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430wshb/.ssh/authorized_keys path=/home/usc430wshb/.ssh user=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430wshb/.ssh/id_mrg-0 path=/home/usc430wshb/.ssh user=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430wshb name=usc430wshb
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430pquy/.ssh/authorized_keys path=/home/usc430pquy/.ssh user=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430pquy/.ssh/id_mrg-0 path=/home/usc430pquy/.ssh user=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430pquy name=usc430pquy
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430pcto/.ssh/authorized_keys path=/home/usc430pcto/.ssh user=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430pcto/.ssh/id_mrg-0 path=/home/usc430pcto/.ssh user=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430pcto name=usc430pcto
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430jzpq/.ssh/authorized_keys path=/home/usc430jzpq/.ssh user=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430jzpq/.ssh/id_mrg-0 path=/home/usc430jzpq/.ssh user=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430jzpq name=usc430jzpq
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430fqhp/.ssh/authorized_keys path=/home/usc430fqhp/.ssh user=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430fqhp/.ssh/id_mrg-0 path=/home/usc430fqhp/.ssh user=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430fqhp name=usc430fqhp
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430jfgr/.ssh/authorized_keys path=/home/usc430jfgr/.ssh user=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430jfgr/.ssh/id_mrg-0 path=/home/usc430jfgr/.ssh user=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430jfgr name=usc430jfgr
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430qcxc/.ssh/authorized_keys path=/home/usc430qcxc/.ssh user=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430qcxc/.ssh/id_mrg-0 path=/home/usc430qcxc/.ssh user=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430qcxc name=usc430qcxc
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user" name=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-ssh-key authfile=/home/usc430gkdu/.ssh/authorized_keys path=/home/usc430gkdu/.ssh user=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=cleanup-private-ssh-key user=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key user=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg=add-private-ssh-key identity=/home/usc430gkdu/.ssh/id_mrg-0 path=/home/usc430gkdu/.ssh user=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=sudo name=usc430gkdu
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="add user to group" group=usc430gkdu name=usc430gkdu
+Nov 10 16:45:41 debian systemd-networkd[366]: eth0: DHCPv6 lease lost
+Nov 10 16:45:41 debian systemd[1]: Stopping Network Service...
+Nov 10 16:45:41 debian systemd[1]: systemd-networkd.service: Succeeded.
+Nov 10 16:45:41 debian systemd[1]: Stopped Network Service.
+Nov 10 16:45:41 debian systemd[1]: Starting Network Service...
+Nov 10 16:45:41 debian systemd-networkd[2285]: eth0: Gained IPv6LL
+Nov 10 16:45:41 debian systemd-networkd[2285]: Enumeration completed
+Nov 10 16:45:41 debian systemd[1]: Started Network Service.
+Nov 10 16:45:41 debian foundryc[339]: 2025/11/10 16:45:41 expanding /
+Nov 10 16:45:41 debian systemd-networkd[2285]: eth1: Link UP
+Nov 10 16:45:41 debian systemd-networkd[2285]: eth1: Gained carrier
+Nov 10 16:45:41 debian systemd-networkd[2285]: eth0: DHCPv4 address 172.30.0.12/16 via 172.30.0.1
+Nov 10 16:45:41 debian systemd-networkd[2285]: Could not set hostname: Permission denied
+Nov 10 16:45:41 debian systemd-udevd[202]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Nov 10 16:45:41 debian foundryc[339]: Changes made:
+Nov 10 16:45:41 debian foundryc[339]:   * partition /dev/vda2: before: 6761696 sectors, after: 66056192 sectors
+Nov 10 16:45:41 debian foundryc[339]:   * ext4 filesystem at /: before: 812321 blocks, after: 8105724 blocks
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="entry: &forge.FSTab{Device:\"PARTUUID=10000000-0000-0000-0000-000000000001\", Directory:\"/boot/efi\", Type:\"vfat\", Options:[]string{\"defaults\"}, Dump:0, Fsck:2}"
+Nov 10 16:45:41 debian foundryc[339]: time="2025-11-10T16:45:41Z" level=info msg="entry: &forge.FSTab{Device:\"PARTUUID=a0000000-0000-0000-0000-00000000000a\", Directory:\"/\", Type:\"ext4\", Options:[]string{\"defaults\"}, Dump:0, Fsck:1}"
+Nov 10 16:45:41 debian foundryc[339]: 2025/11/10 16:45:41 forging /etc/default/grub
+Nov 10 16:45:43 debian systemd-networkd[2285]: eth1: Gained IPv6LL
+Nov 10 16:45:43 debian systemd[1]: foundryc.service: Succeeded.
+Nov 10 16:45:43 debian systemd[1]: foundryc.service: Consumed 3.223s CPU time.
+Nov 10 16:46:11 debian systemd[1]: systemd-hostnamed.service: Succeeded.
+Nov 10 16:46:41 debian systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Nov 10 16:46:41 debian systemd[1]: e2scrub_all.service: Succeeded.
+Nov 10 16:46:41 debian systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Nov 10 16:56:20 debian systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov 10 16:56:21 debian systemd[1]: apt-daily-upgrade.service: Succeeded.
+Nov 10 16:56:21 debian systemd[1]: Finished Daily apt upgrade and clean activities.
+Nov 10 17:01:05 debian systemd[1]: Starting Cleanup of Temporary Directories...
+Nov 10 17:01:05 debian systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Nov 10 17:01:05 debian systemd[1]: Finished Cleanup of Temporary Directories.
+Nov 10 17:19:05 debian systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Nov 10 17:19:05 debian fstrim[3043]: /: 28.6 GiB (30755053568 bytes) trimmed on /dev/vda2
+Nov 10 17:19:05 debian fstrim[3043]: /boot/efi: 499.4 MiB (523624448 bytes) trimmed on /dev/vda1
+Nov 10 17:19:05 debian systemd[1]: fstrim.service: Succeeded.
+Nov 10 17:19:05 debian systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Nov 10 19:37:50 debian systemd[1]: Created slice User Slice of UID 1038.
+Nov 10 19:37:50 debian systemd[1]: Starting User Runtime Directory /run/user/1038...
+Nov 10 19:37:50 debian systemd[1]: Finished User Runtime Directory /run/user/1038.
+Nov 10 19:37:50 debian systemd[1]: Starting User Manager for UID 1038...
+Nov 10 19:37:50 debian systemd[3060]: Queued start job for default target Main User Target.
+Nov 10 19:37:50 debian systemd[3060]: Created slice User Application Slice.
+Nov 10 19:37:50 debian systemd[3060]: Reached target Paths.
+Nov 10 19:37:50 debian systemd[3060]: Reached target Timers.
+Nov 10 19:37:50 debian systemd[3060]: Listening on GnuPG network certificate management daemon.
+Nov 10 19:37:50 debian systemd[3060]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 10 19:37:50 debian systemd[3060]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 10 19:37:50 debian systemd[3060]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 10 19:37:50 debian systemd[3060]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 10 19:37:50 debian systemd[3060]: Reached target Sockets.
+Nov 10 19:37:50 debian systemd[3060]: Reached target Basic System.
+Nov 10 19:37:50 debian systemd[1]: Started User Manager for UID 1038.
+Nov 10 19:37:50 debian systemd[1]: Started Session 4 of user sunshine.
+Nov 10 19:37:50 debian systemd[3060]: Reached target Main User Target.
+Nov 10 19:37:50 debian systemd[3060]: Startup finished in 74ms.
+Nov 10 19:37:50 debian systemd[1]: session-4.scope: Succeeded.
+Nov 10 19:37:50 debian systemd[1]: Started Session 6 of user sunshine.
+Nov 10 19:37:51 debian systemd[1]: session-6.scope: Succeeded.
+Nov 10 19:37:51 debian systemd[1]: Started Session 7 of user sunshine.
+Nov 10 19:37:58 debian systemd[1]: Reloading.
+Nov 10 19:37:58 debian systemd[1]: Reloading.
+Nov 10 19:37:58 debian systemd[1]: Starting Daily apt download activities...
+Nov 10 19:37:58 debian systemd[1]: Reloading.
+Nov 10 19:37:58 debian systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Nov 10 19:37:58 debian systemd[1]: apt-daily.service: Succeeded.
+Nov 10 19:37:58 debian systemd[1]: Finished Daily apt download activities.
+Nov 10 19:37:58 debian systemd[1]: Reloading.
+Nov 10 19:37:58 debian systemd[1]: Reloading.
+Nov 10 19:37:59 debian systemd[1]: Started Clean PHP session files every 30 mins.
+Nov 10 19:37:59 debian systemd[1]: Reloading.
+Nov 10 19:37:59 debian php7.4-common: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Nov 10 19:37:59 debian php7.4-common: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:37:59 debian php7.4-common: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Nov 10 19:37:59 debian php7.4-common: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:00 debian php7.4-common: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:01 debian php7.4-common: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:02 debian php7.4-common: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke mysqlnd: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke mysqli: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:03 debian php7.4-mysql: php_invoke pdo_mysql: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:03 debian php7.4-readline: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:03 debian php7.4-readline: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:03 debian php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:03 debian php7.4-opcache: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:04 debian php7.4-json: php_invoke json: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-json: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke pdo_mysql: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke ctype: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke sockets: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke calendar: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke ffi: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke ftp: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke sysvmsg: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke iconv: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke opcache: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke json: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke gettext: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke shmop: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke readline: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke posix: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke mysqlnd: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke pdo: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke fileinfo: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke exif: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke sysvshm: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke sysvsem: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke mysqli: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke phar: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:04 debian php7.4-cli: php_invoke tokenizer: already enabled for PHP 7.4 cli sapi
+Nov 10 19:38:05 debian systemd[1]: Reloading.
+Nov 10 19:38:05 debian systemd[1]: Reloading.
+Nov 10 19:38:06 debian systemd[1]: Reloading.
+Nov 10 19:38:06 debian systemd[1]: Starting MariaDB 10.5.29 database server...
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] Starting MariaDB 10.5.29-MariaDB-0+deb11u1 source revision c461188ca6ad6ec3a54201eb87ebd75797d296df server_uid DvtPY0LHhVLOhPqkFkr/TfM3HUQ= as process 10739
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Uses event mutexes
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Number of pools: 1
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Using Linux native AIO
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Completed initialization of buffer pool
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: 128 rollback segments are active.
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: 10.5.29 started; log sequence number 45079; transaction id 20
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] InnoDB: Buffer pool(s) load completed at 251110 19:38:06
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] Server socket created on IP: '127.0.0.1'.
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] Reading of all Master_info entries succeeded
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] Added new Master_info '' to hash table
+Nov 10 19:38:06 debian mariadbd[10739]: 2025-11-10 19:38:06 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Nov 10 19:38:06 debian mariadbd[10739]: Version: '10.5.29-MariaDB-0+deb11u1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Debian 11
+Nov 10 19:38:06 debian systemd[1]: Started MariaDB 10.5.29 database server.
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10756]: Upgrading MySQL tables if necessary.
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10759]: Looking for 'mariadb' as: /usr/bin/mariadb
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10759]: Looking for 'mariadb-check' as: /usr/bin/mariadb-check
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10759]: This installation of MariaDB is already upgraded to 10.5.29-MariaDB.
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10759]: There is no need to run mysql_upgrade again.
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10759]: You can use --force if you still want to run mysql_upgrade
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10767]: Checking for insecure root accounts.
+Nov 10 19:38:06 debian /etc/mysql/debian-start[10771]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke pdo_mysql: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke ctype: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke sockets: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke calendar: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke ffi: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke ftp: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke sysvmsg: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke iconv: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke opcache: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke json: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke gettext: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke shmop: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke readline: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke posix: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke mysqlnd: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke pdo: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke fileinfo: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke exif: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke sysvshm: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke sysvsem: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke mysqli: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke phar: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:06 debian libapache2-mod-php7.4: php_invoke tokenizer: already enabled for PHP 7.4 apache2 sapi
+Nov 10 19:38:08 debian apache2.postinst: Switch to mpm prefork for package libapache2-mod-php7.4
+Nov 10 19:38:08 debian apache2.postinst: Executing deferred 'a2enmod php7.4' for package libapache2-mod-php7.4
+Nov 10 19:38:08 debian systemd[1]: Reloading.
+Nov 10 19:38:08 debian systemd[1]: Reloading.
+Nov 10 19:38:08 debian systemd[1]: Reloading.
+Nov 10 19:38:08 debian systemd[1]: Reloading.
+Nov 10 19:38:08 debian systemd[1]: Starting The Apache HTTP Server...
+Nov 10 19:38:08 debian systemd[1]: Started The Apache HTTP Server.
+Nov 10 19:38:09 debian systemd[1]: Reloading.
+Nov 10 19:38:09 debian systemd[1]: Reloading.
+Nov 10 19:38:09 debian systemd[1]: Starting Disk Cache Cleaning Daemon for Apache HTTP Server...
+Nov 10 19:38:09 debian systemd[1]: Started Disk Cache Cleaning Daemon for Apache HTTP Server.
+Nov 10 19:38:09 debian systemd[1]: Reloading.
+Nov 10 19:38:09 debian systemd[1]: Reloading.
+Nov 10 19:38:09 debian systemd[1]: Reloading.
+Nov 10 19:38:12 debian systemd[1]: Stopping The Apache HTTP Server...
+Nov 10 19:38:12 debian systemd[1]: apache2.service: Succeeded.
+Nov 10 19:38:12 debian systemd[1]: Stopped The Apache HTTP Server.
+Nov 10 19:38:12 debian systemd[1]: Starting The Apache HTTP Server...
+Nov 10 19:38:12 debian systemd[1]: Started The Apache HTTP Server.
+Nov 10 19:38:12 debian systemd[1]: session-7.scope: Succeeded.
+Nov 10 19:38:12 debian systemd[1]: session-7.scope: Consumed 14.838s CPU time.
+Nov 10 19:38:22 debian systemd[1]: Stopping User Manager for UID 1038...
+Nov 10 19:38:22 debian systemd[3060]: Stopped target Main User Target.
+Nov 10 19:38:22 debian systemd[3060]: Stopped target Basic System.
+Nov 10 19:38:22 debian systemd[3060]: Stopped target Paths.
+Nov 10 19:38:22 debian systemd[3060]: Stopped target Sockets.
+Nov 10 19:38:22 debian systemd[3060]: Stopped target Timers.
+Nov 10 19:38:22 debian systemd[3060]: dirmngr.socket: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Closed GnuPG network certificate management daemon.
+Nov 10 19:38:22 debian systemd[3060]: gpg-agent-browser.socket: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 10 19:38:22 debian systemd[3060]: gpg-agent-extra.socket: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 10 19:38:22 debian systemd[3060]: gpg-agent-ssh.socket: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Nov 10 19:38:22 debian systemd[3060]: gpg-agent.socket: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Closed GnuPG cryptographic agent and passphrase cache.
+Nov 10 19:38:22 debian systemd[3060]: Removed slice User Application Slice.
+Nov 10 19:38:22 debian systemd[3060]: Reached target Shutdown.
+Nov 10 19:38:22 debian systemd[3060]: systemd-exit.service: Succeeded.
+Nov 10 19:38:22 debian systemd[3060]: Finished Exit the Session.
+Nov 10 19:38:22 debian systemd[3060]: Reached target Exit the Session.
+Nov 10 19:38:22 debian systemd[1]: user@1038.service: Succeeded.
+Nov 10 19:38:22 debian systemd[1]: Stopped User Manager for UID 1038.
+Nov 10 19:38:22 debian systemd[1]: Stopping User Runtime Directory /run/user/1038...
+Nov 10 19:38:22 debian systemd[1]: run-user-1038.mount: Succeeded.
+Nov 10 19:38:22 debian systemd[1]: user-runtime-dir@1038.service: Succeeded.
+Nov 10 19:38:22 debian systemd[1]: Stopped User Runtime Directory /run/user/1038.
+Nov 10 19:38:22 debian systemd[1]: Removed slice User Slice of UID 1038.
+Nov 10 19:38:22 debian systemd[1]: user-1038.slice: Consumed 14.950s CPU time.
+Nov 10 19:39:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 19:39:15 debian sessionclean[13227]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 19:39:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 19:39:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 20:09:07 debian systemd[1]: Starting Clean php session files...
+Nov 10 20:09:07 debian sessionclean[13279]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 20:09:08 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 20:09:08 debian systemd[1]: Finished Clean php session files.
+Nov 10 20:39:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 20:39:15 debian sessionclean[13337]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 20:39:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 20:39:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 21:09:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 21:09:15 debian sessionclean[13389]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 21:09:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 21:09:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 21:39:04 debian systemd[1]: Starting Clean php session files...
+Nov 10 21:39:04 debian sessionclean[13445]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 21:39:04 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 21:39:04 debian systemd[1]: Finished Clean php session files.
+Nov 10 22:09:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 22:09:15 debian sessionclean[13497]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 22:09:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 22:09:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 22:39:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 22:39:15 debian sessionclean[13553]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 22:39:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 22:39:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 23:09:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 23:09:15 debian sessionclean[13605]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 23:09:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 23:09:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 23:39:15 debian systemd[1]: Starting Clean php session files...
+Nov 10 23:39:15 debian sessionclean[13660]: PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+Nov 10 23:39:15 debian systemd[1]: phpsessionclean.service: Succeeded.
+Nov 10 23:39:15 debian systemd[1]: Finished Clean php session files.
+Nov 10 23:58:15 debian systemd[1]: Created slice User Slice of UID 1063.
+Nov 10 23:58:15 debian systemd[1]: Starting User Runtime Directory /run/user/1063...
+Nov 10 23:58:15 debian systemd[1]: Finished User Runtime Directory /run/user/1063.
+Nov 10 23:58:15 debian systemd[1]: Starting User Manager for UID 1063...
+Nov 10 23:58:15 debian systemd[13701]: Queued start job for default target Main User Target.
+Nov 10 23:58:15 debian systemd[13701]: Created slice User Application Slice.
+Nov 10 23:58:15 debian systemd[13701]: Reached target Paths.
+Nov 10 23:58:15 debian systemd[13701]: Reached target Timers.
+Nov 10 23:58:15 debian systemd[13701]: Listening on GnuPG network certificate management daemon.
+Nov 10 23:58:15 debian systemd[13701]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 10 23:58:15 debian systemd[13701]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 10 23:58:15 debian systemd[13701]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 10 23:58:15 debian systemd[13701]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 10 23:58:15 debian systemd[13701]: Reached target Sockets.
+Nov 10 23:58:15 debian systemd[13701]: Reached target Basic System.
+Nov 10 23:58:15 debian systemd[1]: Started User Manager for UID 1063.
+Nov 10 23:58:15 debian systemd[1]: Started Session 21 of user usc430jzpq.
+Nov 10 23:58:15 debian systemd[13701]: Reached target Main User Target.
+Nov 10 23:58:15 debian systemd[13701]: Startup finished in 67ms.
+Nov 11 00:00:15 debian systemd[1]: Starting Rotate log files...
+Nov 11 00:00:15 debian systemd[1]: Starting Daily man-db regeneration...
+Nov 11 00:00:15 debian systemd[1]: logrotate.service: Succeeded.
+Nov 11 00:00:15 debian systemd[1]: Finished Rotate log files.
+Nov 11 00:00:15 debian systemd[1]: man-db.service: Succeeded.
+Nov 11 00:00:15 debian systemd[1]: Finished Daily man-db regeneration.
+Nov 11 00:00:32 debian systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 13735 (git)
+Nov 11 00:00:32 debian systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Nov 11 00:00:32 debian systemd[1]: Mounted Arbitrary Executable File Formats File System.

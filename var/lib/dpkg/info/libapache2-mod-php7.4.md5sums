@@ -1,0 +1,5 @@
+551a31d7c752cd3dcb2f9bd2243b5115  usr/lib/apache2/modules/libphp7.4.so
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/7.4/sapi/apache2
+23378a50f744ba66a0d2533215fcae33  usr/share/bug/libapache2-mod-php7.4/control
+40c83655fea516bf47c37e481b12ed7b  usr/share/bug/libapache2-mod-php7.4/script
+85e9b94c7d1562e78b57e3b88a201036  usr/share/lintian/overrides/libapache2-mod-php7.4

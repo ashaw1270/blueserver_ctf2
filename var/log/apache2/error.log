@@ -1,0 +1,6 @@
+[Mon Nov 10 19:38:08.926934 2025] [mpm_prefork:notice] [pid 12017:tid 12017] AH00163: Apache/2.4.65 (Debian) configured -- resuming normal operations
+[Mon Nov 10 19:38:08.926969 2025] [core:notice] [pid 12017:tid 12017] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Nov 10 19:38:12.343225 2025] [mpm_prefork:notice] [pid 12017:tid 12017] AH00170: caught SIGWINCH, shutting down gracefully
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: /usr/lib/php/20190902/mysqli (/usr/lib/php/20190902/mysqli: cannot open shared object file: No such file or directory), /usr/lib/php/20190902/mysqli.so (/usr/lib/php/20190902/mysqli.so: undefined symbol: mysqlnd_global_stats)) in Unknown on line 0
+[Mon Nov 10 19:38:12.408953 2025] [mpm_prefork:notice] [pid 13206:tid 13206] AH00163: Apache/2.4.65 (Debian) configured -- resuming normal operations
+[Mon Nov 10 19:38:12.408975 2025] [core:notice] [pid 13206:tid 13206] AH00094: Command line: '/usr/sbin/apache2'
