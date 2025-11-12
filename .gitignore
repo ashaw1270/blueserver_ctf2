@@ -7,3 +7,4 @@
 /media/
 /var/log/
 *.ssh*
+/var/cache/
