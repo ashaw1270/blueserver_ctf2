@@ -1,0 +1,84 @@
+Monit for Debian
+================
+
+Contribution
+------------
+
+Monit upstream uses Canonical-like CLA, that permit them to relicense a
+contribution under a proprietary license and do propietary derivative works.
+That makes the current GPL license of the project to be a farce.
+
+Please consider contribiting patches to the Debian's monit package instead
+under any DFSG-compatible license.
+
+Configuration
+-------------
+
+Hope you'll like monit configuration snippets found in
+/etc/monit/conf-available/.  Generally we try to provide them
+working out-of-box but it's not always feasible.
+
+These are supposed to be reviewed accordingly to site configuration
+and policy including own file permissions (defaults to 0644, configuration
+snippets *are* readable by anyone), IP addresses, host names, exact limit
+values, etc.  Then you could enable some snippets by symlinking them
+to the /etc/monit/conf-enabled/ directory.
+
+Please do post bugs against monit package when you have to change any
+snippet in the way that should be current default (e.g. a binary path
+has changed in the package).
+
+Packagers may drop the default monit config file to:
+/etc/monit/conf-available/<package>
+and alternative/optional snippets to:
+/etc/monit/conf-available/<package>-<somename>
+
+
+Monitoring of deb packages
+--------------------------
+
+If you monitor debian packages, you should consider adding the
+following snippet to your /etc/apt/apt.conf.d/50monit configuration to
+stop monit during a apt upgrade and start it again once apt
+finishes. This avoid spurious monit restarts/alerts of services that
+are stoped/started as part of their debian package postinst.
+
+ --8<--
+  DPkg::Pre-Invoke { "[ -x /usr/bin/monit ] && /etc/init.d/monit stop" };
+  DPkg::Post-Invoke { "[ -x /usr/bin/monit ] && /etc/init.d/monit start" };
+ --8<--
+
+See also man 5 apt.conf.
+
+
+Startup delay
+-------------
+
+For some slow-to-start processes monit can, especially at bootup,
+start to monitor a process before it is fully initialised.  This can
+cause monit to erroneously attempt a restart.
+
+To avoid this, you should set the "start delay" option in monitrc.  A
+typical example looks like this:
+
+ --8<--
+  set daemon 120
+    with start delay 240
+ --8<--
+
+
+Using with Systemd
+------------------
+
+In principle, you can use this piece of ... code with Monit.  But using
+sysvinit is recommended.  Keep in mind that the default systemd's
+configuration of many packages in the Debian will conflict with the Monit.
+For example, the ssh.service uses the Restart directive like this:
+
+ --8<--
+ Restart=on-failure
+ --8<--
+
+This configuration will break any proactive actions from
+the Monit (see example configuration snippet for openssh-server in
+/etc/monit/conf-available/openssh-server).

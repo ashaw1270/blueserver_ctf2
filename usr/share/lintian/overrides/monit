@@ -1,0 +1,12 @@
+# can contain sensitive information (eq. passwords):
+monit: non-standard-file-perm etc/monit/monitrc 0600 != 0644
+# permissions on eventqueue dir:
+monit: non-standard-dir-perm var/lib/monit/events/ 0700 != 0755
+# bison token for config parsing
+monit: spelling-error-in-binary usr/bin/monit dependant dependent
+# init script depends on $all
+# see thread https://lists.debian.org/debian-devel/2014/02/msg00160.html
+monit: init.d-script-depends-on-all-virtual-facility etc/init.d/monit should-start
+monit: init.d-script-depends-on-all-virtual-facility etc/init.d/monit should-stop
+# Not supported, see README.Debian
+monit: missing-systemd-service-for-init.d-script monit

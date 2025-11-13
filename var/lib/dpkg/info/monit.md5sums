@@ -1,0 +1,12 @@
+2bd7ac49a1a03f2bd52557c5e0392590  usr/bin/monit
+a06ad7273bb49a5adcbbd6dd61bda585  usr/share/bug/monit
+353332cd7962e32d16ae747c7797fd32  usr/share/doc/monit/CONTRIBUTORS
+90e12cf444141f3d5b81e6ef6663af52  usr/share/doc/monit/NEWS.Debian.gz
+44c0827d07380dfc293392e0b62ab209  usr/share/doc/monit/README.Debian
+7117a8aa1c16e3a0e70554349b94bcc3  usr/share/doc/monit/changelog.Debian.gz
+2883b8f2d556667eac9b29e3ac8e6871  usr/share/doc/monit/changelog.gz
+712cc251c9181d1c6451c1a8cfbf8da5  usr/share/doc/monit/copyright
+ae41e84b2bdaf5a0482cdedcce698247  usr/share/doc/monit/examples/monit.service
+33b5c1cd818dfe308d0e4443e30e337f  usr/share/doc/monit/examples/monit.upstart
+cf1cde38d60b6b05647183f69b1aa599  usr/share/lintian/overrides/monit
+9c0f4af3129963db000436c6badfd5ad  usr/share/man/man1/monit.1.gz

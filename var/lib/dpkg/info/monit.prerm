@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/13.3.1
+if [ -x "/etc/init.d/monit" ] && [ "$1" = remove ]; then
+	invoke-rc.d --skip-systemd-native monit stop || exit 1
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/13.3.1
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/acpid /etc/monit/conf-available/acpid 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/apache2 /etc/monit/conf-available/apache2 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/at /etc/monit/conf-available/at 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/cron /etc/monit/conf-available/cron 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/mdadm /etc/monit/conf-available/mdadm 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/memcached /etc/monit/conf-available/memcached 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/mysql /etc/monit/conf-available/mysql 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/nginx /etc/monit/conf-available/nginx 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/openntpd /etc/monit/conf-available/openntpd 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/openssh-server /etc/monit/conf-available/openssh-server 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/pdns-recursor /etc/monit/conf-available/pdns-recursor 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/postfix /etc/monit/conf-available/postfix 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/rsyslog /etc/monit/conf-available/rsyslog 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/smartmontools /etc/monit/conf-available/smartmontools 1:5.15-1\~ -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/monit/monitrc.d/snmpd /etc/monit/conf-available/snmpd 1:5.15-1\~ -- "$@"
+# End automatically added section
