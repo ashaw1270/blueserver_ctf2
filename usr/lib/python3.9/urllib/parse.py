@@ -87,6 +87,9 @@ scheme_chars = ('abcdefghijklmnopqrstuvwxyz'
 # == "".join([chr(i) for i in range(0, 0x20 + 1)])
 _WHATWG_C0_CONTROL_OR_SPACE = '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f '
 
+# Unsafe bytes to be removed per WHATWG spec
+_UNSAFE_URL_BYTES_TO_REMOVE = ['\t', '\r', '\n']
+
 # XXX: Consider replacing with functools.lru_cache
 MAX_CACHE_SIZE = 20
 _parse_cache = {}
@@ -440,6 +443,23 @@ def _checknetloc(netloc):
             raise ValueError("netloc '" + netloc + "' contains invalid " +
                              "characters under NFKC normalization")
 
+def _check_bracketed_netloc(netloc):
+    # Note that this function must mirror the splitting
+    # done in NetlocResultMixins._hostinfo().
+    hostname_and_port = netloc.rpartition('@')[2]
+    before_bracket, have_open_br, bracketed = hostname_and_port.partition('[')
+    if have_open_br:
+        # No data is allowed before a bracket.
+        if before_bracket:
+            raise ValueError("Invalid IPv6 URL")
+        hostname, _, port = bracketed.partition(']')
+        # No data is allowed after the bracket but before the port delimiter.
+        if port and not port.startswith(":"):
+            raise ValueError("Invalid IPv6 URL")
+    else:
+        hostname, _, port = hostname_and_port.partition(':')
+    _check_bracketed_host(hostname)
+
 # Valid bracketed hosts are defined in
 # https://www.rfc-editor.org/rfc/rfc3986#page-49 and https://url.spec.whatwg.org/
 def _check_bracketed_host(hostname):
@@ -478,6 +498,10 @@ def urlsplit(url, scheme='', allow_fragments=True):
     url = url.lstrip(_WHATWG_C0_CONTROL_OR_SPACE)
     scheme = scheme.strip(_WHATWG_C0_CONTROL_OR_SPACE)
 
+    for b in _UNSAFE_URL_BYTES_TO_REMOVE:
+        url = url.replace(b, "")
+        scheme = scheme.replace(b, "")
+
     allow_fragments = bool(allow_fragments)
     key = url, scheme, allow_fragments, type(url), type(scheme)
     cached = _parse_cache.get(key, None)
@@ -493,14 +517,14 @@ def urlsplit(url, scheme='', allow_fragments=True):
                 break
         else:
             scheme, url = url[:i].lower(), url[i+1:]
+
     if url[:2] == '//':
         netloc, url = _splitnetloc(url, 2)
         if (('[' in netloc and ']' not in netloc) or
                 (']' in netloc and '[' not in netloc)):
             raise ValueError("Invalid IPv6 URL")
         if '[' in netloc and ']' in netloc:
-            bracketed_host = netloc.partition('[')[2].partition(']')[0]
-            _check_bracketed_host(bracketed_host)
+            _check_bracketed_netloc(netloc)
     if allow_fragments and '#' in url:
         url, fragment = url.split('#', 1)
     if '?' in url:

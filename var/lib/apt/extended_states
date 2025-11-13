@@ -1114,3 +1114,135 @@ Package: mariadb-client-core-10.5
 Architecture: amd64
 Auto-Installed: 1
 
+Package: debhelper
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libltdl7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dwz
+Architecture: amd64
+Auto-Installed: 1
+
+Package: automake
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsctp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libarchive-zip-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsub-override-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: po-debconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdebhelper-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapr1-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-posix2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libltdl-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: autoconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-16-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: autopoint
+Architecture: amd64
+Auto-Installed: 1
+
+Package: uuid-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: autotools-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gettext
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsctp-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsys-hostname-long-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtool
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dh-autoreconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmail-sendmail-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libldap2-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dh-strip-nondeterminism
+Architecture: amd64
+Auto-Installed: 1
+
+Package: m4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: intltool-debian
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfile-stripnondeterminism-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-32-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcre2-dev
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libarchive-cpio-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3.9-venv
+Architecture: amd64
+Auto-Installed: 1
+

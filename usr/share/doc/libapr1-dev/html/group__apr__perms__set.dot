@@ -1,0 +1,9 @@
+digraph "Object permission set functions"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="Object permission set\l functions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 [label="Apache Portability\l Runtime library",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___a_p_r.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

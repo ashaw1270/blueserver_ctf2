@@ -1,0 +1,27 @@
+digraph "apr_file_io.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="apr_file_io.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="APR File I/O Handling."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apr_mmap.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__mmap_8h.html",tooltip="APR MMAP routines."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apr_network_io.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__network__io_8h.html",tooltip="APR Network library."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apr_poll.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__poll_8h.html",tooltip="APR Poll interface."];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="apr_portable.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__portable_8h.html",tooltip="APR Portability Routines."];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="apr_skiplist.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__skiplist_8h.html",tooltip="APR skip list implementation."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="apr_support.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__support_8h.html",tooltip="APR Support functions."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="apr_thread_proc.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__thread__proc_8h.html",tooltip="APR Thread and Process Library."];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="apr_random.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$apr__random_8h.html",tooltip="APR PRNG routines."];
+}

@@ -1,0 +1,5 @@
+INFO:app:REQUEST from 4.4.4.4: GET /register?user=user2&pass=password
+
+INFO:app:RESPONSE: Account created for user user2
+---
+

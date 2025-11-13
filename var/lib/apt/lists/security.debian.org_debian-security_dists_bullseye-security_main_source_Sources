@@ -11247,7 +11247,7 @@ Section: misc
 
 Package: libarchive
 Binary: libarchive-dev, libarchive13, libarchive-tools
-Version: 3.4.3-2+deb11u2
+Version: 3.4.3-2+deb11u3
 Maintainer: Peter Pentchev <roam@debian.org>
 Build-Depends: debhelper-compat (= 13), pkg-config, libbz2-dev, liblz4-dev, liblzma-dev, libxml2-dev, libzstd-dev, zlib1g-dev, libacl1-dev [!hurd-any], libext2fs-dev, libattr1-dev, sharutils, nettle-dev, locales <!nocheck> | locales-all <!nocheck>
 Architecture: any
@@ -11256,10 +11256,10 @@ Format: 3.0 (quilt)
 Vcs-Browser: https://salsa.debian.org/debian/libarchive
 Vcs-Git: https://salsa.debian.org/debian/libarchive.git
 Checksums-Sha256:
- c30eda83b4f3bb2078e5cb7b34f1cb9f7a3498da27773e1994ae5a1fe717a524 2543 libarchive_3.4.3-2+deb11u2.dsc
+ b0d05f440f8944a668850de28891ec686ed7b69ffb511a515ba4c2bf8b219e44 2543 libarchive_3.4.3-2+deb11u3.dsc
  0bfc3fd40491768a88af8d9b86bf04a9e95b6d41a94f9292dbc0ec342288c05f 4811508 libarchive_3.4.3.orig.tar.xz
  e43bdc701140383c9e4d90070a684026c05407c95b8fa26a71b20f19a704df89 833 libarchive_3.4.3.orig.tar.xz.asc
- 55450a7faf78dbe6675194af39122bf59e53c26e6714324dd9e391d7c3d22519 34096 libarchive_3.4.3-2+deb11u2.debian.tar.xz
+ ffc19257c88c9820a28c49f1a156ee73a26eddd2750c9104a70a1408ace8b995 40632 libarchive_3.4.3-2+deb11u3.debian.tar.xz
 Homepage: https://www.libarchive.org/
 Package-List: 
  libarchive-dev deb libdevel optional arch=any
@@ -26970,7 +26970,7 @@ Section: kernel
 
 Package: squid
 Binary: squid, squid-openssl, squid-common, squidclient, squid-cgi, squid-purge
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Uploaders: Santiago Garcia Mantinan <manty@debian.org>
 Build-Depends: ed, libltdl-dev, pkg-config, g++ (>= 4.9) <!cross> | clang (>= 3.7) <!cross>, gcc (>= 4.9) <!cross> | clang (>= 3.7) <!cross>, debhelper (>= 12.8), dpkg-dev (>= 1.17.11~), lsb-release, dh-apparmor, libcppunit-dev, libcap2-dev [linux-any], libdb-dev, libecap3-dev (>= 1.0.1-2), libexpat1-dev, libgnutls28-dev (>= 3.5), libkrb5-dev, comerr-dev, libldap2-dev, libnetfilter-conntrack-dev [linux-any], libpam0g-dev, libsasl2-dev, libsystemd-dev [linux-any], libxml2-dev, nettle-dev, libssl-dev
@@ -26980,9 +26980,9 @@ Format: 3.0 (quilt)
 Vcs-Browser: https://salsa.debian.org/squid-team/squid
 Vcs-Git: https://salsa.debian.org/squid-team/squid.git
 Checksums-Sha256:
- 42e09204fb1b96738b0ec3b8682e7db386952bee0aa73e3c71d8f55044b42540 2753 squid_4.13-10+deb11u5.dsc
+ 8d636a6008cb8cf920647962424c17aec96c0f6f18aa1483e391bec2d18fefc6 2753 squid_4.13-10+deb11u6.dsc
  6891a0f540e60779b4f24f1802a302f813c6f473ec7336a474ed68c3e2e53ee0 2452752 squid_4.13.orig.tar.xz
- 698695ec30e41f103fe3a0ea859d77bf2b01b9c16f89cb003c05c4d3d8891aa3 115584 squid_4.13-10+deb11u5.debian.tar.xz
+ a0757102790ddaf73cb8c95055f9fe52cb542cab38451b65454698a91d27e4f3 118188 squid_4.13-10+deb11u6.debian.tar.xz
 Homepage: http://www.squid-cache.org
 Package-List: 
  squid deb web optional arch=any

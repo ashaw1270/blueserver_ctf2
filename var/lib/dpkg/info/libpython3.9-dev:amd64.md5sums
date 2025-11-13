@@ -163,11 +163,11 @@ abf519ec8362634645d594b0f9c4ce41  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/
 2b604221a366776eddaa187535ed85f0  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/config.c
 35de682ece0a705c5bb4f25d68213aab  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/config.c.in
 bac3fb7f33d1f10f02f0b6460d2eee12  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/install-sh
-0ae8a2b55deccb02e2f1dfa1ddef5b70  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/libpython3.9-pic.a
-44d059be40262113fea5017d95c8cc1a  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/libpython3.9.a
+663e4bb608f61ef62f271e7fbccae984  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/libpython3.9-pic.a
+8f976aa3e135e78dc5b33a3bbf4a0529  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/libpython3.9.a
 9eab26c9188e6b641328ccfd9b48a150  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/makesetup
 5fd9075e5f7c3bf56df986584463f8d2  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/python-config.py
-ae1d4068ddf73f42c90ed2468d0bb94e  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/python.o
+8e5266a6efcfb3cc4d11c70b23c4e652  usr/lib/python3.9/config-3.9-x86_64-linux-gnu/python.o
 98a2046ad0dd0bd0e3b65626bccb7872  usr/lib/x86_64-linux-gnu/pkgconfig/python-3.9-embed.pc
 55084db169d0dc36dd8a698299b2277a  usr/lib/x86_64-linux-gnu/pkgconfig/python-3.9.pc
 2978075756e1ac9eeb22d0d0fefb90a5  usr/share/lintian/overrides/libpython3.9-dev

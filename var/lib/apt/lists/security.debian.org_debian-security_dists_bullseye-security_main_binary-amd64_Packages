@@ -22904,43 +22904,43 @@ SHA256: b881cd05d989ddc639110ec0f278dd486dbeed463811f5b8784d31c9594ff456
 
 Package: libarchive-dev
 Source: libarchive
-Version: 3.4.3-2+deb11u2
-Installed-Size: 1734
+Version: 3.4.3-2+deb11u3
+Installed-Size: 1736
 Maintainer: Peter Pentchev <roam@debian.org>
 Architecture: amd64
-Depends: libarchive13 (= 3.4.3-2+deb11u2)
+Depends: libarchive13 (= 3.4.3-2+deb11u3)
 Description: Multi-format archive and compression library (development files)
 Homepage: https://www.libarchive.org/
 Description-md5: 68ad6870c167e8363f56ccdc0da60667
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libarchive/libarchive-dev_3.4.3-2+deb11u2_amd64.deb
-Size: 518560
-SHA256: a9c82ef6307ded2831df41cdd7da2da8be27e9cfd722720e2e61f57526cd69d6
+Filename: pool/updates/main/liba/libarchive/libarchive-dev_3.4.3-2+deb11u3_amd64.deb
+Size: 519400
+SHA256: 97105a06ff5b2fe52b6e2b2ace1a2c02aca487ab446cf8c154e328c74c71e102
 
 Package: libarchive-tools
 Source: libarchive
-Version: 3.4.3-2+deb11u2
-Installed-Size: 198
+Version: 3.4.3-2+deb11u3
+Installed-Size: 199
 Maintainer: Peter Pentchev <roam@debian.org>
 Architecture: amd64
 Replaces: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
-Depends: libarchive13 (= 3.4.3-2+deb11u2), libc6 (>= 2.14)
+Depends: libarchive13 (= 3.4.3-2+deb11u3), libc6 (>= 2.14)
 Breaks: bsdcpio (<< 3.2.1-2~), bsdtar (<< 3.2.1-2~)
 Description: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
 Homepage: https://www.libarchive.org/
 Description-md5: 04bbebb441868f4c976e664833572c46
 Section: utils
 Priority: optional
-Filename: pool/updates/main/liba/libarchive/libarchive-tools_3.4.3-2+deb11u2_amd64.deb
-Size: 79616
-SHA256: fa820b505e79a0cf8706dbcf0f74a987b0193a34318acf606e8a63b94e94bd6b
+Filename: pool/updates/main/liba/libarchive/libarchive-tools_3.4.3-2+deb11u3_amd64.deb
+Size: 80216
+SHA256: 6c8b9a9a6c469aedd6baafff4141b0e9e1c3f9505dff59277ee5ea8aeea4776f
 
 Package: libarchive13
 Source: libarchive
-Version: 3.4.3-2+deb11u2
-Installed-Size: 864
+Version: 3.4.3-2+deb11u3
+Installed-Size: 869
 Maintainer: Peter Pentchev <roam@debian.org>
 Architecture: amd64
 Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.16), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.2.2), libnettle8, libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)
@@ -22951,9 +22951,9 @@ Description-md5: 4bc5ca99af95264652d6d79af38b5271
 Multi-Arch: same
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libarchive/libarchive13_3.4.3-2+deb11u2_amd64.deb
-Size: 342856
-SHA256: 006029e5dff4ccc7558fe6bbe3ec87ec97a5d8fc544230e6bf849cc5885bfadf
+Filename: pool/updates/main/liba/libarchive/libarchive13_3.4.3-2+deb11u3_amd64.deb
+Size: 343572
+SHA256: 78b48cd9033ff1b432caaf9fa328e29c64fe886d2be37aff678707d72b9727d9
 
 Package: libavif-bin
 Source: libavif
@@ -49260,12 +49260,12 @@ Size: 135268
 SHA256: a21ee94386d4c3c87144f5f69fc0e6c01b553c593d3410057bec7c25a8f9bd7d
 
 Package: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 8067
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: amd64
 Provides: squid3
-Depends: libc6 (>= 2.29), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libdb5.3, libecap3 (>= 1.0.1), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.6), libnetfilter-conntrack3 (>= 1.0.1), libnettle8, libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libsasl2-2 (>= 2.1.27+dfsg), libstdc++6 (>= 9), libsystemd0, netbase, logrotate (>= 3.5.4-1), squid-common (>= 4.13-10+deb11u5), lsb-base, libdbi-perl
+Depends: libc6 (>= 2.29), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libdb5.3, libecap3 (>= 1.0.1), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.6), libnetfilter-conntrack3 (>= 1.0.1), libnettle8, libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libsasl2-2 (>= 2.1.27+dfsg), libstdc++6 (>= 9), libsystemd0, netbase, logrotate (>= 3.5.4-1), squid-common (>= 4.13-10+deb11u6), lsb-base, libdbi-perl
 Suggests: squidclient, squid-cgi, squid-purge, resolvconf (>= 0.40), smbclient, ufw, winbind, apparmor
 Conflicts: squid-openssl
 Description: Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)
@@ -49275,13 +49275,13 @@ Pre-Depends: init-system-helpers (>= 1.54~), adduser
 Recommends: libcap2-bin, ca-certificates
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squid_4.13-10+deb11u5_amd64.deb
-Size: 2531436
-SHA256: e703e8dc13208c967f4bc5ff6afdcf54dd50b26a602ba7506c11b70802d4be88
+Filename: pool/updates/main/s/squid/squid_4.13-10+deb11u6_amd64.deb
+Size: 2529144
+SHA256: a0b7f32208e7bea1fc0545764009413f2fa498fcc58005b9d6b039350beb023b
 
 Package: squid-cgi
 Source: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 309
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: amd64
@@ -49292,13 +49292,13 @@ Homepage: http://www.squid-cache.org
 Description-md5: d0bf1074b507dacb37098691582296d3
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squid-cgi_4.13-10+deb11u5_amd64.deb
-Size: 170676
-SHA256: e18f5d6bd15934f987fa33ad9f4114bee4e5eb9241c18e6c4aa9c167109bbf48
+Filename: pool/updates/main/s/squid/squid-cgi_4.13-10+deb11u6_amd64.deb
+Size: 170784
+SHA256: 7743eed19adfae7c195e4e208bbb6751c338a4b625d73a9d7b7988fac478883b
 
 Package: squid-common
 Source: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 480
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: all
@@ -49310,18 +49310,18 @@ Description-md5: 43efb35ce395950e104ddfef1cb50d1c
 Multi-Arch: foreign
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squid-common_4.13-10+deb11u5_all.deb
-Size: 316056
-SHA256: 195e568f1c912795ba0c525bb98fab288ae1d6cfe620e169bc79209789ab83b7
+Filename: pool/updates/main/s/squid/squid-common_4.13-10+deb11u6_all.deb
+Size: 316220
+SHA256: b251589dca5ff2f4b1301ac5c23b21f391d6b3734d7ed2fee530fd96243c5b82
 
 Package: squid-openssl
 Source: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 8586
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: amd64
 Provides: squid3
-Depends: libc6 (>= 2.29), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libdb5.3, libecap3 (>= 1.0.1), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.6), libnetfilter-conntrack3 (>= 1.0.1), libnettle8, libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libsystemd0, netbase, logrotate (>= 3.5.4-1), squid-common (>= 4.13-10+deb11u5), lsb-base, libdbi-perl
+Depends: libc6 (>= 2.29), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libcrypt1 (>= 1:4.1.0), libdb5.3, libecap3 (>= 1.0.1), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.6), libnetfilter-conntrack3 (>= 1.0.1), libnettle8, libnsl2 (>= 1.0), libpam0g (>= 0.99.7.1), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libsystemd0, netbase, logrotate (>= 3.5.4-1), squid-common (>= 4.13-10+deb11u6), lsb-base, libdbi-perl
 Suggests: squidclient, squid-cgi, squid-purge, resolvconf (>= 0.40), smbclient, ufw, winbind, apparmor
 Conflicts: squid
 Description: Full featured Web Proxy cache (HTTP proxy OpenSSL flavour)
@@ -49331,13 +49331,13 @@ Pre-Depends: init-system-helpers (>= 1.54~), adduser
 Recommends: libcap2-bin, ca-certificates
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squid-openssl_4.13-10+deb11u5_amd64.deb
-Size: 2687256
-SHA256: 04ee0aa4339fbc2ed19d11fe3be56a8f416f4b5d11dbcb8c53ac45f93dd00046
+Filename: pool/updates/main/s/squid/squid-openssl_4.13-10+deb11u6_amd64.deb
+Size: 2686580
+SHA256: 7154b3511b3ad9451842fdc0f4a3cee6f2baaf02a513802b600c2b73dceb1d9f
 
 Package: squid-purge
 Source: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 271
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: amd64
@@ -49347,13 +49347,13 @@ Homepage: http://www.squid-cache.org
 Description-md5: 6b0c45a8b98e5c8365894c6c648205d7
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squid-purge_4.13-10+deb11u5_amd64.deb
-Size: 160872
-SHA256: f4df4cde1e6446a4a77f12b1830b00a82a6f67d5dd1e17970c1ab97ab4a914d8
+Filename: pool/updates/main/s/squid/squid-purge_4.13-10+deb11u6_amd64.deb
+Size: 160964
+SHA256: 5825ba4e20df1d889b5132c160ea56799a2bea84ed3e1c11f8427eceba484174
 
 Package: squidclient
 Source: squid
-Version: 4.13-10+deb11u5
+Version: 4.13-10+deb11u6
 Installed-Size: 313
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: amd64
@@ -49365,9 +49365,9 @@ Description-md5: 50857a05e6c54a91b3123291e8661995
 Recommends: ssl-cert, ca-certificates
 Section: web
 Priority: optional
-Filename: pool/updates/main/s/squid/squidclient_4.13-10+deb11u5_amd64.deb
-Size: 172684
-SHA256: c1c5e86835385067b2683c1aff614025b192b4d0418ea445ff132864be56d16e
+Filename: pool/updates/main/s/squid/squidclient_4.13-10+deb11u6_amd64.deb
+Size: 172772
+SHA256: ae0f953fd1cda5deef9bf15fef41cf1fb78cf784ec9c634b0c67446035a37ddc
 
 Package: sslh
 Version: 1.20-1+deb11u1

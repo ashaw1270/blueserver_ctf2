@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = rtupdate ]; then
+    new_version=`echo ${3} | sed 's,^python,,'`
+    ln -sf mod_wsgi.so-${new_version} /usr/lib/apache2/modules/mod_wsgi.so
+fi

@@ -1,0 +1,17 @@
+digraph "File Information"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node3 [label="File Permissions flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__apr__file__permissions.html",tooltip=" "];
+  Node4 [label="Stat Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__apr__file__stat.html",tooltip=" "];
+  Node6 [label="Filepath Manipulation\l Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__apr__filepath.html",tooltip=" "];
+  Node2 [label="Apache Portability\l Runtime library",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___a_p_r.html",tooltip=" "];
+  Node5 [label="Directory Manipulation\l Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__apr__dir.html",tooltip=" "];
+  Node1 [label="File Information",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+}

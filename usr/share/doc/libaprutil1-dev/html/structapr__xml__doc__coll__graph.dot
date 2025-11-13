@@ -1,0 +1,18 @@
+digraph "apr_xml_doc"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="apr_xml_doc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" root" ,fontname="Helvetica"];
+  Node2 [label="apr_xml_elem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__xml__elem.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" first_cdata\nfollowing_cdata" ,fontname="Helvetica"];
+  Node3 [label="apr_text_header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__text__header.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" first\nlast" ,fontname="Helvetica"];
+  Node4 [label="apr_text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__text.html",tooltip=" "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+  Node2 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" first_child\nlast_child\nnext\nparent" ,fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" attr" ,fontname="Helvetica"];
+  Node5 [label="apr_xml_attr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__xml__attr.html",tooltip=" "];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" next" ,fontname="Helvetica"];
+}

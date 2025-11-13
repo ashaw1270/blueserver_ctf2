@@ -1,0 +1,4 @@
+715fd70f42d55825aa7edab192482fe4  usr/lib/python3.9/ensurepip/__init__.py
+11d1e26338335392d8a629f28ef1c9ff  usr/lib/python3.9/ensurepip/__main__.py
+118c49f8898fdc689e18f886008e0281  usr/lib/python3.9/ensurepip/_uninstall.py
+5be7caa68e7d13e901c7d8b348a45a91  usr/share/lintian/overrides/python3.9-venv

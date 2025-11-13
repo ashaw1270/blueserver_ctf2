@@ -951,6 +951,8 @@ class _InvalidEwError(errors.HeaderParseError):
 # up other parse trees.  Maybe should have  tests for that, too.
 DOT = ValueTerminal('.', 'dot')
 ListSeparator = ValueTerminal(',', 'list-separator')
+ListSeparator.as_ew_allowed = False
+ListSeparator.syntactic_break = False
 RouteComponentMarker = ValueTerminal('@', 'route-component-marker')
 
 #
@@ -2024,7 +2026,7 @@ def get_address_list(value):
             address_list.defects.append(errors.InvalidHeaderDefect(
                 "invalid address in address-list"))
         if value:  # Must be a , at this point.
-            address_list.append(ValueTerminal(',', 'list-separator'))
+            address_list.append(ListSeparator)
             value = value[1:]
     return address_list, value
 
@@ -2825,13 +2827,22 @@ def _refold_parse_tree(parse_tree, *, policy):
             if not hasattr(part, 'encode'):
                 # It's not a Terminal, do each piece individually.
                 parts = list(part) + parts
-            else:
+                want_encoding = False
+                continue
+            elif part.as_ew_allowed:
                 # It's a terminal, wrap it as an encoded word, possibly
                 # combining it with previously encoded words if allowed.
                 last_ew = _fold_as_ew(tstr, lines, maxlen, last_ew,
                                       part.ew_combine_allowed, charset)
-            want_encoding = False
-            continue
+                want_encoding = False
+                continue
+            else:
+                # It's a terminal which should be kept non-encoded
+                # (e.g. a ListSeparator).
+                last_ew = None
+                want_encoding = False
+                # fall through
+
         if len(tstr) <= maxlen - len(lines[-1]):
             lines[-1] += tstr
             continue

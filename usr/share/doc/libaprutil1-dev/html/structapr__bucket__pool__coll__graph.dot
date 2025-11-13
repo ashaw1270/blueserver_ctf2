@@ -1,0 +1,11 @@
+digraph "apr_bucket_pool"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="apr_bucket_pool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" heap" ,fontname="Helvetica"];
+  Node2 [label="apr_bucket_heap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__bucket__heap.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" refcount" ,fontname="Helvetica"];
+  Node3 [label="apr_bucket_refcount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapr__bucket__refcount.html",tooltip=" "];
+}

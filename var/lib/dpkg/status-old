@@ -31,7 +31,7 @@ Description: add and remove users and groups
  A custom script can be executed after each of the commands.
 
 Package: apache2
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: httpd
 Installed-Size: 641
@@ -122,88 +122,88 @@ Conffiles:
  /etc/apache2/mods-available/info.conf 4a4aa21e0bb474d420c9a3e1c3320677
  /etc/apache2/mods-available/info.load c1faffe40b8bed9f2b817b9dc0503bb6
  /etc/apache2/mods-available/lbmethod_bybusyness.load 094b7c1d424cc4a1dee6f77d301e1888
- /etc/apache2/mods-available/lbmethod_byrequests.load newconffile
- /etc/apache2/mods-available/lbmethod_bytraffic.load newconffile
- /etc/apache2/mods-available/lbmethod_heartbeat.load newconffile
- /etc/apache2/mods-available/ldap.conf newconffile
- /etc/apache2/mods-available/ldap.load newconffile
- /etc/apache2/mods-available/log_debug.load newconffile
- /etc/apache2/mods-available/log_forensic.load newconffile
- /etc/apache2/mods-available/lua.load newconffile
- /etc/apache2/mods-available/macro.load newconffile
- /etc/apache2/mods-available/md.load newconffile
- /etc/apache2/mods-available/mime.conf newconffile
- /etc/apache2/mods-available/mime.load newconffile
- /etc/apache2/mods-available/mime_magic.conf newconffile
- /etc/apache2/mods-available/mime_magic.load newconffile
- /etc/apache2/mods-available/mpm_event.conf newconffile
- /etc/apache2/mods-available/mpm_event.load newconffile
- /etc/apache2/mods-available/mpm_prefork.conf newconffile
- /etc/apache2/mods-available/mpm_prefork.load newconffile
- /etc/apache2/mods-available/mpm_worker.conf newconffile
- /etc/apache2/mods-available/mpm_worker.load newconffile
- /etc/apache2/mods-available/negotiation.conf newconffile
- /etc/apache2/mods-available/negotiation.load newconffile
- /etc/apache2/mods-available/proxy.conf newconffile
- /etc/apache2/mods-available/proxy.load newconffile
- /etc/apache2/mods-available/proxy_ajp.load newconffile
- /etc/apache2/mods-available/proxy_balancer.conf newconffile
- /etc/apache2/mods-available/proxy_balancer.load newconffile
- /etc/apache2/mods-available/proxy_connect.load newconffile
- /etc/apache2/mods-available/proxy_express.load newconffile
- /etc/apache2/mods-available/proxy_fcgi.load newconffile
- /etc/apache2/mods-available/proxy_fdpass.load newconffile
- /etc/apache2/mods-available/proxy_ftp.conf newconffile
- /etc/apache2/mods-available/proxy_ftp.load newconffile
- /etc/apache2/mods-available/proxy_hcheck.load newconffile
- /etc/apache2/mods-available/proxy_html.conf newconffile
- /etc/apache2/mods-available/proxy_html.load newconffile
- /etc/apache2/mods-available/proxy_http.load newconffile
- /etc/apache2/mods-available/proxy_http2.load newconffile
- /etc/apache2/mods-available/proxy_scgi.load newconffile
- /etc/apache2/mods-available/proxy_uwsgi.load newconffile
- /etc/apache2/mods-available/proxy_wstunnel.load newconffile
- /etc/apache2/mods-available/ratelimit.load newconffile
- /etc/apache2/mods-available/reflector.load newconffile
- /etc/apache2/mods-available/remoteip.load newconffile
- /etc/apache2/mods-available/reqtimeout.conf newconffile
- /etc/apache2/mods-available/reqtimeout.load newconffile
- /etc/apache2/mods-available/request.load newconffile
- /etc/apache2/mods-available/rewrite.load newconffile
- /etc/apache2/mods-available/sed.load newconffile
- /etc/apache2/mods-available/session.load newconffile
- /etc/apache2/mods-available/session_cookie.load newconffile
- /etc/apache2/mods-available/session_crypto.load newconffile
- /etc/apache2/mods-available/session_dbd.load newconffile
- /etc/apache2/mods-available/setenvif.conf newconffile
- /etc/apache2/mods-available/setenvif.load newconffile
- /etc/apache2/mods-available/slotmem_plain.load newconffile
- /etc/apache2/mods-available/slotmem_shm.load newconffile
- /etc/apache2/mods-available/socache_dbm.load newconffile
- /etc/apache2/mods-available/socache_memcache.load newconffile
- /etc/apache2/mods-available/socache_redis.load newconffile
- /etc/apache2/mods-available/socache_shmcb.load newconffile
- /etc/apache2/mods-available/speling.load newconffile
- /etc/apache2/mods-available/ssl.conf newconffile
- /etc/apache2/mods-available/ssl.load newconffile
- /etc/apache2/mods-available/status.conf newconffile
- /etc/apache2/mods-available/status.load newconffile
- /etc/apache2/mods-available/substitute.load newconffile
- /etc/apache2/mods-available/suexec.load newconffile
- /etc/apache2/mods-available/unique_id.load newconffile
- /etc/apache2/mods-available/userdir.conf newconffile
- /etc/apache2/mods-available/userdir.load newconffile
- /etc/apache2/mods-available/usertrack.load newconffile
- /etc/apache2/mods-available/vhost_alias.load newconffile
- /etc/apache2/mods-available/xml2enc.load newconffile
- /etc/apache2/ports.conf newconffile
- /etc/apache2/sites-available/000-default.conf newconffile
- /etc/apache2/sites-available/default-ssl.conf newconffile
- /etc/cron.daily/apache2 newconffile
- /etc/default/apache-htcacheclean newconffile
- /etc/init.d/apache-htcacheclean newconffile
- /etc/init.d/apache2 newconffile
- /etc/logrotate.d/apache2 newconffile
+ /etc/apache2/mods-available/lbmethod_byrequests.load f33d55ab5bbf907340426e31f99f6701
+ /etc/apache2/mods-available/lbmethod_bytraffic.load e656d80b48c020b7d77ece23368e04f1
+ /etc/apache2/mods-available/lbmethod_heartbeat.load 944703ff299a25cf068de7f6a2374465
+ /etc/apache2/mods-available/ldap.conf 344968a263507c1991a160427e51ed9c
+ /etc/apache2/mods-available/ldap.load 735ac5f246738e11a53f6c515b8dfc48
+ /etc/apache2/mods-available/log_debug.load d062328e5987fa686615394768339abe
+ /etc/apache2/mods-available/log_forensic.load 7177e2427eb7c78f1ab10c034a809793
+ /etc/apache2/mods-available/lua.load 5e445ce688a49e0a1fcfcaa414fe21f9
+ /etc/apache2/mods-available/macro.load 40e0509b4b2d307cdfe4de75fa89dc91
+ /etc/apache2/mods-available/md.load 4fa08b541b4bac4a4849e6fd6d69c973
+ /etc/apache2/mods-available/mime.conf f6be43a514cb9ddb44044d57849f876f
+ /etc/apache2/mods-available/mime.load 9c858dc2ad2825dc3f862ecba90cf6ec
+ /etc/apache2/mods-available/mime_magic.conf ebeaf79afde03c805e795bb51eec155f
+ /etc/apache2/mods-available/mime_magic.load ab5c69aa0c91f11157e9bfc4972f8cce
+ /etc/apache2/mods-available/mpm_event.conf d868a76835101a66be2863362ef9f81a
+ /etc/apache2/mods-available/mpm_event.load 08816d280ebbd94b8c5961fc6f7168b5
+ /etc/apache2/mods-available/mpm_prefork.conf 26e539a16e51c4feddd2eedc568692e6
+ /etc/apache2/mods-available/mpm_prefork.load 9bcdffe5055526e0929ecd49ee311c9e
+ /etc/apache2/mods-available/mpm_worker.conf 2673a5a3f030bfb704bee034ce3a183c
+ /etc/apache2/mods-available/mpm_worker.load 0c6640977f0f046a55fdaf76eb54adef
+ /etc/apache2/mods-available/negotiation.conf 443398efdd41085bc1a70047f6e61c95
+ /etc/apache2/mods-available/negotiation.load fd7bf44d833446a35f0199d7cbcc9793
+ /etc/apache2/mods-available/proxy.conf b516d96935974214588d525edd7aed6d
+ /etc/apache2/mods-available/proxy.load 3d3719c88d01152e817f74fc2fd6ce9e
+ /etc/apache2/mods-available/proxy_ajp.load e058e03c1d4f9e4d8e2c439ed75cc501
+ /etc/apache2/mods-available/proxy_balancer.conf 5e9113f9556e17c0fec6c81232651791
+ /etc/apache2/mods-available/proxy_balancer.load 9c6e6ff2195159c8af97f7673e8d2ada
+ /etc/apache2/mods-available/proxy_connect.load 6bc4b5de977f70a0b6ae98ab04383c0c
+ /etc/apache2/mods-available/proxy_express.load f2ad6e7e80d2750cdca5986657e7835e
+ /etc/apache2/mods-available/proxy_fcgi.load 09cbda44eecbf1cbab48b30045217e3c
+ /etc/apache2/mods-available/proxy_fdpass.load 9e5584db5f748a2fb71b582a255a976e
+ /etc/apache2/mods-available/proxy_ftp.conf dd9beba82c2838bcfd51a05dfb540929
+ /etc/apache2/mods-available/proxy_ftp.load c05db1b229a7957f0032c0d79ed7e3c9
+ /etc/apache2/mods-available/proxy_hcheck.load 92898c1ef9124193fa5d9e13408e0372
+ /etc/apache2/mods-available/proxy_html.conf 5b60af3b1796f2db4b5f7a8a7941f1bc
+ /etc/apache2/mods-available/proxy_html.load dac7646a0a7242de76f788b4da14390b
+ /etc/apache2/mods-available/proxy_http.load 161b514c355c6daa95f11371fb9c184c
+ /etc/apache2/mods-available/proxy_http2.load 8a2cdbe25537eb8cb9007e351274f852
+ /etc/apache2/mods-available/proxy_scgi.load cb11d685e60db26bbdad456263bf63b7
+ /etc/apache2/mods-available/proxy_uwsgi.load 37493bab0af283fd186d2797a9f5f95b
+ /etc/apache2/mods-available/proxy_wstunnel.load d2e5c21b886333f1662fe74591260d5d
+ /etc/apache2/mods-available/ratelimit.load fb40aa030d5458dd99a0c9d1141bcde4
+ /etc/apache2/mods-available/reflector.load 306c71fae73733506db9099d106ba642
+ /etc/apache2/mods-available/remoteip.load 81a6511c79ab338aef51a6c185152231
+ /etc/apache2/mods-available/reqtimeout.conf 40b45155afb3d14263d12e6fc4a98513
+ /etc/apache2/mods-available/reqtimeout.load 7fd814775dc3f3c9e6753ef874978f96
+ /etc/apache2/mods-available/request.load 36c1b324cd545e3e29b50b5e2a8357e8
+ /etc/apache2/mods-available/rewrite.load 55e18fb7df64c8f390904b972637c17d
+ /etc/apache2/mods-available/sed.load 8ba3c7ff4243e6a45b6e3c372fc0de1b
+ /etc/apache2/mods-available/session.load b552f1e184865c597ae397876fb3a0a6
+ /etc/apache2/mods-available/session_cookie.load 89aff7a7f8b4347965d4cf6ea3c5beb9
+ /etc/apache2/mods-available/session_crypto.load 066002be7d8c6c381553dbded41db1b6
+ /etc/apache2/mods-available/session_dbd.load cf86e56f8ee26f5dccc39c2f690d7f79
+ /etc/apache2/mods-available/setenvif.conf 533f5f92761c2c24d6820f1d7d1c45ad
+ /etc/apache2/mods-available/setenvif.load 6f670fad5b6f6b14fa72c9cd3058469b
+ /etc/apache2/mods-available/slotmem_plain.load fd33fcd86c77d4d5044ad904e7f38360
+ /etc/apache2/mods-available/slotmem_shm.load 127df94eaf6987ad67b964f01eec3251
+ /etc/apache2/mods-available/socache_dbm.load 9f11810517a6bf2eba31b336ebbfad70
+ /etc/apache2/mods-available/socache_memcache.load c0101bc50501b12e7c8c74014560404b
+ /etc/apache2/mods-available/socache_redis.load 5c6ee35e3b89ea7ffdb19a2b344ada94
+ /etc/apache2/mods-available/socache_shmcb.load 9efb84889b8e1683ce104033bf30973d
+ /etc/apache2/mods-available/speling.load 095570b0cb18ebdfc357a2241c6932ea
+ /etc/apache2/mods-available/ssl.conf 6c30f44f4e2ad6bc51c917294aa8e34b
+ /etc/apache2/mods-available/ssl.load 838b292226d2da6ceb3f1c793696ca12
+ /etc/apache2/mods-available/status.conf 5d3689f109baf304af4f145249ca6326
+ /etc/apache2/mods-available/status.load 00976ea5115f286bbc21357581d0b65e
+ /etc/apache2/mods-available/substitute.load 50e63dc17612e22484a88f537e8aec8e
+ /etc/apache2/mods-available/suexec.load 335169c85f4afc14524846789d46af06
+ /etc/apache2/mods-available/unique_id.load 6c13959015fb35276572070b44e63380
+ /etc/apache2/mods-available/userdir.conf 3a3142e84136336db8b940553a076983
+ /etc/apache2/mods-available/userdir.load c034025405561ea48fbcb67fd1998f4d
+ /etc/apache2/mods-available/usertrack.load 8400042dd4374fad5eedf33ffb3c68f0
+ /etc/apache2/mods-available/vhost_alias.load fdd42d34966c329cdee2435dfe72ee24
+ /etc/apache2/mods-available/xml2enc.load 1f7ab653ed3601bd265871cdf252a224
+ /etc/apache2/ports.conf a961f23471d985c2b819b652b7f64321
+ /etc/apache2/sites-available/000-default.conf f3066f67070ab9b1ad9bab81ca05330a
+ /etc/apache2/sites-available/default-ssl.conf 801f4c746a88b4228596cb260a4220c4
+ /etc/cron.daily/apache2 c788ffaa4c682c91e6a1cd7f53840d62
+ /etc/default/apache-htcacheclean ae8721a0bc5b4e2ef7a5258b1e9db5c5
+ /etc/init.d/apache-htcacheclean 29fe315052a1c5fbe9dc9f29485ed906
+ /etc/init.d/apache2 9d22fb30358e61a6f190a0d09c5120bf
+ /etc/logrotate.d/apache2 ab347819cceccf236cfe769a13b89d2a
 Description: Apache HTTP Server
  The Apache HTTP Server Project's goal is to build a secure, efficient and
  extensible HTTP server as standards-compliant open source software. The
@@ -254,6 +254,33 @@ Description: Apache HTTP Server (common files)
  .
  This package contains architecture-independent common files such as icons,
  error pages and static index files.
+Homepage: https://httpd.apache.org/
+
+Package: apache2-dev
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 1177
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Source: apache2
+Version: 2.4.65-1~deb11u1
+Provides: dh-apache2
+Depends: debhelper (>= 10), libapr1-dev, libaprutil1-dev, libpcre2-dev, openssl, perl:any
+Description: Apache HTTP Server (development headers)
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package provides development headers and the apxs2 binary for the Apache
+ 2 HTTP server, useful to develop and link third party additions to the Debian
+ Apache HTTP server package.
+ .
+ It also provides dh_apache2 and dh sequence addons useful to install various
+ Debian Apache2 extensions with debhelper. It supports
+  - Apache 2 module configurations and shared objects
+  - Site configuration files
+  - Global configuration files
 Homepage: https://httpd.apache.org/
 
 Package: apache2-utils
@@ -518,6 +545,109 @@ Description: package management related utility programs
   * apt-ftparchive is used to create Packages and other index files
     needed to publish an archive of Debian packages
   * apt-sortpkgs is a Packages/Sources file normalizer.
+
+Package: autoconf
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1846
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 2.69-14
+Depends: perl (>> 5.005), m4 (>= 1.4.13), debianutils (>= 1.8)
+Recommends: automake | automaken
+Suggests: autoconf-archive, gnu-standards, autoconf-doc, libtool, gettext
+Breaks: gettext (<< 0.10.39), pkg-config (<< 0.25-1.1)
+Conffiles:
+ /etc/emacs/site-start.d/50autoconf.el 297521889d690871ec9d89c5eeff745a
+Description: automatic configure script builder
+ The standard for FSF source packages.  This is only useful if you
+ write your own programs or if you extensively modify other people's
+ programs.
+ .
+ For an extensive library of additional Autoconf macros, install the
+ `autoconf-archive' package.
+ .
+ This version of autoconf is not compatible with scripts meant for
+ Autoconf 2.13 or earlier.
+Homepage: https://www.gnu.org/software/autoconf/
+
+Package: automake
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1830
+Maintainer: Eric Dorland <eric@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: automake-1.16
+Version: 1:1.16.3-2
+Provides: automake-1.16, automaken
+Depends: autoconf (>= 2.65), autotools-dev (>= 20020320.1)
+Suggests: autoconf-doc, gnu-standards
+Description: Tool for generating GNU Standards-compliant Makefiles
+ Automake is a tool for automatically generating `Makefile.in's from
+ files called `Makefile.am'.
+ .
+ The goal of Automake is to remove the burden of Makefile maintenance
+ from the back of the individual GNU maintainer (and put it on the back
+ of the Automake maintainer).
+ .
+ The `Makefile.am' is basically a series of `make' macro definitions
+ (with rules being thrown in occasionally).  The generated
+ `Makefile.in's are compliant with the GNU Makefile standards.
+ .
+ Automake 1.16 fails to work in a number of situations that Automake
+ 1.11, and 1.15 did, so some previous versions are available as separate
+ packages.
+Homepage: https://www.gnu.org/software/automake/
+
+Package: autopoint
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 529
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: gettext
+Version: 0.21-4
+Replaces: gettext (<= 0.17-11)
+Depends: xz-utils
+Description: tool for setting up gettext infrastructure in a source package
+ The `autopoint' program copies standard gettext infrastructure files
+ into a source package.  It extracts from a macro call of the form
+ `AM_GNU_GETTEXT_VERSION(VERSION)', found in the package's
+ `configure.in' or `configure.ac' file, the gettext version used by the
+ package, and copies the infrastructure files belonging to this version
+ into the package.
+Homepage: https://www.gnu.org/software/gettext/
+
+Package: autotools-dev
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 157
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 20180224.1+nmu1
+Enhances: cdbs, debhelper
+Description: Update infrastructure for config.{guess,sub} files
+ This package installs an up-to-date version of config.guess and
+ config.sub, used by the automake and libtool packages.  It provides
+ the canonical copy of those files for other packages as well.
+ .
+ It also documents in /usr/share/doc/autotools-dev/README.Debian.gz
+ best practices and guidelines for using autoconf, automake and
+ friends on Debian packages.  This is a must-read for any developers
+ packaging software that uses the GNU autotools, or GNU gettext.
+ .
+ Additionally this package provides seamless integration into Debhelper
+ or CDBS, allowing maintainers to easily update config.{guess,sub} files
+ in their packages.
+Homepage: http://savannah.gnu.org/projects/config/
 
 Package: base-files
 Essential: yes
@@ -1208,6 +1338,27 @@ Description: full internationalization support for debconf
  debconf templates, and support for proper display of multibyte character
  sets.
 
+Package: debhelper
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1496
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 13.3.4
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-systemd
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdpkg-perl (>= 1.17.14), man-db, libdebhelper-perl (= 13.3.4), po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+
 Package: debian-archive-keyring
 Status: install ok installed
 Priority: important
@@ -1277,6 +1428,58 @@ Description: Miscellaneous utilities specific to Debian
  The specific utilities included are:
  add-shell installkernel ischroot remove-shell run-parts savelog
  tempfile which
+
+Package: dh-autoreconf
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 46
+Maintainer: Julian Andres Klode <jak@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 20
+Depends: autoconf, automake, autopoint, libdebhelper-perl | debhelper (<< 12.6~), libtool (>= 2.4.2), perl:any
+Breaks: dpatch (<< 2.0.38+nmu1~), quilt (<< 0.63-8.2~)
+Enhances: cdbs, debhelper
+Description: debhelper add-on to call autoreconf and clean up after the build
+ dh-autoreconf provides a debhelper sequence addon named 'autoreconf' and two
+ commands, dh_autoreconf and dh_autoreconf_clean.
+ .
+ The dh_autoreconf command creates a list of the files and their checksums,
+ calls autoreconf and then creates a second list for the new files.
+ .
+ The dh_autoreconf_clean command compares these two lists and removes all
+ files which have been added or changed (files may be excluded if needed).
+ .
+ For CDBS users, a rule is provided to call the dh-autoreconf programs at
+ the right time.
+
+Package: dh-strip-nondeterminism
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 26
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: strip-nondeterminism
+Version: 1.12.0-1
+Depends: libdebhelper-perl, libfile-stripnondeterminism-perl (= 1.12.0-1), perl:any
+Description: file non-deterministic information stripper — Debhelper add-on
+ StripNondeterminism is a library for stripping non-deterministic information
+ such as timestamps and filesystem ordering from various file and archive
+ formats.
+ .
+ This can be used as a post-processing step to improve the reproducibility of a
+ build product, when the build process itself cannot be made deterministic.
+ .
+ It is used as part of the Reproducible Builds project, although it should be
+ considered a temporary workaround which should not be needed in the long
+ term; upstream software should be reproducible even without using such a tool.
+ .
+ This package installs the ‘dh_strip_nondeterminism’ Debhelper command that
+ strips nondeterminism as part of a Debian package build process.
+Homepage: https://reproducible-builds.org/
 
 Package: dictionaries-common
 Status: install ok installed
@@ -1541,6 +1744,20 @@ Description: Debian package development tools
  Most Debian source packages will require additional tools to build;
  for example, most packages need make and the C compiler gcc.
 Homepage: https://wiki.debian.org/Teams/Dpkg
+
+Package: dwz
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 551
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 0.13+20210201-1
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131)
+Description: DWARF compression tool
+ DWARF optimizer and duplication removal utility.
+Homepage: https://www.sourceware.org/dwz/
 
 Package: e2fsprogs
 Status: install ok installed
@@ -2005,6 +2222,24 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 Homepage: http://gcc.gnu.org/
+
+Package: gettext
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 5843
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 0.21-4
+Depends: libc6 (>= 2.27), libgomp1 (>= 6), libunistring2 (>= 0.9.7), libxml2 (>= 2.9.1), gettext-base, dpkg (>= 1.15.4) | install-info
+Recommends: curl | wget | lynx
+Suggests: gettext-doc, autopoint, libasprintf-dev, libgettextpo-dev
+Breaks: autopoint (<= 0.17-11)
+Description: GNU Internationalization utilities
+ Interesting for authors or maintainers of other packages or programs
+ which they want to see internationalized.
+Homepage: https://www.gnu.org/software/gettext/
 
 Package: gettext-base
 Status: install ok installed
@@ -2818,6 +3053,21 @@ Description: system installation report
  .
  Purging this package will remove the logs of the system's installation.
 
+Package: intltool-debian
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 109
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Version: 0.35.0+20060710.5
+Depends: gettext, perl:any
+Description: Help i18n of RFC822 compliant config files
+ Intltool is a bunch of scripts written by the GNOME project to
+ internationalize many different file formats. This package is
+ a slightly modified version which adds support for RFC822
+ compliant config files, e.g. Debconf templates files.
+
 Package: iproute2
 Status: install ok installed
 Priority: important
@@ -3245,7 +3495,7 @@ Description: Perl module for three-way merge of textual data
 Homepage: https://metacpan.org/release/Algorithm-Merge
 
 Package: libapache2-mod-php
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: php
 Installed-Size: 17
@@ -3265,7 +3515,7 @@ Description: server-side, HTML-embedded scripting language (Apache 2 module) (de
  PHP version (currently 7.4).
 
 Package: libapache2-mod-php7.4
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: optional
 Section: httpd
 Installed-Size: 4601
@@ -3291,8 +3541,32 @@ Description: server-side, HTML-embedded scripting language (Apache 2 module)
  PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
  open source general-purpose scripting language that is especially suited
  for web development and can be embedded into HTML.
-Triggers-Pending: /etc/php/7.4/apache2/conf.d
 Homepage: http://www.php.net/
+
+Package: libapache2-mod-wsgi-py3
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 285
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Architecture: amd64
+Source: mod-wsgi
+Version: 4.7.1-3+deb11u1
+Provides: httpd-wsgi3
+Depends: apache2-api-20120211, apache2-bin (>= 2.4.16), python3 (>= 3.9), python3 (<< 4), libc6 (>= 2.14), libpython3.9 (>= 3.9.1)
+Conflicts: libapache2-mod-wsgi
+Conffiles:
+ /etc/apache2/mods-available/wsgi.conf c4ca5be35d0820b5d5cc2892097b476b
+ /etc/apache2/mods-available/wsgi.load 06d2b4d2c95b28720f324bd650b7cbd6
+Description: Python 3 WSGI adapter module for Apache
+ The mod_wsgi adapter is an Apache module that provides a WSGI (Web Server
+ Gateway Interface, a standard interface between web server software and
+ web applications written in Python) compliant interface for hosting Python
+ based web applications within Apache. The adapter provides significantly
+ better performance than using existing WSGI adapters for mod_python or CGI.
+ .
+ This package provides module for Python 3.X.
+Homepage: http://www.modwsgi.org/
 
 Package: libapparmor1
 Status: install ok installed
@@ -3327,6 +3601,25 @@ Description: Apache Portable Runtime Library
  APR is Apache's Portable Runtime Library, designed to be a support library
  that provides a predictable and consistent interface to underlying
  platform-specific implementations.
+Homepage: https://apr.apache.org/
+
+Package: libapr1-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 9154
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Source: apr
+Version: 1.7.0-6+deb11u2
+Depends: libapr1 (= 1.7.0-6+deb11u2), uuid-dev, libsctp-dev, python3:any
+Conflicts: libapr0-dev, libapr1.0-dev
+Description: Apache Portable Runtime Library - Development Headers
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ This package contains development headers for APR.
 Homepage: https://apr.apache.org/
 
 Package: libaprutil1
@@ -3370,6 +3663,27 @@ Description: Apache Portable Runtime Utility Library - SQLite3 Driver
  access, xml parsing, and other useful functionality.
  .
  This package contains the SQLite3 database driver.
+Homepage: http://apr.apache.org/
+
+Package: libaprutil1-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 5028
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Source: apr-util
+Version: 1.6.1-5+deb11u1
+Depends: libaprutil1 (= 1.6.1-5+deb11u1), libldap2-dev, libexpat1-dev, libapr1-dev
+Description: Apache Portable Runtime Utility Library - Development Headers
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains development headers for APR util.
 Homepage: http://apr.apache.org/
 
 Package: libaprutil1-ldap
@@ -3423,6 +3737,47 @@ Description: package management runtime library
   * providing different transports to retrieve data over cdrom, ftp,
     http(s), rsh as well as an interface to add more transports like
     tor+http(s) (apt-transport-tor).
+
+Package: libarchive-cpio-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.10-1.1
+Depends: perl:any
+Description: module for manipulations of cpio archives
+ Archive::Cpio provides a few functions to read and write cpio files.
+ .
+ It allows one to read and write cpio files, to list, add, and remove
+ elements, and to manipulate them on the fly.
+Homepage: https://metacpan.org/release/Archive-Cpio
+
+Package: libarchive-zip-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 318
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.68-1
+Depends: perl:any
+Description: Perl module for manipulation of ZIP archives
+ The Archive::Zip module allows a Perl program to create, manipulate,
+ read, and write Zip archive files.
+ .
+ Zip archives can be created, or you can read from existing zip files.
+ Once created, they can be written to files, streams, or strings.
+ .
+ Members can be added, removed, extracted, replaced, rearranged, and
+ enumerated.  They can also be renamed or have their dates, comments,
+ or other attributes queried or modified.  Their data can be
+ compressed or uncompressed as needed.  Members can be created from
+ members in existing Zip files, or from existing directories, files,
+ or strings.
+Homepage: https://metacpan.org/release/Archive-Zip
 
 Package: libargon2-1
 Status: install ok installed
@@ -3678,7 +4033,7 @@ Homepage: https://sourceware.org/bzip2/
 
 Package: libc-bin
 Essential: yes
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: required
 Section: libs
 Installed-Size: 3733
@@ -3705,7 +4060,6 @@ Description: GNU C Library: Binaries
   * ldd, ldconfig: print/configure shared library dependencies
   * locale, localedef: show/generate locale definitions
   * tzselect, zdump, zic: select/dump/compile time zones
-Triggers-Pending: ldconfig
 Homepage: https://www.gnu.org/software/libc/libc.html
 
 Package: libc-dev-bin
@@ -4278,6 +4632,25 @@ Description: Debian Configuration Management System (C-implementation library)
  .
  This library allows C programs to interface with cdebconf.
 
+Package: libdebhelper-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 402
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: debhelper
+Version: 13.3.4
+Replaces: debhelper (<< 12.6~)
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+
 Package: libdeflate0
 Status: install ok installed
 Priority: optional
@@ -4837,6 +5210,32 @@ Description: Perl module for file locking with fcntl(2)
  .
  Furthermore due to its design it supports reliable locking over NFS.
 Homepage: https://metacpan.org/release/File-FcntlLock
+
+Package: libfile-stripnondeterminism-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 87
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Architecture: all
+Source: strip-nondeterminism
+Version: 1.12.0-1
+Depends: file, libarchive-zip-perl, libsub-override-perl, perl:any
+Recommends: libarchive-cpio-perl
+Description: file non-deterministic information stripper — Perl module
+ StripNondeterminism is a library for stripping non-deterministic information
+ such as timestamps and filesystem ordering from various file and archive
+ formats.
+ .
+ This can be used as a post-processing step to improve the reproducibility of a
+ build product, when the build process itself cannot be made deterministic.
+ .
+ It is used as part of the Reproducible Builds project, although it should be
+ considered a temporary workaround which should not be needed in the long
+ term; upstream software should be reproducible even without using such a tool.
+ .
+ This package installs the Perl module ‘File::StripNondeterminism’.
+Homepage: https://reproducible-builds.org/
 
 Package: libfontconfig1
 Status: install ok installed
@@ -5883,6 +6282,26 @@ Description: OpenLDAP common files for libraries
  (Lightweight Directory Access Protocol) servers and clients.
 Homepage: https://www.openldap.org/
 
+Package: libldap2-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 1477
+Maintainer: Debian OpenLDAP Maintainers <pkg-openldap-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: openldap
+Version: 2.4.57+dfsg-3+deb11u1
+Replaces: libopenldap-dev
+Provides: libldap-dev
+Depends: libldap-2.4-2 (= 2.4.57+dfsg-3+deb11u1)
+Conflicts: libldap-dev, libopenldap-dev
+Description: OpenLDAP development libraries
+ This package allows development of LDAP applications using the OpenLDAP
+ libraries. It includes headers, libraries and links to allow static and
+ dynamic linking.
+Homepage: https://www.openldap.org/
+
 Package: liblmdb0
 Status: install ok installed
 Priority: optional
@@ -5978,6 +6397,66 @@ Description: LeakSanitizer -- a memory leak detector (runtime)
  LeakSanitizer (Lsan) is a memory leak detector which is integrated
  into AddressSanitizer.
 Homepage: http://gcc.gnu.org/
+
+Package: libltdl-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 921
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libtool
+Version: 2.4.6-15
+Replaces: libltdl3-dev, libltdl7-dev, libtool (<< 1.5.20)
+Provides: libltdl3-dev, libltdl7-dev
+Depends: libltdl7 (= 2.4.6-15), automake-1.16
+Recommends: libtool
+Suggests: libtool-doc
+Conflicts: libltdl3-dev, libltdl7-dev, libtool (<< 1.5.20), libtool1.4
+Description: System independent dlopen wrapper for GNU libtool
+ This package contains the header files and static libraries for the
+ libltdl package.
+ .
+ A small library that aims at hiding the various difficulties of
+ dlopening libraries from programmers.  It is a system independent
+ dlopen wrapper for GNU libtool.
+ .
+ It supports the following dlopen interfaces:
+   * dlopen (Solaris, Linux and various BSD flavors)
+   * shl_load (HP-UX)
+   * LoadLibrary (Win16 and Win32)
+   * load_add_on (BeOS)
+   * GNU DLD (emulates dynamic linking for static libraries)
+   * libtool's dlpreopen
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libltdl7
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 419
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libtool
+Version: 2.4.6-15
+Depends: libc6 (>= 2.14)
+Description: System independent dlopen wrapper for GNU libtool
+ This package contains the run-time libltdl library.
+ .
+ A small library that aims at hiding the various difficulties of
+ dlopening libraries from programmers.  It is a system independent
+ dlopen wrapper for GNU libtool.
+ .
+ It supports the following dlopen interfaces:
+   * dlopen (Solaris, Linux and various BSD flavors)
+   * shl_load (HP-UX)
+   * LoadLibrary (Win16 and Win32)
+   * load_add_on (BeOS)
+   * GNU DLD (emulates dynamic linking for static libraries)
+   * libtool's dlpreopen
+Homepage: https://www.gnu.org/software/libtool/
 
 Package: liblua5.2-0
 Status: install ok installed
@@ -6121,6 +6600,21 @@ Description: Recognize the type of data in a file using "magic" numbers - librar
  This library can be used to classify files according to magic number
  tests. It implements the core functionality of the file command.
 Homepage: https://www.darwinsys.com/file/
+
+Package: libmail-sendmail-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 60
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.80-1.1
+Depends: perl:any, libsys-hostname-long-perl
+Description: simple way to send email from a perl script
+ Mail::Sendmail is intended to be a very simple and easy-to-setup and
+ -use platform-independent e-mail module. It only requires Perl 5,
+ Sys::Hostname::Long, and a network connection.
+Homepage: https://metacpan.org/release/Mail-Sendmail
 
 Package: libmariadb3
 Status: install ok installed
@@ -6726,6 +7220,48 @@ Description: PCI utilities (shared library)
  registers of devices connected to the PCI bus.
 Homepage: https://mj.ucw.cz/sw/pciutils/
 
+Package: libpcre2-16-0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 611
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: pcre2
+Version: 10.36-2+deb11u1
+Depends: libc6 (>= 2.14)
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 16 bit runtime library.
+Homepage: https://pcre.org/
+
+Package: libpcre2-32-0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 583
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: pcre2
+Version: 10.36-2+deb11u1
+Depends: libc6 (>= 2.14)
+Description: New Perl Compatible Regular Expression Library - 32 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 32 bit runtime library.
+Homepage: https://pcre.org/
+
 Package: libpcre2-8-0
 Status: install ok installed
 Priority: optional
@@ -6745,6 +7281,52 @@ Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
  confusingly called pcre3 in Debian.
  .
  This package contains the 8 bit runtime library.
+Homepage: https://pcre.org/
+
+Package: libpcre2-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 2636
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: pcre2
+Version: 10.36-2+deb11u1
+Depends: libc6-dev, libpcre2-8-0 (= 10.36-2+deb11u1), libpcre2-16-0 (= 10.36-2+deb11u1), libpcre2-32-0 (= 10.36-2+deb11u1), libpcre2-posix2 (= 10.36-2+deb11u1)
+Conflicts: libpcre3-dev (<< 2:8.35-8)
+Description: New Perl Compatible Regular Expression Library - development files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the development files, including headers,
+ static libraries, and documentation.
+Homepage: https://pcre.org/
+
+Package: libpcre2-posix2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 73
+Maintainer: Matthew Vernon <matthew@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: pcre2
+Version: 10.36-2+deb11u1
+Replaces: libpcre2-posix0
+Depends: libc6 (>= 2.4), libpcre2-8-0 (>= 10.22)
+Conflicts: libpcre2-posix0
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the runtime library for the posix-compatible API.
 Homepage: https://pcre.org/
 
 Package: libpcre3
@@ -6968,8 +7550,8 @@ Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: python3.9
-Version: 3.9.2-1+deb11u2
-Depends: libpython3.9-stdlib (= 3.9.2-1+deb11u2), libc6 (>= 2.29), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Version: 3.9.2-1+deb11u3
+Depends: libpython3.9-stdlib (= 3.9.2-1+deb11u3), libc6 (>= 2.29), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
 Description: Shared Python runtime library (version 3.9)
  Python is a high-level, interactive, object-oriented language. Its 3.9 version
  includes an extensive class library with lots of goodies for
@@ -6982,13 +7564,13 @@ Package: libpython3.9-dev
 Status: install ok installed
 Priority: optional
 Section: libdevel
-Installed-Size: 21200
+Installed-Size: 21203
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: python3.9
-Version: 3.9.2-1+deb11u2
-Depends: libpython3.9-stdlib (= 3.9.2-1+deb11u2), libpython3.9 (= 3.9.2-1+deb11u2), libexpat1-dev
+Version: 3.9.2-1+deb11u3
+Depends: libpython3.9-stdlib (= 3.9.2-1+deb11u3), libpython3.9 (= 3.9.2-1+deb11u3), libexpat1-dev
 Recommends: libc6-dev | libc-dev
 Description: Header files and a static library for Python (v3.9)
  Header files, a static library and development tools for building
@@ -7004,12 +7586,12 @@ Package: libpython3.9-minimal
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 4970
+Installed-Size: 4973
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: python3.9
-Version: 3.9.2-1+deb11u2
+Version: 3.9.2-1+deb11u3
 Replaces: libpython3.9-stdlib (<< 3.9.0~rc1)
 Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
 Recommends: libpython3.9-stdlib
@@ -7030,8 +7612,8 @@ Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: same
 Source: python3.9
-Version: 3.9.2-1+deb11u2
-Depends: libpython3.9-minimal (= 3.9.2-1+deb11u2), media-types | mime-support, tzdata, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libncursesw6 (>= 6), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)
+Version: 3.9.2-1+deb11u3
+Depends: libpython3.9-minimal (= 3.9.2-1+deb11u3), media-types | mime-support, tzdata, libbz2-1.0, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libdb5.3, libffi7 (>= 3.3~20180313), liblzma5 (>= 5.1.1alpha+20120614), libmpdec3, libncursesw6 (>= 6), libnsl2 (>= 1.0), libreadline8 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libtirpc3 (>= 1.0.2), libuuid1 (>= 2.20.1)
 Recommends: ca-certificates
 Description: Interactive high-level object-oriented language (standard library, version 3.9)
  Python is a high-level, interactive, object-oriented language. Its 3.9 version
@@ -7188,6 +7770,51 @@ Description: Cyrus SASL - pluggable authentication modules (DB)
  .
  This package provides the DB plugin, which supports Berkeley DB lookups.
 Homepage: https://www.cyrusimap.org/sasl/
+
+Package: libsctp-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 138
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: lksctp-tools
+Version: 1.0.18+dfsg-1
+Depends: libsctp1 (= 1.0.18+dfsg-1), libc6-dev | libc-dev
+Description: user-space access to Linux kernel SCTP - development files
+ SCTP (Stream Control Transmission Protocol) is a message oriented,
+ reliable transport protocol, with congestion control, support for
+ transparent multi-homing, and multiple ordered streams of messages.
+ RFC 2960 defines the core protocol.
+ .
+ This package is part of the LKSCTP project, providing all necessary
+ files for developing SCTP aware network applications using the Linux
+ kernel SCTP implementation: man pages, header files, static libraries,
+ symlinks to dynamic libraries, and tutorial source code.
+Homepage: http://lksctp.sf.net/
+
+Package: libsctp1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 53
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: lksctp-tools
+Version: 1.0.18+dfsg-1
+Depends: libc6 (>= 2.4)
+Suggests: lksctp-tools
+Description: user-space access to Linux kernel SCTP - shared library
+ SCTP (Stream Control Transmission Protocol) is a message oriented,
+ reliable transport protocol, with congestion control, support for
+ transparent multi-homing, and multiple ordered streams of messages.
+ RFC 2960 defines the core protocol.
+ .
+ This library is part of the LKSCTP project, supplementing the Linux
+ kernel SCTP implementation.
+Homepage: http://lksctp.sf.net/
 
 Package: libseccomp2
 Status: install ok installed
@@ -7555,6 +8182,40 @@ Description: GNU Standard C++ Library v3
  in g++-3.0.
 Homepage: http://gcc.gnu.org/
 
+Package: libsub-override-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 28
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.09-2
+Depends: perl
+Description: Perl module used to temporarily override subroutines
+ Perl programmers sometimes have a need to override subroutines,
+ particularly for testing purposes.  Sub::Override provides a simple
+ way to override subroutines instead of using heavier-weight methods
+ such as Mock Objects.
+Homepage: https://metacpan.org/release/Sub-Override
+
+Package: libsys-hostname-long-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 34
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.5-2
+Depends: perl:any
+Description: module tp determine the long (fully-qualified) hostname
+ Sys::Hostname::Long determines the host full name on multiple
+ operating systems (MacOS, Windows, Unix-like systems; more later.)
+ .
+ The Sys::Hostname class is the best and standard way to get the basic
+ hostname, but that may not be fully qualified.  This module tries to
+ determine the host's fully qualified name.
+Homepage: https://metacpan.org/release/Sys-Hostname-Long
+
 Package: libsystemd0
 Status: install ok installed
 Priority: optional
@@ -7803,6 +8464,30 @@ Description: transport-independent RPC library
  Linux. The library is intended as a replacement for the RPC code in the GNU C
  library, providing among others support for RPC (and in turn, NFS) over IPv6.
 Homepage: http://sourceforge.net/projects/libtirpc
+
+Package: libtool
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 1198
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 2.4.6-15
+Depends: gcc | c-compiler, cpp, libc6-dev | libc-dev, file, autotools-dev
+Recommends: libltdl-dev
+Suggests: libtool-doc, autoconf (>> 2.50), automaken, gfortran | fortran95-compiler, gcj-jdk
+Conflicts: autoconf (<= 2.12), automake (<= 1.3), libtool1.4
+Description: Generic library support script
+ This is GNU libtool, a generic library support script.  Libtool hides
+ the complexity of generating special library types (such as shared
+ libraries) behind a consistent interface.  To use libtool, add the
+ new generic library building commands to your Makefile, Makefile.in,
+ or Makefile.am.  See the documentation for details.  Libtool supports
+ building static libraries on all platforms.
+ .
+ Libtool supports generation of C, C++, Fortran and Java libraries.
+Homepage: https://www.gnu.org/software/libtool/
 
 Package: libtsan0
 Status: install ok installed
@@ -8616,6 +9301,26 @@ Description: utility to list open files
  currently running on the system.
 Homepage: https://github.com/lsof-org/lsof
 
+Package: m4
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 357
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 1.4.18-5
+Depends: libc6 (>= 2.17), libsigsegv2 (>= 2.9)
+Suggests: m4-doc
+Description: macro processing language
+ GNU `m4' is an implementation of the traditional UNIX macro
+ processor.  It is mostly SVR4 compatible, although it has some
+ extensions (for example, handling more than 9 positional parameters to
+ macros).  `m4' also has builtin functions for including files, running
+ shell commands, doing arithmetic, etc.  Autoconf needs GNU `m4' for
+ generating `configure' scripts, but not for running them.
+Homepage: https://www.gnu.org/software/m4/
+
 Package: mailcap
 Status: install ok installed
 Priority: optional
@@ -8675,7 +9380,7 @@ Description: utility for directing compilation
 Homepage: https://www.gnu.org/software/make/
 
 Package: man-db
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: important
 Section: doc
 Installed-Size: 2874
@@ -8702,7 +9407,6 @@ Description: tools for reading manual pages
  manpath utility for determining the manual page search path, and the
  maintenance utilities mandb, catman and zsoelim. man-db uses the groff
  suite of programs to format and display the manual pages.
-Triggers-Pending: /usr/share/man
 Homepage: https://nongnu.org/man-db/
 
 Package: manpages
@@ -9569,7 +10273,7 @@ Description: Common files for PHP packages
  for web development and can be embedded into HTML.
 
 Package: php7.4-cli
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: optional
 Section: php
 Installed-Size: 4712
@@ -9590,7 +10294,6 @@ Description: command-line interpreter for the PHP scripting language
  PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
  open source general-purpose scripting language that is especially suited
  for web development and can be embedded into HTML.
-Triggers-Pending: /etc/php/7.4/cli/conf.d
 Homepage: http://www.php.net/
 
 Package: php7.4-common
@@ -9720,6 +10423,23 @@ Description: curses-based PIN or pass-phrase entry dialog for GnuPG
  necessary because the sibling packages automatically fall back to
  text mode if X is not active.
 Homepage: https://www.gnupg.org/related_software/pinentry/
+
+Package: po-debconf
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 414
+Maintainer: Herbert Parentes Fortes Neto <hpfn@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.0.21+nmu1
+Depends: gettext (>= 0.16), intltool-debian (>= 0.34.2+20060512), perl, sensible-utils
+Recommends: libcompress-zlib-perl, libmail-sendmail-perl
+Suggests: libmail-box-perl
+Description: tool for managing templates file translations with gettext
+ This package is an alternative to debconf-utils, and provides tools
+ for managing translated debconf templates files with common gettext
+ utilities.
 
 Package: procps
 Status: install ok installed
@@ -10337,6 +11057,32 @@ Description: HTTP library with thread-safe connection pooling for Python3
  This package contains the Python 3 version of the library.
 Homepage: https://urllib3.readthedocs.org
 
+Package: python3-venv
+Status: install ok unpacked
+Priority: optional
+Section: python
+Installed-Size: 6
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Multi-Arch: allowed
+Source: python3-defaults
+Version: 3.9.2-3
+Depends: python3.9-venv (>= 3.9.2-0~), python3 (= 3.9.2-3), python3-distutils (>= 3.9.2-0~)
+Description: venv module for python3 (default python3 version)
+ This package contains the venv module for the Python language (default python3
+ version).
+ .
+ The venv module provides support for creating lightweight "virtual
+ environments" with their own site directories, optionally isolated from system
+ site directories. Each virtual environment has its own Python binary (which
+ matches the version of the binary that was used to create this environment)
+ and can have its own independent set of installed Python packages in its site
+ directories.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's venv module (currently v3.9).
+Homepage: https://www.python.org/
+
 Package: python3-wheel
 Status: install ok installed
 Priority: optional
@@ -10363,12 +11109,12 @@ Package: python3.9
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 542
+Installed-Size: 543
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: allowed
-Version: 3.9.2-1+deb11u2
-Depends: python3.9-minimal (= 3.9.2-1+deb11u2), libpython3.9-stdlib (= 3.9.2-1+deb11u2), media-types | mime-support
+Version: 3.9.2-1+deb11u3
+Depends: python3.9-minimal (= 3.9.2-1+deb11u3), libpython3.9-stdlib (= 3.9.2-1+deb11u3), media-types | mime-support
 Suggests: python3.9-venv, python3.9-doc, binutils
 Breaks: python3-all (<< 3.6.5~rc1-1), python3-dev (<< 3.6.5~rc1-1), python3-venv (<< 3.6.5-2)
 Description: Interactive high-level object-oriented language (version 3.9)
@@ -10385,8 +11131,8 @@ Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: allowed
 Source: python3.9
-Version: 3.9.2-1+deb11u2
-Depends: python3.9 (= 3.9.2-1+deb11u2), libpython3.9-dev (= 3.9.2-1+deb11u2), libpython3.9 (= 3.9.2-1+deb11u2), libexpat1-dev, zlib1g-dev
+Version: 3.9.2-1+deb11u3
+Depends: python3.9 (= 3.9.2-1+deb11u3), libpython3.9-dev (= 3.9.2-1+deb11u3), libpython3.9 (= 3.9.2-1+deb11u3), libexpat1-dev, zlib1g-dev
 Recommends: libc6-dev | libc-dev
 Description: Header files and a static library for Python (v3.9)
  Header files, a static library and development tools for building
@@ -10399,13 +11145,13 @@ Package: python3.9-minimal
 Status: install ok installed
 Priority: optional
 Section: python
-Installed-Size: 5485
+Installed-Size: 5486
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Multi-Arch: allowed
 Source: python3.9
-Version: 3.9.2-1+deb11u2
-Depends: libpython3.9-minimal (= 3.9.2-1+deb11u2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Version: 3.9.2-1+deb11u3
+Depends: libpython3.9-minimal (= 3.9.2-1+deb11u3), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
 Pre-Depends: libc6 (>= 2.29)
 Recommends: python3.9
 Suggests: binfmt-support
@@ -10416,6 +11162,25 @@ Description: Minimal subset of the Python language (version 3.9)
  See /usr/share/doc/python3.9-minimal/README.Debian for a list of the modules
  contained in this package.
 Cnf-Visible-Pkgname: python3.9
+
+Package: python3.9-venv
+Status: install ok unpacked
+Priority: optional
+Section: python
+Installed-Size: 27
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Multi-Arch: allowed
+Source: python3.9
+Version: 3.9.2-1+deb11u3
+Depends: python3.9 (= 3.9.2-1+deb11u3), python-pip-whl (>= 8.1.0-2), python3.9-distutils
+Breaks: python3-pip (<< 1.5.6-4)
+Description: Interactive high-level object-oriented language (pyvenv binary, version 3.9)
+ Python is a high-level, interactive, object-oriented language. Its 3.9 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the pyvenv-3.9 binary.
 
 Package: qemu-guest-agent
 Status: install ok installed
@@ -11465,6 +12230,24 @@ Description: locales files for util-linux
  .
  They are needed when you want the programs in util-linux to print their
  messages in other languages than English.
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+
+Package: uuid-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 172
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: util-linux
+Version: 2.36.1-8+deb11u2
+Depends: libc6-dev | libc-dev, libuuid1 (= 2.36.1-8+deb11u2)
+Description: Universally Unique ID library - headers and static libraries
+ The libuuid library generates and parses 128-bit Universally Unique IDs
+ (UUIDs). See RFC 4122 for more information.
+ .
+ This package contains the development environment for the uuid library.
 Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
 
 Package: vim-common

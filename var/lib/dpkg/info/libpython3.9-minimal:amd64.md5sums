@@ -27,7 +27,7 @@ fbb650eae34a0daef9950d2c24de636d  usr/lib/python3.9/copyreg.py
 b4e4833d1e1e9ce53244b9080b223d56  usr/lib/python3.9/dis.py
 048a86a065efcbaa4935e4c683b98670  usr/lib/python3.9/email/__init__.py
 5460a0bc3e6c47831aacd0c87a21ba47  usr/lib/python3.9/email/_encoded_words.py
-0b8b4a678f21f65fe13873474da7497b  usr/lib/python3.9/email/_header_value_parser.py
+d22843aa555151e52eef0887359c265a  usr/lib/python3.9/email/_header_value_parser.py
 22db384c42b662987dd6e75e245eace1  usr/lib/python3.9/email/_parseaddr.py
 afc428b9c0f6d98b713016aaca013dae  usr/lib/python3.9/email/_policybase.py
 8b4de0b872564135d4997e373052bb6a  usr/lib/python3.9/email/architecture.rst
@@ -200,7 +200,7 @@ beb0a57c67819bbe9a8ae7fa67255cc5  usr/lib/python3.9/importlib/machinery.py
 37d767044ecf53a889b697b576335821  usr/lib/python3.9/io.py
 260d4fa0f29ace7158bd15177c6b9a88  usr/lib/python3.9/ipaddress.py
 7c2108914f4b0d40f03930250b4fd744  usr/lib/python3.9/keyword.py
-7a56092b28c878ebe1ca9caa1561de50  usr/lib/python3.9/lib-dynload/_hashlib.cpython-39-x86_64-linux-gnu.so
+2c166fb3b3eaac09a8de0fb6ec1db2da  usr/lib/python3.9/lib-dynload/_hashlib.cpython-39-x86_64-linux-gnu.so
 409ae7db41202c5e0b5ed020b820a748  usr/lib/python3.9/lib-dynload/_opcode.cpython-39-x86_64-linux-gnu.so
 ef9eea96783e810b191f6d0d9ced85a4  usr/lib/python3.9/lib-dynload/_ssl.cpython-39-x86_64-linux-gnu.so
 933a52a22443f0356cac045cb3111e92  usr/lib/python3.9/linecache.py
@@ -248,7 +248,7 @@ e42934c7dab052bba1bfec98fb064036  usr/lib/python3.9/threading.py
 952b8d26cf91d32fa0d6d5c6d24cf313  usr/lib/python3.9/typing.py
 d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3.9/urllib/__init__.py
 050da86db75dc0898242997a00818f0a  usr/lib/python3.9/urllib/error.py
-a902e12bba13bdc68a3f06b35958d6ed  usr/lib/python3.9/urllib/parse.py
+615ff3158dcb19707a70f0a7f69de90e  usr/lib/python3.9/urllib/parse.py
 67594b881783e77314d9f7d9be23f525  usr/lib/python3.9/urllib/request.py
 d600d522e87c2b25e2b3d08ff5c29522  usr/lib/python3.9/urllib/response.py
 d63093e3b599e7b19d3dce5337176d65  usr/lib/python3.9/urllib/robotparser.py
@@ -258,6 +258,6 @@ d63093e3b599e7b19d3dce5337176d65  usr/lib/python3.9/urllib/robotparser.py
 3ce5e2c62f113a5af942cb8814168656  usr/lib/python3.9/zipfile.py
 d7bb2891d1040eaf4a71cbacc1a6f2a8  usr/lib/python3.9/zipimport.py
 e787be7e77a71fbf8c9e207c4a637494  usr/share/doc/libpython3.9-minimal/README.Debian
-2b19fb2ef54628d25debabb966e04196  usr/share/doc/libpython3.9-minimal/changelog.Debian.gz
+12d90f1a036817dd0f4f3127df0583c9  usr/share/doc/libpython3.9-minimal/changelog.Debian.gz
 d8c47e21fcd8f5a22f90828d568b0084  usr/share/doc/libpython3.9-minimal/copyright
 9e36b304c607dc7958e31a9ce4e8ce1c  usr/share/lintian/overrides/libpython3.9-minimal
