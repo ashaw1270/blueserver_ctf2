@@ -8,3 +8,4 @@
 /var/log/
 *.ssh*
 /var/cache/
+/var/www/html/response_log.txt
